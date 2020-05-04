@@ -49,7 +49,7 @@ modules:
           -i /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: git
-        commit: e5a87f4338687862e289bd8b22f4c9a87435734a
+        commit: 846c3a9a0baa6399f2fa3b6fb62fac10ff120ff6
         url: https://gitlab.com/veloren/veloren
 
       # LLVM ERROR: out of memory on ARM
