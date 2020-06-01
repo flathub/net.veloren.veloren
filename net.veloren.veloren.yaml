@@ -34,9 +34,9 @@ modules:
       - cp -ap assets/ /app/share/veloren/
 
       # Install desktop file, icon and AppData manifest
-      - install -D -m 644 assets/voxygen/${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo/
-      - install -D -m 644 assets/voxygen/${FLATPAK_ID}.desktop -t /app/share/applications/
-      - install -D -m 644 assets/voxygen/${FLATPAK_ID}.png -t /app/share/icons/hicolor/256x256/apps/
+      - install -Dpm0644 assets/voxygen/${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo/
+      - install -Dpm0644 assets/voxygen/${FLATPAK_ID}.desktop -t /app/share/applications/
+      - install -Dpm0644 assets/voxygen/${FLATPAK_ID}.png -t /app/share/icons/hicolor/256x256/apps/
 
       # Automatically add build version and date into AppData
       - |
@@ -49,7 +49,7 @@ modules:
           -i /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: git
-        commit: 6970f36185aa1d09143a2775fc1bd6c3d609fca5
+        commit: 43dc2322bfc8f8c0a62ecbe2222d44666f8deb57
         url: https://gitlab.com/veloren/veloren
 
       # LLVM ERROR: out of memory on ARM
