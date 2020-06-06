@@ -7,6 +7,7 @@ sdk-extensions:
 command: veloren-voxygen
 finish-args:
   - --device=all
+  - --filesystem=xdg-pictures/veloren:create
   - --share=ipc
   - --share=network
   - --socket=pulseaudio
@@ -49,7 +50,7 @@ modules:
           -i /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: git
-        commit: 521688f1bb097aedb1277e8b708df1b44885b7d7
+        commit: a981d72d28159eb59f3e1ddde98382bed6c2fda3
         url: https://gitlab.com/veloren/veloren
 
       # LLVM ERROR: out of memory on ARM
