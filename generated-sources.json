@@ -794,19 +794,6 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "file",
-        "url": "https://static.crates.io/crates/colored/colored-1.9.3.crate",
-        "sha256": "f4ffc801dacf156c5854b9df4f425a626539c3a6ef7893cc0c5084a23f0b6c59",
-        "dest": "cargo/vendor",
-        "dest-filename": "colored-1.9.3.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22f4ffc801dacf156c5854b9df4f425a626539c3a6ef7893cc0c5084a23f0b6c59%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/colored-1.9.3",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
         "type": "git",
         "url": "https://gitlab.com/veloren/conrod",
         "commit": "46b374edc9537300e5278905ebd14dff45cfd927",
@@ -1518,19 +1505,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/env_logger/env_logger-0.6.2.crate",
-        "sha256": "aafcde04e90a5226a6443b7aabdb016ba2f8307c847d524724bd9b346dd1a2d3",
-        "dest": "cargo/vendor",
-        "dest-filename": "env_logger-0.6.2.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22aafcde04e90a5226a6443b7aabdb016ba2f8307c847d524724bd9b346dd1a2d3%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/env_logger-0.6.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/error-chain/error-chain-0.12.2.crate",
         "sha256": "d371106cc88ffdfb1eabd7111e432da544f16f3e2d7bf1dfe8bf575f1df045cd",
         "dest": "cargo/vendor",
@@ -1604,19 +1578,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22aa4da3c766cd7a0db8242e326e9e4e081edd567072893ed320008189715366a4%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/failure_derive-0.1.8",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/fern/fern-0.5.9.crate",
-        "sha256": "e69ab0d5aca163e388c3a49d284fed6c3d0810700e77c5ae2756a50ec1a4daaa",
-        "dest": "cargo/vendor",
-        "dest-filename": "fern-0.5.9.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22e69ab0d5aca163e388c3a49d284fed6c3d0810700e77c5ae2756a50ec1a4daaa%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/fern-0.5.9",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2513,19 +2474,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22cd179ae861f0c2e53da70d892f5f3029f9594be0c41dc5269cd371691b1dc2f9%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/httparse-1.3.4",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/humantime/humantime-1.3.0.crate",
-        "sha256": "df004cfca50ef23c36850aaaa59ad52cc70d0e90243c3c7737a4dd32dc7a3c4f",
-        "dest": "cargo/vendor",
-        "dest-filename": "humantime-1.3.0.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22df004cfca50ef23c36850aaaa59ad52cc70d0e90243c3c7737a4dd32dc7a3c4f%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/humantime-1.3.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3945,19 +3893,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/pretty_env_logger/pretty_env_logger-0.3.1.crate",
-        "sha256": "717ee476b1690853d222af4634056d830b5197ffd747726a9a1eee6da9f49074",
-        "dest": "cargo/vendor",
-        "dest-filename": "pretty_env_logger-0.3.1.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22717ee476b1690853d222af4634056d830b5197ffd747726a9a1eee6da9f49074%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/pretty_env_logger-0.3.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/proc-macro-hack/proc-macro-hack-0.5.16.crate",
         "sha256": "7e0456befd48169b9f13ef0f0ad46d492cf9d2dbb918bcf38e01eed4ce3ec5e4",
         "dest": "cargo/vendor",
@@ -5231,19 +5166,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/termcolor/termcolor-1.1.0.crate",
-        "sha256": "bb6bfa289a4d7c5766392812c0a1f4c1ba45afa1ad47803c11e1f407d846d75f",
-        "dest": "cargo/vendor",
-        "dest-filename": "termcolor-1.1.0.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22bb6bfa289a4d7c5766392812c0a1f4c1ba45afa1ad47803c11e1f407d846d75f%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/termcolor-1.1.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/textwrap/textwrap-0.11.0.crate",
         "sha256": "d326610f408c7a4eb6f51c37c330e496b08506c9457c9d34287ecc38809fb060",
         "dest": "cargo/vendor",
@@ -5478,6 +5400,32 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/tracing-appender/tracing-appender-0.1.0.crate",
+        "sha256": "1e86a61ff69b54f44ffdf02cf27f2da864639dde602d5f90d9f7ef2ea76629c0",
+        "dest": "cargo/vendor",
+        "dest-filename": "tracing-appender-0.1.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%221e86a61ff69b54f44ffdf02cf27f2da864639dde602d5f90d9f7ef2ea76629c0%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/tracing-appender-0.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/tracing-attributes/tracing-attributes-0.1.8.crate",
+        "sha256": "99bbad0de3fd923c9c3232ead88510b783e5a4d16a6154adffa3d53308de984c",
+        "dest": "cargo/vendor",
+        "dest-filename": "tracing-attributes-0.1.8.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2299bbad0de3fd923c9c3232ead88510b783e5a4d16a6154adffa3d53308de984c%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/tracing-attributes-0.1.8",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/tracing-core/tracing-core-0.1.10.crate",
         "sha256": "0aa83a9a47081cd522c09c81b31aec2c9273424976f922ad61c053b58350b715",
         "dest": "cargo/vendor",
@@ -5504,15 +5452,41 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/tracing-subscriber/tracing-subscriber-0.2.5.crate",
-        "sha256": "1d53c40489aa69c9aed21ff483f26886ca8403df33bdc2d2f87c60c1617826d2",
+        "url": "https://static.crates.io/crates/tracing-log/tracing-log-0.1.1.crate",
+        "sha256": "5e0f8c7178e13481ff6765bd169b33e8d554c5d2bbede5e32c356194be02b9b9",
         "dest": "cargo/vendor",
-        "dest-filename": "tracing-subscriber-0.2.5.crate"
+        "dest-filename": "tracing-log-0.1.1.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%221d53c40489aa69c9aed21ff483f26886ca8403df33bdc2d2f87c60c1617826d2%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/tracing-subscriber-0.2.5",
+        "url": "data:%7B%22package%22%3A%20%225e0f8c7178e13481ff6765bd169b33e8d554c5d2bbede5e32c356194be02b9b9%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/tracing-log-0.1.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/tracing-serde/tracing-serde-0.1.1.crate",
+        "sha256": "b6ccba2f8f16e0ed268fc765d9b7ff22e965e7185d32f8f1ec8294fe17d86e79",
+        "dest": "cargo/vendor",
+        "dest-filename": "tracing-serde-0.1.1.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22b6ccba2f8f16e0ed268fc765d9b7ff22e965e7185d32f8f1ec8294fe17d86e79%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/tracing-serde-0.1.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/tracing-subscriber/tracing-subscriber-0.2.6.crate",
+        "sha256": "04a11b459109e38ff6e1b580bafef4142a11d44889f5d07424cbce2fd2a2a119",
+        "dest": "cargo/vendor",
+        "dest-filename": "tracing-subscriber-0.2.6.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2204a11b459109e38ff6e1b580bafef4142a11d44889f5d07424cbce2fd2a2a119%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/tracing-subscriber-0.2.6",
         "dest-filename": ".cargo-checksum.json"
     },
     {
