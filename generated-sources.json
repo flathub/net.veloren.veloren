@@ -1868,6 +1868,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/futures-timer/futures-timer-3.0.2.crate",
+        "sha256": "e64b03909df88034c26dc1547e8970b91f98bdb65165d6a4e9110d94263dbb2c",
+        "dest": "cargo/vendor",
+        "dest-filename": "futures-timer-3.0.2.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22e64b03909df88034c26dc1547e8970b91f98bdb65165d6a4e9110d94263dbb2c%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/futures-timer-3.0.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/futures-util/futures-util-0.3.5.crate",
         "sha256": "8764574ff08b701a084482c3c7031349104b07ac897393010494beaa18ce32c6",
         "dest": "cargo/vendor",
