@@ -299,9 +299,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.com/veloren/auth",
-        "commit": "223a4097f7ebc8d451936dccb5e6517194bbf086",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/auth/repository/archive.tar.gz?ref=223a4097f7ebc8d451936dccb5e6517194bbf086",
+        "sha256": "d5f371fb89bc884c62b28b0ad35a63124efc0ffe7109ffbdc619743cc477101c",
         "dest": "cargo/vendor/auth-common"
     },
     {
@@ -319,9 +320,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.com/veloren/auth",
-        "commit": "223a4097f7ebc8d451936dccb5e6517194bbf086",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/auth/repository/archive.tar.gz?ref=223a4097f7ebc8d451936dccb5e6517194bbf086",
+        "sha256": "d5f371fb89bc884c62b28b0ad35a63124efc0ffe7109ffbdc619743cc477101c",
         "dest": "cargo/vendor/authc"
     },
     {
@@ -794,9 +796,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.com/veloren/conrod",
-        "commit": "1ab6eccf94b16a8977a3274b31d4dbfef9cf9a30",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/conrod/repository/archive.tar.gz?ref=1ab6eccf94b16a8977a3274b31d4dbfef9cf9a30",
+        "sha256": "3aa2bde93776b0fd962c11bd6a4b28329825462731b1bb3a6a51d220c9a4a498",
         "dest": "cargo/vendor/conrod_core"
     },
     {
@@ -814,9 +817,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.com/veloren/conrod",
-        "commit": "1ab6eccf94b16a8977a3274b31d4dbfef9cf9a30",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/conrod/repository/archive.tar.gz?ref=1ab6eccf94b16a8977a3274b31d4dbfef9cf9a30",
+        "sha256": "3aa2bde93776b0fd962c11bd6a4b28329825462731b1bb3a6a51d220c9a4a498",
         "dest": "cargo/vendor/conrod_derive"
     },
     {
@@ -834,9 +838,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.com/veloren/conrod",
-        "commit": "1ab6eccf94b16a8977a3274b31d4dbfef9cf9a30",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/conrod/repository/archive.tar.gz?ref=1ab6eccf94b16a8977a3274b31d4dbfef9cf9a30",
+        "sha256": "3aa2bde93776b0fd962c11bd6a4b28329825462731b1bb3a6a51d220c9a4a498",
         "dest": "cargo/vendor/conrod_winit"
     },
     {
@@ -1595,9 +1600,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://github.com/zesterer/euc",
-        "commit": "c9a7c17a03d45fce00caeeca09afa1e1558cd183",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/zesterer/euc/tar.gz/c9a7c17a03d45fce00caeeca09afa1e1558cd183",
+        "sha256": "9dfb361f92b6dc2f2c0b372e9987b78a698816ef8b64ee737be7526c9d36b191",
         "dest": "cargo/vendor/euc"
     },
     {
@@ -2361,9 +2367,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://github.com/imberflur/guillotiere",
-        "commit": "42c298f5bcf0f95f1a004360d05e25ca3711e9ed",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/imberflur/guillotiere/tar.gz/42c298f5bcf0f95f1a004360d05e25ca3711e9ed",
+        "sha256": "0fd94e36efdc9aa3451e9169b2231e63ec67d5d750b4a946d8b3f8069995ea03",
         "dest": "cargo/vendor/guillotiere"
     },
     {
@@ -3218,9 +3225,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://github.com/bekker/msgbox-rs",
-        "commit": "68fe39a60019b38a1569ae4e9ed796a0f0542673",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/bekker/msgbox-rs/tar.gz/68fe39a60019b38a1569ae4e9ed796a0f0542673",
+        "sha256": "d1edb0f67772b6a8f73ac6291975870fb870aa80410cca06ab0b4c3ece03ff87",
         "dest": "cargo/vendor/msgbox"
     },
     {
@@ -3958,9 +3966,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://github.com/xmac94x/portpicker-rs",
-        "commit": "9d6df36c53c94684080a64a7212dd6bfc3617ee4",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/xmac94x/portpicker-rs/tar.gz/9d6df36c53c94684080a64a7212dd6bfc3617ee4",
+        "sha256": "32fe34621a157608b931c1a969e934f8ca4c74bbea331b98e09c4fd3c4b7ba46",
         "dest": "cargo/vendor/portpicker"
     },
     {
@@ -4984,9 +4993,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://github.com/amethyst/specs",
-        "commit": "7a2e348ab2223818bad487695c66c43db88050a5",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/amethyst/specs/tar.gz/7a2e348ab2223818bad487695c66c43db88050a5",
+        "sha256": "2e8260b3ec22d281d646523ea32842ae361994091b5586f1a76dbfc292fd9af5",
         "dest": "cargo/vendor/specs"
     },
     {
@@ -4996,9 +5006,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.com/veloren/specs-idvs",
-        "commit": "fcb0b2306b571f62f9f85d89e79e087454d95efd",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/specs-idvs/repository/archive.tar.gz?ref=fcb0b2306b571f62f9f85d89e79e087454d95efd",
+        "sha256": "bfb2d385cdf5a4e6a2e94e155e78ccf3ef553ea73131593a5b0299cd43fd19f3",
         "dest": "cargo/vendor/specs-idvs"
     },
     {
@@ -5580,9 +5591,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://gitlab.com/yusdacra/treeculler",
-        "commit": "efcf5283cf386117a7e654abdaa45ef664a08e42",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/yusdacra/treeculler/repository/archive.tar.gz?ref=efcf5283cf386117a7e654abdaa45ef664a08e42",
+        "sha256": "ca32d84d0d1196cd57c825620d48750c83927d297ca724cb24f38f977d56ad9f",
         "dest": "cargo/vendor/treeculler"
     },
     {
@@ -6151,9 +6163,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "git",
-        "url": "https://github.com/imberflur/winit",
-        "commit": "e98133adf2abbfc4368f6c069d0beb2b8b688b42",
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/imberflur/winit/tar.gz/e98133adf2abbfc4368f6c069d0beb2b8b688b42",
+        "sha256": "a70521696cf7fb01c901e5cce7bf947a0d4d68396cd8324f1e08020c3cd10f27",
         "dest": "cargo/vendor/winit"
     },
     {
