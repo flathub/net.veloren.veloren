@@ -301,8 +301,8 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/auth/repository/archive.tar.gz?ref=93c5819c502bd912cca6fc2fff9d9817564b1de1",
-        "sha256": "7aecb9d1e4cc5fa899a0e3261141d70d9dff9362cf34915a0ad7f6795d018fb0",
+        "url": "https://gitlab.com/veloren/auth/repository/archive.tar.gz?ref=b943c85e4a38f5ec60cd18c34c73097640162bfe",
+        "sha256": "5e1155aab8719c47ef35f1dc1f0339b14dcbe1b88c0a76f235998e54ca1831b3",
         "dest": "cargo/vendor/auth-common"
     },
     {
@@ -322,8 +322,8 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/auth/repository/archive.tar.gz?ref=93c5819c502bd912cca6fc2fff9d9817564b1de1",
-        "sha256": "7aecb9d1e4cc5fa899a0e3261141d70d9dff9362cf34915a0ad7f6795d018fb0",
+        "url": "https://gitlab.com/veloren/auth/repository/archive.tar.gz?ref=b943c85e4a38f5ec60cd18c34c73097640162bfe",
+        "sha256": "5e1155aab8719c47ef35f1dc1f0339b14dcbe1b88c0a76f235998e54ca1831b3",
         "dest": "cargo/vendor/authc"
     },
     {
@@ -2407,6 +2407,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/heck/heck-0.3.1.crate",
+        "sha256": "20564e78d53d2bb135c343b3f47714a56af2061f1c928fdb541dc7b9fdd94205",
+        "dest": "cargo/vendor",
+        "dest-filename": "heck-0.3.1.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2220564e78d53d2bb135c343b3f47714a56af2061f1c928fdb541dc7b9fdd94205%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/heck-0.3.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/hermit-abi/hermit-abi-0.1.13.crate",
         "sha256": "91780f809e750b0a89f5544be56617ff6b1227ee485bcb06ebe10cdf89bd3b71",
         "dest": "cargo/vendor",
@@ -4019,6 +4032,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/proc-macro-error/proc-macro-error-1.0.4.crate",
+        "sha256": "da25490ff9892aab3fcf7c36f08cfb902dd3e71ca0f9f9517bea02a73a5ce38c",
+        "dest": "cargo/vendor",
+        "dest-filename": "proc-macro-error-1.0.4.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22da25490ff9892aab3fcf7c36f08cfb902dd3e71ca0f9f9517bea02a73a5ce38c%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/proc-macro-error-1.0.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/proc-macro-error-attr/proc-macro-error-attr-0.4.12.crate",
         "sha256": "8a5b4b77fdb63c1eca72173d68d24501c54ab1269409f6b672c85deb18af69de",
         "dest": "cargo/vendor",
@@ -4028,6 +4054,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%228a5b4b77fdb63c1eca72173d68d24501c54ab1269409f6b672c85deb18af69de%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/proc-macro-error-attr-0.4.12",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/proc-macro-error-attr/proc-macro-error-attr-1.0.4.crate",
+        "sha256": "a1be40180e52ecc98ad80b184934baf3d0d29f979574e439af5a55274b35f869",
+        "dest": "cargo/vendor",
+        "dest-filename": "proc-macro-error-attr-1.0.4.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22a1be40180e52ecc98ad80b184934baf3d0d29f979574e439af5a55274b35f869%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/proc-macro-error-attr-1.0.4",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5137,6 +5176,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/strsim/strsim-0.8.0.crate",
+        "sha256": "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a",
+        "dest": "cargo/vendor",
+        "dest-filename": "strsim-0.8.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%228ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/strsim-0.8.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/strsim/strsim-0.9.3.crate",
         "sha256": "6446ced80d6c486436db5c078dde11a9f73d42b57fb273121e160b84f63d894c",
         "dest": "cargo/vendor",
@@ -5146,6 +5198,32 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%226446ced80d6c486436db5c078dde11a9f73d42b57fb273121e160b84f63d894c%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/strsim-0.9.3",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/structopt/structopt-0.3.16.crate",
+        "sha256": "de5472fb24d7e80ae84a7801b7978f95a19ec32cb1876faea59ab711eb901976",
+        "dest": "cargo/vendor",
+        "dest-filename": "structopt-0.3.16.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22de5472fb24d7e80ae84a7801b7978f95a19ec32cb1876faea59ab711eb901976%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/structopt-0.3.16",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/structopt-derive/structopt-derive-0.4.9.crate",
+        "sha256": "1e0eb37335aeeebe51be42e2dc07f031163fbabfa6ac67d7ea68b5c2f68d5f99",
+        "dest": "cargo/vendor",
+        "dest-filename": "structopt-derive-0.4.9.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%221e0eb37335aeeebe51be42e2dc07f031163fbabfa6ac67d7ea68b5c2f68d5f99%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/structopt-derive-0.4.9",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5666,6 +5744,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%225479532badd04e128284890390c1e876ef7a993d0570b3597ae43dfa1d59afa4%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/unicode-normalization-0.1.12",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/unicode-segmentation/unicode-segmentation-1.6.0.crate",
+        "sha256": "e83e153d1053cbb5a118eeff7fd5be06ed99153f00dbcd8ae310c5fb2b22edc0",
+        "dest": "cargo/vendor",
+        "dest-filename": "unicode-segmentation-1.6.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22e83e153d1053cbb5a118eeff7fd5be06ed99153f00dbcd8ae310c5fb2b22edc0%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/unicode-segmentation-1.6.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6275,7 +6366,7 @@
     },
     {
         "type": "file",
-        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/auth%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/auth%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%2293c5819c502bd912cca6fc2fff9d9817564b1de1%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/conrod%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/conrod%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/zesterer/euc%22%5D%0Agit%20%3D%20%22https%3A//github.com/zesterer/euc%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/guillotiere%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/guillotiere%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/bekker/msgbox-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/bekker/msgbox-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%2268fe39a%22%0A%0A%5Bsource.%22https%3A//github.com/xmac94x/portpicker-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/xmac94x/portpicker-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/amethyst/specs%22%5D%0Agit%20%3D%20%22https%3A//github.com/amethyst/specs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%227a2e348ab2223818bad487695c66c43db88050a5%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/specs-idvs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/specs-idvs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22specs-git%22%0A%0A%5Bsource.%22https%3A//gitlab.com/yusdacra/treeculler%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/yusdacra/treeculler%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/winit%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/winit%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22macos-test%22%0A",
+        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/auth%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/auth%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22b943c85e4a38f5ec60cd18c34c73097640162bfe%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/conrod%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/conrod%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/zesterer/euc%22%5D%0Agit%20%3D%20%22https%3A//github.com/zesterer/euc%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/guillotiere%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/guillotiere%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/bekker/msgbox-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/bekker/msgbox-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%2268fe39a%22%0A%0A%5Bsource.%22https%3A//github.com/xmac94x/portpicker-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/xmac94x/portpicker-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/amethyst/specs%22%5D%0Agit%20%3D%20%22https%3A//github.com/amethyst/specs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%227a2e348ab2223818bad487695c66c43db88050a5%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/specs-idvs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/specs-idvs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22specs-git%22%0A%0A%5Bsource.%22https%3A//gitlab.com/yusdacra/treeculler%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/yusdacra/treeculler%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/winit%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/winit%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22macos-test%22%0A",
         "dest": "cargo",
         "dest-filename": "config"
     }
