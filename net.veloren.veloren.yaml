@@ -42,7 +42,7 @@ modules:
       # Automatically add build version and date into AppData
       - |
         set -e
-        VERSION=0.6.0-$(git describe --tags --always | sed 's/^[vV]//')
+        VERSION=0.7.0-$(git describe --tags --always | sed 's/^[vV]//')
         DATE=$(date -d @$(git show -s --format=%ct) +'%Y-%m-%d')
         sed \
           -e "s/@VERSION@/${VERSION}/g" \
@@ -50,7 +50,7 @@ modules:
           -i /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: git
-        commit: 3c199280e85266eb4e5fac0b9c3e0ec41eb884fb
+        commit: 8f8b20c9139fbe1ddfb1937e3264e592d42f4fd0
         url: https://gitlab.com/veloren/veloren
 
       # LLVM ERROR: out of memory on ARM
