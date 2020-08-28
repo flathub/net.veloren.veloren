@@ -14,14 +14,14 @@ on:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - name: Install dependencies
         run: |
           set -e
           sudo apt update
           sudo apt upgrade -y
-          sudo apt install python3-pytoml
+          sudo apt install python3-toml python3-aiohttp
 
       - uses: actions/checkout@v2
 
