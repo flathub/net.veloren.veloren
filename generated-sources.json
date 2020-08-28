@@ -1458,6 +1458,32 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/dirs/dirs-2.0.2.crate",
+        "sha256": "13aea89a5c93364a98e9b37b2fa237effbb694d5cfe01c5b70941f7eb087d5e3",
+        "dest": "cargo/vendor",
+        "dest-filename": "dirs-2.0.2.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2213aea89a5c93364a98e9b37b2fa237effbb694d5cfe01c5b70941f7eb087d5e3%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/dirs-2.0.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/dirs-sys/dirs-sys-0.3.5.crate",
+        "sha256": "8e93d7f5705de3e49895a2b5e0b8855a1c27f080192ae9c32a6432d50741a57a",
+        "dest": "cargo/vendor",
+        "dest-filename": "dirs-sys-0.3.5.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%228e93d7f5705de3e49895a2b5e0b8855a1c27f080192ae9c32a6432d50741a57a%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/dirs-sys-0.3.5",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/dirs-sys-next/dirs-sys-next-0.1.0.crate",
         "sha256": "9c60f7b8a8953926148223260454befb50c751d3c50e1c178c4fd1ace4083c9a",
         "dest": "cargo/vendor",
@@ -4964,6 +4990,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%225a9e7e0f2bfae24d8a5b5a66c5b257a83c7412304311512a0c054cd5e619da11%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/shared_library-0.1.9",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/shellexpand/shellexpand-2.0.0.crate",
+        "sha256": "9a2b22262a9aaf9464d356f656fea420634f78c881c5eebd5ef5e66d8b9bc603",
+        "dest": "cargo/vendor",
+        "dest-filename": "shellexpand-2.0.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%229a2b22262a9aaf9464d356f656fea420634f78c881c5eebd5ef5e66d8b9bc603%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/shellexpand-2.0.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
