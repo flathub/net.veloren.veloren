@@ -1,0 +1,40 @@
+name: Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      builder-tools-url:
+        description: URL of flatpak-builder-tools git repo
+        required: true
+        default: https://github.com/gasinvein/flatpak-builder-tools.git
+      builder-tools-branch:
+        description: Branch of flatpak-builder-tools git repo
+        required: true
+        default: cargo-git-http
+
+jobs:
+  update:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Install dependencies
+        run: |
+          set -e
+          sudo apt update
+          sudo apt upgrade -y
+          sudo apt install python3-toml python3-aiohttp
+
+      - uses: actions/checkout@v2
+
+      - name: Download flatpak-builder-tools
+        run: |
+          git clone -b ${{ github.event.inputs.builder-tools-branch }} \
+                       ${{ github.event.inputs.builder-tools-url }} \
+                       builder-tools
+
+      - name: Run update
+        run: |
+          set -e
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git config user.name "Workflow trigger"
+          ./update.py veloren-git.json -g builder-tools/cargo/flatpak-cargo-generator.py --generator-arg=-t
+          git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}
