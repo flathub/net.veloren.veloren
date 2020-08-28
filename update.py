@@ -17,7 +17,7 @@ def get_latest_commit(url, branch):
     assert got_ref == ref
     return commit
 
-def generate_sources(app_source, clone_dir=None, generator_script=None):
+def generate_sources(app_source, clone_dir=None, generator_script=None, generator_args=None):
     cache_dir = os.environ.get('XDG_CACHE_HOME', os.path.expanduser('~/.cache'))
 
     assert 'commit' in app_source
@@ -41,10 +41,15 @@ def generate_sources(app_source, clone_dir=None, generator_script=None):
         urllib.request.urlretrieve(GENERATOR_SCRIPT_URL, generator_script)
         os.chmod(generator_script, 775)
 
-    logging.info(f'Generation started with {generator_script}')
+    if generator_args is None:
+        generator_args = []
+
+    generator_cmdline = [generator_script, '-o', '/dev/stdout'] + \
+                        generator_args + \
+                        [os.path.join(clone_dir, 'Cargo.lock')]
+    logging.info(f'Generation started with {generator_cmdline}')
     try:
-        generator_proc = subprocess.run([generator_script, '-o', '/dev/stdout',
-                                        os.path.join(clone_dir, 'Cargo.lock')],
+        generator_proc = subprocess.run(generator_cmdline,
                                         check=True, stdout=subprocess.PIPE,
                                         stderr=subprocess.PIPE)
     except subprocess.CalledProcessError as e:
@@ -82,6 +87,7 @@ def commit_changes(app_source, files, on_new_branch=True):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-g', '--generator', required=False)
+    parser.add_argument('-a', '--generator-arg', action='append', required=False)
     parser.add_argument('-d', '--clone-dir', required=False)
     parser.add_argument('-o', '--gen-output', default='generated-sources.json')
     parser.add_argument('-n', '--new-branch', action='store_true')
@@ -105,7 +111,8 @@ def main():
     })
     generated_sources = generate_sources(app_source,
                                          clone_dir=args.clone_dir,
-                                         generator_script=args.generator)
+                                         generator_script=args.generator,
+                                         generator_args=args.generator_arg)
     with open(args.app_source_json, 'w') as o:
         json.dump(app_source, o, indent=4)
     with open(args.gen_output, 'w') as g:
