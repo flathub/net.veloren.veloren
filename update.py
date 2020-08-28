@@ -42,9 +42,14 @@ def generate_sources(app_source, clone_dir=None, generator_script=None):
         os.chmod(generator_script, 775)
 
     logging.info(f'Generation started with {generator_script}')
-    generator_proc = subprocess.run([generator_script, '-o', '/dev/stdout',
-                                    os.path.join(clone_dir, 'Cargo.lock')],
-                                    check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    try:
+        generator_proc = subprocess.run([generator_script, '-o', '/dev/stdout',
+                                        os.path.join(clone_dir, 'Cargo.lock')],
+                                        check=True, stdout=subprocess.PIPE,
+                                        stderr=subprocess.PIPE)
+    except subprocess.CalledProcessError as e:
+        logging.critical(e.stderr.decode())
+        raise
     generated_sources = json.loads(generator_proc.stdout.decode())
     logging.info(f'Generation completed')
 
