@@ -9,11 +9,22 @@ import logging
 
 GENERATOR_SCRIPT_URL = f'https://github.com/flatpak/flatpak-builder-tools/raw/master/cargo/flatpak-cargo-generator.py'
 
+def run(cmdline, cwd=None):
+    logging.info(f'Running {cmdline}')
+    if cwd is None:
+        cwd = os.getcwd()
+    try:
+        process = subprocess.run(cmdline, cwd=cwd, check=True,
+                                 stdout=subprocess.PIPE,
+                                 stderr=subprocess.PIPE)
+    except subprocess.CalledProcessError as e:
+        logging.error(e.stderr.decode())
+        raise
+    return process.stdout.decode().strip()
+
 def get_latest_commit(url, branch):
     ref = f'refs/heads/{branch}'
-    git_ls_remote = subprocess.run(['git', 'ls-remote', url, ref],
-                                   check=True, stdout=subprocess.PIPE)
-    commit, got_ref = git_ls_remote.stdout.decode().split()
+    commit, got_ref = run(['git', 'ls-remote', url, ref]).split()
     assert got_ref == ref
     return commit
 
@@ -25,16 +36,12 @@ def generate_sources(app_source, clone_dir=None, generator_script=None, generato
         repo_dir = app_source['url'].replace('://', '_').replace('/', '_')
         clone_dir = os.path.join(cache_dir, 'flatpak-cargo-updater', repo_dir)
     if not os.path.isdir(os.path.join(clone_dir, '.git')):
-        subprocess.run(['git', 'clone', '--recursive', app_source['url'], clone_dir],
-                       check=True)
-    git_rev_parse = subprocess.run(['git', 'rev-parse', 'HEAD'],
-                                   cwd=clone_dir, check=True,
-                                   stdout=subprocess.PIPE)
-    if git_rev_parse.stdout.strip()[:7] != app_source['commit'][:7]:
-        subprocess.run(['git', 'fetch'],
-                       cwd=clone_dir, check=True)
-        subprocess.run(['git', 'checkout', app_source['commit']],
-                       cwd=clone_dir, check=True)
+        run(['git', 'clone', '--recursive', app_source['url'], clone_dir])
+
+    cur_commit = run(['git', 'rev-parse', 'HEAD'], cwd=clone_dir)
+    if cur_commit[:7] != app_source['commit'][:7]:
+        run(['git', 'fetch', 'origin', app_source['commit']], cwd=clone_dir)
+        run(['git', 'checkout', app_source['commit']], cwd=clone_dir)
 
     if generator_script is None:
         generator_script = os.path.join(cache_dir, 'flatpak-cargo-updater', 'generator.py')
@@ -47,15 +54,7 @@ def generate_sources(app_source, clone_dir=None, generator_script=None, generato
     generator_cmdline = [generator_script, '-o', '/dev/stdout'] + \
                         generator_args + \
                         [os.path.join(clone_dir, 'Cargo.lock')]
-    logging.info(f'Generation started with {generator_cmdline}')
-    try:
-        generator_proc = subprocess.run(generator_cmdline,
-                                        check=True, stdout=subprocess.PIPE,
-                                        stderr=subprocess.PIPE)
-    except subprocess.CalledProcessError as e:
-        logging.critical(e.stderr.decode())
-        raise
-    generated_sources = json.loads(generator_proc.stdout.decode())
+    generated_sources = json.loads(run(generator_cmdline))
     logging.info(f'Generation completed')
 
     return generated_sources
@@ -63,23 +62,15 @@ def generate_sources(app_source, clone_dir=None, generator_script=None, generato
 def commit_changes(app_source, files, on_new_branch=True):
     repo_dir = os.getcwd()
     title = f'Update to commit {app_source["commit"][:7]}'
-    subprocess.run(['git', 'add', '-v', '--'] + files,
-                   cwd=repo_dir, check=True)
+    run(['git', 'add', '-v', '--'] + files, cwd=repo_dir)
     if on_new_branch:
         target_branch = f'update-{app_source["commit"][:7]}'
-        subprocess.run(['git', 'checkout', '-b', target_branch],
-                       cwd=repo_dir, check=True)
+        run(['git', 'checkout', '-b', target_branch], cwd=repo_dir)
     else:
-        git_branch = subprocess.run(['git', 'branch', '--show-current'],
-                                    cwd=repo_dir, check=True, stdout=subprocess.PIPE)
-        target_branch = git_branch.stdout.decode().strip()
+        target_branch = run(['git', 'branch', '--show-current'], cwd=repo_dir)
 
-    subprocess.run(['git', 'commit', '-m', title],
-                   cwd=repo_dir, check=True)
-
-    git_rev_parse = subprocess.run(['git', 'rev-parse', 'HEAD'],
-                                   cwd=repo_dir, check=True, stdout=subprocess.PIPE)
-    new_commit = git_rev_parse.stdout.decode().strip()
+    run(['git', 'commit', '-m', title], cwd=repo_dir)
+    new_commit = run(['git', 'rev-parse', 'HEAD'], cwd=repo_dir)
     logging.info(f'Commited {new_commit[:7]} on {target_branch}')
 
     return (target_branch, new_commit)
