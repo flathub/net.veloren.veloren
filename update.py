@@ -55,7 +55,7 @@ def generate_sources(app_source, clone_dir=None, generator_script=None):
 
     return generated_sources
 
-def commit_changes(app_source, files, on_new_branch=True, push_to=None):
+def commit_changes(app_source, files, on_new_branch=True):
     repo_dir = os.getcwd()
     title = f'Update to commit {app_source["commit"][:7]}'
     subprocess.run(['git', 'add', '-v', '--'] + files,
@@ -77,10 +77,6 @@ def commit_changes(app_source, files, on_new_branch=True, push_to=None):
     new_commit = git_rev_parse.stdout.decode().strip()
     logging.info(f'Commited {new_commit[:7]} on {target_branch}')
 
-    if push_to is not None:
-        subprocess.run(['git', 'push', push_to, target_branch],
-                       cwd=repo_dir, check=True)
-
     return (target_branch, new_commit)
 
 def main():
@@ -89,7 +85,6 @@ def main():
     parser.add_argument('-d', '--clone-dir', required=False)
     parser.add_argument('-o', '--gen-output', default='generated-sources.json')
     parser.add_argument('-n', '--new-branch', action='store_true')
-    parser.add_argument('-p', '--push-to', required=False)
     parser.add_argument('app_source_json')
     args = parser.parse_args()
 
@@ -118,8 +113,7 @@ def main():
 
     branch, new_commit = commit_changes(app_source,
                                         files=[args.app_source_json, args.gen_output],
-                                        on_new_branch=args.new_branch,
-                                        push_to=args.push_to)
+                                        on_new_branch=args.new_branch)
     logging.info(f'Created commit {new_commit[:7]} on branch {branch}')
 
 if __name__ == '__main__':
