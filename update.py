@@ -12,8 +12,8 @@ GENERATOR_SCRIPT_URL = f'https://github.com/flatpak/flatpak-builder-tools/raw/ma
 def get_latest_commit(url, branch):
     ref = f'refs/heads/{branch}'
     git_ls_remote = subprocess.run(['git', 'ls-remote', url, ref],
-                                   check=True, text=True, stdout=subprocess.PIPE)
-    commit, got_ref = git_ls_remote.stdout.split()
+                                   check=True, stdout=subprocess.PIPE)
+    commit, got_ref = git_ls_remote.stdout.decode().split()
     assert got_ref == ref
     return commit
 
@@ -28,7 +28,7 @@ def generate_sources(app_source, clone_dir=None, generator_script=None):
         subprocess.run(['git', 'clone', '--recursive', app_source['url'], clone_dir],
                        check=True)
     git_rev_parse = subprocess.run(['git', 'rev-parse', 'HEAD'],
-                                   cwd=clone_dir, check=True, text=True,
+                                   cwd=clone_dir, check=True,
                                    stdout=subprocess.PIPE)
     if git_rev_parse.stdout.strip()[:7] != app_source['commit'][:7]:
         subprocess.run(['git', 'fetch'],
@@ -44,9 +44,8 @@ def generate_sources(app_source, clone_dir=None, generator_script=None):
     logging.info(f'Generation started with {generator_script}')
     generator_proc = subprocess.run([generator_script, '-o', '/dev/stdout',
                                     os.path.join(clone_dir, 'Cargo.lock')],
-                                    check=True, text=True,
-                                    stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    generated_sources = json.loads(generator_proc.stdout)
+                                    check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    generated_sources = json.loads(generator_proc.stdout.decode())
     logging.info(f'Generation completed')
 
     return generated_sources
@@ -62,17 +61,15 @@ def commit_changes(app_source, files, on_new_branch=True, push_to=None):
                        cwd=repo_dir, check=True)
     else:
         git_branch = subprocess.run(['git', 'branch', '--show-current'],
-                                    cwd=repo_dir, check=True, text=True,
-                                    stdout=subprocess.PIPE)
-        target_branch = git_branch.stdout.strip()
+                                    cwd=repo_dir, check=True, stdout=subprocess.PIPE)
+        target_branch = git_branch.stdout.decode().strip()
 
     subprocess.run(['git', 'commit', '-m', title],
                    cwd=repo_dir, check=True)
 
     git_rev_parse = subprocess.run(['git', 'rev-parse', 'HEAD'],
-                                   cwd=repo_dir, check=True, text=True,
-                                   stdout=subprocess.PIPE)
-    new_commit = git_rev_parse.stdout.strip()
+                                   cwd=repo_dir, check=True, stdout=subprocess.PIPE)
+    new_commit = git_rev_parse.stdout.decode().strip()
     logging.info(f'Commited {new_commit[:7]} on {target_branch}')
 
     if push_to is not None:
