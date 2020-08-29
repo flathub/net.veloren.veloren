@@ -2,7 +2,7 @@ name: Auto update
 
 on:
   schedule:
-    - cron: '0 0 0 ? * MON,FRI *'
+    - cron: '* * * * 1,5'
       builder-tools-url:
         description: URL of flatpak-builder-tools git repo
         required: true
