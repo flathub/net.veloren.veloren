@@ -1,16 +1,13 @@
 name: Auto update
 
+env:
+  BUILDER_TOOLS_URL: https://github.com/gasinvein/flatpak-builder-tools.git
+  BUILDER_TOOLS_BRANCH: cargo-git-http
+
 on:
   schedule:
     - cron: '* * * * 1,5'
-      builder-tools-url:
-        description: URL of flatpak-builder-tools git repo
-        required: true
-        default: https://github.com/gasinvein/flatpak-builder-tools.git
-      builder-tools-branch:
-        description: Branch of flatpak-builder-tools git repo
-        required: true
-        default: cargo-git-http
+  workflow_dispatch: {}
 
 jobs:
   update:
@@ -27,14 +24,14 @@ jobs:
 
       - name: Download flatpak-builder-tools
         run: |
-          git clone -b ${{ github.event.inputs.builder-tools-branch }} \
-                       ${{ github.event.inputs.builder-tools-url }} \
+          git clone -b ${BUILDER_TOOLS_BRANCH} \
+                       ${BUILDER_TOOLS_URL} \
                        builder-tools
 
       - name: Run update
         run: |
           set -e
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git config user.name "Workflow auto updater"
+          git config user.name "Workflow trigger"
           ./update.py veloren-git.json -g builder-tools/cargo/flatpak-cargo-generator.py --generator-arg=-t
           git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}
