@@ -6,12 +6,12 @@ env:
 
 on:
   schedule:
-    - cron: '* * * * 1,5'
+    - cron: '0 0 * * 1,5'
   workflow_dispatch: {}
 
 jobs:
   update:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
         run: |
