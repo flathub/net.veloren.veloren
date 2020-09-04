@@ -105,6 +105,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/ansi-parser/ansi-parser-0.6.5.crate",
+        "sha256": "761ac675f1638a6a49e26f6ac3a4067ca3fefa8029816ae4ef8d3fa3d06a5194",
+        "dest": "cargo/vendor",
+        "dest-filename": "ansi-parser-0.6.5.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22761ac675f1638a6a49e26f6ac3a4067ca3fefa8029816ae4ef8d3fa3d06a5194%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/ansi-parser-0.6.5",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/ansi_term/ansi_term-0.11.0.crate",
         "sha256": "ee49baf6cb617b853aa8d93bf420db2383fab46d314482ca2803b40d5fde979b",
         "dest": "cargo/vendor",
@@ -140,6 +153,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22f0e60b75072ecd4168020818c0107f2857bb6c4e64252d8d3983f6263b40a5c3%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/approx-0.3.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/arc-swap/arc-swap-0.4.7.crate",
+        "sha256": "4d25d88fd6b8041580a654f9d0c581a047baee2b3efee13275f2fc392fc75034",
+        "dest": "cargo/vendor",
+        "dest-filename": "arc-swap-0.4.7.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%224d25d88fd6b8041580a654f9d0c581a047baee2b3efee13275f2fc392fc75034%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/arc-swap-0.4.7",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -624,6 +650,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%227aa2097be53a00de9e8fc349fea6d76221f398f5c4fa550d420669906962d160%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/calloop-0.4.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/cassowary/cassowary-0.3.0.crate",
+        "sha256": "df8670b8c7b9dae1793364eafadf7239c40d669904660c5960d74cfd80b46a53",
+        "dest": "cargo/vendor",
+        "dest-filename": "cassowary-0.3.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22df8670b8c7b9dae1793364eafadf7239c40d669904660c5960d74cfd80b46a53%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/cassowary-0.3.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1246,6 +1285,32 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22c3c7c73a2d1e9fc0886a08b93e98eb643461230d5f1925e4036204d5f2e261a8%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/crossbeam-utils-0.7.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/crossterm/crossterm-0.17.7.crate",
+        "sha256": "6f4919d60f26ae233e14233cc39746c8c8bb8cd7b05840ace83604917b51b6c7",
+        "dest": "cargo/vendor",
+        "dest-filename": "crossterm-0.17.7.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%226f4919d60f26ae233e14233cc39746c8c8bb8cd7b05840ace83604917b51b6c7%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/crossterm-0.17.7",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/crossterm_winapi/crossterm_winapi-0.6.1.crate",
+        "sha256": "057b7146d02fb50175fd7dbe5158f6097f33d02831f43b4ee8ae4ddf67b68f5c",
+        "dest": "cargo/vendor",
+        "dest-filename": "crossterm_winapi-0.6.1.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22057b7146d02fb50175fd7dbe5158f6097f33d02831f43b4ee8ae4ddf67b68f5c%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/crossterm_winapi-0.6.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3265,6 +3330,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/mio/mio-0.7.0.crate",
+        "sha256": "6e9971bc8349a361217a8f2a41f5d011274686bd4436465ba51730921039d7fb",
+        "dest": "cargo/vendor",
+        "dest-filename": "mio-0.7.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%226e9971bc8349a361217a8f2a41f5d011274686bd4436465ba51730921039d7fb%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/mio-0.7.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/mio-extras/mio-extras-2.0.6.crate",
         "sha256": "52403fe290012ce777c4626790c8951324a2b9e3316b3143779c72b029742f19",
         "dest": "cargo/vendor",
@@ -3300,6 +3378,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%228c1f2f3b1cf331de6896aabf6e9d55dca90356cc9960cca7eaaf408a355ae919%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/miow-0.2.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/miow/miow-0.3.5.crate",
+        "sha256": "07b88fb9795d4d36d62a012dfbf49a8f5cf12751f36d31a9dbe66d528e58979e",
+        "dest": "cargo/vendor",
+        "dest-filename": "miow-0.3.5.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2207b88fb9795d4d36d62a012dfbf49a8f5cf12751f36d31a9dbe66d528e58979e%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/miow-0.3.5",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3469,6 +3560,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2277d03607cf88b4b160ba0e9ed425fff3cee3b55ac813f0c685b3a3772da37d0e%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/notify-5.0.0-pre.3",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/ntapi/ntapi-0.3.4.crate",
+        "sha256": "7a31937dea023539c72ddae0e3571deadc1414b300483fa7aaec176168cfa9d2",
+        "dest": "cargo/vendor",
+        "dest-filename": "ntapi-0.3.4.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%227a31937dea023539c72ddae0e3571deadc1414b300483fa7aaec176168cfa9d2%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/ntapi-0.3.4",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5072,6 +5176,32 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/signal-hook/signal-hook-0.1.16.crate",
+        "sha256": "604508c1418b99dfe1925ca9224829bb2a8a9a04dda655cc01fcad46f4ab05ed",
+        "dest": "cargo/vendor",
+        "dest-filename": "signal-hook-0.1.16.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22604508c1418b99dfe1925ca9224829bb2a8a9a04dda655cc01fcad46f4ab05ed%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/signal-hook-0.1.16",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/signal-hook-registry/signal-hook-registry-1.2.0.crate",
+        "sha256": "94f478ede9f64724c5d173d7bb56099ec3e2d9fc2774aac65d34b8b890405f41",
+        "dest": "cargo/vendor",
+        "dest-filename": "signal-hook-registry-1.2.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2294f478ede9f64724c5d173d7bb56099ec3e2d9fc2774aac65d34b8b890405f41%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/signal-hook-registry-1.2.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/slab/slab-0.4.2.crate",
         "sha256": "c111b5bd5695e56cffe5129854aa230b39c93a305372fdbb2668ca2394eea9f8",
         "dest": "cargo/vendor",
@@ -5133,6 +5263,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22917e8ec7f535cd1a6cbf749c8866c24d67c548a80ac48c8e88a182eab5c07bd1%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/smithay-clipboard-0.4.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/socket2/socket2-0.3.12.crate",
+        "sha256": "03088793f677dce356f3ccc2edb1b314ad191ab702a5de3faf49304f7e104918",
+        "dest": "cargo/vendor",
+        "dest-filename": "socket2-0.3.12.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2203088793f677dce356f3ccc2edb1b314ad191ab702a5de3faf49304f7e104918%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/socket2-0.3.12",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5796,6 +5939,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22e604eb7b43c06650e854be16a2a03155743d3752dd1c943f6829e26b7a36e382%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/try-lock-0.2.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/fdehau/tui-rs/tar.gz/54b841fab6cfdb38e8dc1382176e965787964b4c",
+        "sha256": "920e26b3816975b77f9111206aec5859560141e222bef2d539c05894798ac4ba",
+        "dest": "cargo/vendor/tui"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20null%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/tui",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6483,7 +6639,7 @@
     },
     {
         "type": "file",
-        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/auth%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/auth%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22b943c85e4a38f5ec60cd18c34c73097640162bfe%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/conrod%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/conrod%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/zesterer/euc%22%5D%0Agit%20%3D%20%22https%3A//github.com/zesterer/euc%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/bekker/msgbox-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/bekker/msgbox-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%2268fe39a%22%0A%0A%5Bsource.%22https%3A//github.com/xmac94x/portpicker-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/xmac94x/portpicker-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/amethyst/specs%22%5D%0Agit%20%3D%20%22https%3A//github.com/amethyst/specs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%227a2e348ab2223818bad487695c66c43db88050a5%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/specs-idvs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/specs-idvs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22specs-git%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/vek%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/vek%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22fix_intrinsics%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/winit%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/winit%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22macos-test%22%0A",
+        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/auth%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/auth%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22b943c85e4a38f5ec60cd18c34c73097640162bfe%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/conrod%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/conrod%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/zesterer/euc%22%5D%0Agit%20%3D%20%22https%3A//github.com/zesterer/euc%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/bekker/msgbox-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/bekker/msgbox-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%2268fe39a%22%0A%0A%5Bsource.%22https%3A//github.com/xmac94x/portpicker-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/xmac94x/portpicker-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22master%22%0A%0A%5Bsource.%22https%3A//github.com/amethyst/specs%22%5D%0Agit%20%3D%20%22https%3A//github.com/amethyst/specs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%227a2e348ab2223818bad487695c66c43db88050a5%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/specs-idvs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/specs-idvs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22specs-git%22%0A%0A%5Bsource.%22https%3A//github.com/fdehau/tui-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/fdehau/tui-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22paragraph-scroll%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/vek%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/vek%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22fix_intrinsics%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/winit%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/winit%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22macos-test%22%0A",
         "dest": "cargo",
         "dest-filename": "config"
     }
