@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-import os
-import sys
-import subprocess
-import json
-import urllib.request
+
 import argparse
+import json
 import logging
+import os
+import subprocess
+import sys
+import urllib.request
 
 GENERATOR_SCRIPT_URL = f'https://github.com/flatpak/flatpak-builder-tools/raw/master/cargo/flatpak-cargo-generator.py'
+
 
 def run(cmdline, cwd=None):
     logging.info(f'Running {cmdline}')
@@ -22,11 +24,13 @@ def run(cmdline, cwd=None):
         raise
     return process.stdout.decode().strip()
 
+
 def get_latest_commit(url, branch):
     ref = f'refs/heads/{branch}'
     commit, got_ref = run(['git', 'ls-remote', url, ref]).split()
     assert got_ref == ref
     return commit
+
 
 def generate_sources(app_source, clone_dir=None, generator_script=None, generator_args=None):
     cache_dir = os.environ.get('XDG_CACHE_HOME', os.path.expanduser('~/.cache'))
@@ -52,16 +56,16 @@ def generate_sources(app_source, clone_dir=None, generator_script=None, generato
         generator_args = []
 
     generator_cmdline = [generator_script, '-o', '/dev/stdout'] + \
-                        generator_args + \
-                        [os.path.join(clone_dir, 'Cargo.lock')]
+                        generator_args + [os.path.join(clone_dir, 'Cargo.lock')]
     generated_sources = json.loads(run(generator_cmdline))
     logging.info(f'Generation completed')
 
     return generated_sources
 
+
 def commit_changes(app_source, files, on_new_branch=True):
     repo_dir = os.getcwd()
-    title = f'Update to commit {app_source["commit"][:7]}'
+    title = f'build: update to commit {app_source["commit"][:7]}'
     run(['git', 'add', '-v', '--'] + files, cwd=repo_dir)
     if on_new_branch:
         target_branch = f'update-{app_source["commit"][:7]}'
@@ -71,9 +75,10 @@ def commit_changes(app_source, files, on_new_branch=True):
 
     run(['git', 'commit', '-m', title], cwd=repo_dir)
     new_commit = run(['git', 'rev-parse', 'HEAD'], cwd=repo_dir)
-    logging.info(f'Commited {new_commit[:7]} on {target_branch}')
+    logging.info(f'Committed {new_commit[:7]} on {target_branch}')
 
-    return (target_branch, new_commit)
+    return target_branch, new_commit
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -113,6 +118,7 @@ def main():
                                         files=[args.app_source_json, args.gen_output],
                                         on_new_branch=args.new_branch)
     logging.info(f'Created commit {new_commit[:7]} on branch {branch}')
+
 
 if __name__ == '__main__':
     main()
