@@ -3408,6 +3408,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/num-derive/num-derive-0.3.2.crate",
+        "sha256": "6f09b9841adb6b5e1f89ef7087ea636e0fd94b2851f887c1e3eb5d5f8228fab3",
+        "dest": "cargo/vendor",
+        "dest-filename": "num-derive-0.3.2.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%226f09b9841adb6b5e1f89ef7087ea636e0fd94b2851f887c1e3eb5d5f8228fab3%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/num-derive-0.3.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/num-integer/num-integer-0.1.43.crate",
         "sha256": "8d59457e662d541ba17869cf51cf177c0b5f0cbf476c66bdc90bf1edac4f875b",
         "dest": "cargo/vendor",
