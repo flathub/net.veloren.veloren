@@ -17,6 +17,7 @@ build-options:
   env:
     RUSTFLAGS: --remap-path-prefix =../
     CARGO_HOME: /run/build/veloren/cargo
+    VELOREN_USERDATA_STRATEGY: system
 modules:
   - name: veloren
     buildsystem: simple
