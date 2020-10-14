@@ -1900,28 +1900,28 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/futures-channel/futures-channel-0.3.5.crate",
-        "sha256": "f366ad74c28cca6ba456d95e6422883cfb4b252a83bed929c83abfdbbf2967d5",
+        "url": "https://static.crates.io/crates/futures-channel/futures-channel-0.3.6.crate",
+        "sha256": "a7a4d35f7401e948629c9c3d6638fb9bf94e0b2121e96c3b428cc4e631f3eb74",
         "dest": "cargo/vendor",
-        "dest-filename": "futures-channel-0.3.5.crate"
+        "dest-filename": "futures-channel-0.3.6.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22f366ad74c28cca6ba456d95e6422883cfb4b252a83bed929c83abfdbbf2967d5%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/futures-channel-0.3.5",
+        "url": "data:%7B%22package%22%3A%20%22a7a4d35f7401e948629c9c3d6638fb9bf94e0b2121e96c3b428cc4e631f3eb74%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/futures-channel-0.3.6",
         "dest-filename": ".cargo-checksum.json"
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/futures-core/futures-core-0.3.5.crate",
-        "sha256": "59f5fff90fd5d971f936ad674802482ba441b6f09ba5e15fd8b39145582ca399",
+        "url": "https://static.crates.io/crates/futures-core/futures-core-0.3.6.crate",
+        "sha256": "d674eaa0056896d5ada519900dbf97ead2e46a7b6621e8160d79e2f2e1e2784b",
         "dest": "cargo/vendor",
-        "dest-filename": "futures-core-0.3.5.crate"
+        "dest-filename": "futures-core-0.3.6.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2259f5fff90fd5d971f936ad674802482ba441b6f09ba5e15fd8b39145582ca399%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/futures-core-0.3.5",
+        "url": "data:%7B%22package%22%3A%20%22d674eaa0056896d5ada519900dbf97ead2e46a7b6621e8160d79e2f2e1e2784b%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/futures-core-0.3.6",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1978,15 +1978,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/futures-sink/futures-sink-0.3.5.crate",
-        "sha256": "3f2032893cb734c7a05d85ce0cc8b8c4075278e93b24b66f9de99d6eb0fa8acc",
+        "url": "https://static.crates.io/crates/futures-sink/futures-sink-0.3.6.crate",
+        "sha256": "0d8764258ed64ebc5d9ed185cf86a95db5cac810269c5d20ececb32e0088abbd",
         "dest": "cargo/vendor",
-        "dest-filename": "futures-sink-0.3.5.crate"
+        "dest-filename": "futures-sink-0.3.6.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%223f2032893cb734c7a05d85ce0cc8b8c4075278e93b24b66f9de99d6eb0fa8acc%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/futures-sink-0.3.5",
+        "url": "data:%7B%22package%22%3A%20%220d8764258ed64ebc5d9ed185cf86a95db5cac810269c5d20ececb32e0088abbd%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/futures-sink-0.3.6",
         "dest-filename": ".cargo-checksum.json"
     },
     {
