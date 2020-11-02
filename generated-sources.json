@@ -3950,6 +3950,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/ordered-float/ordered-float-2.0.0.crate",
+        "sha256": "9fe9037165d7023b1228bc4ae9a2fa1a2b0095eca6c2998c624723dfd01314a5",
+        "dest": "cargo/vendor",
+        "dest-filename": "ordered-float-2.0.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%229fe9037165d7023b1228bc4ae9a2fa1a2b0095eca6c2998c624723dfd01314a5%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/ordered-float-2.0.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/osascript/osascript-0.3.0.crate",
         "sha256": "38731fa859ef679f1aec66ca9562165926b442f298467f76f5990f431efe87dc",
         "dest": "cargo/vendor",
