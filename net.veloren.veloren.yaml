@@ -12,6 +12,7 @@ finish-args:
   - --share=network
   - --socket=pulseaudio
   - --socket=x11
+  - --socket=wayland
 build-options:
   append-path: /usr/lib/sdk/rust-nightly/bin
   env:
