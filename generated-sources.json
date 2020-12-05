@@ -5848,6 +5848,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/slotmap/slotmap-0.4.0.crate",
+        "sha256": "c46a3482db8f247956e464d783693ece164ca056e6e67563ee5505bdb86452cd",
+        "dest": "cargo/vendor",
+        "dest-filename": "slotmap-0.4.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22c46a3482db8f247956e464d783693ece164ca056e6e67563ee5505bdb86452cd%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/slotmap-0.4.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/smallvec/smallvec-0.6.13.crate",
         "sha256": "f7b0758c52e15a8b5e3691eae6cc559f08eee9406e548a4477ba4e67770a82b6",
         "dest": "cargo/vendor",
