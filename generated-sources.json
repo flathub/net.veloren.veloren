@@ -2043,32 +2043,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/failure/failure-0.1.8.crate",
-        "sha256": "d32e9bd16cc02eae7db7ef620b392808b89f6a5e16bb3497d159c6b92a0f4f86",
-        "dest": "cargo/vendor",
-        "dest-filename": "failure-0.1.8.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22d32e9bd16cc02eae7db7ef620b392808b89f6a5e16bb3497d159c6b92a0f4f86%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/failure-0.1.8",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/failure_derive/failure_derive-0.1.8.crate",
-        "sha256": "aa4da3c766cd7a0db8242e326e9e4e081edd567072893ed320008189715366a4",
-        "dest": "cargo/vendor",
-        "dest-filename": "failure_derive-0.1.8.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22aa4da3c766cd7a0db8242e326e9e4e081edd567072893ed320008189715366a4%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/failure_derive-0.1.8",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/fehler/fehler-1.0.0.crate",
         "sha256": "d5729fe49ba028cd550747b6e62cd3d841beccab5390aa398538c31a2d983635",
         "dest": "cargo/vendor",
@@ -6221,19 +6195,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%229c51d92969d209b54a98397e1b91c8ae82d8c87a7bb87df0b29aa2ad81454228%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/syn-1.0.42",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/synstructure/synstructure-0.12.4.crate",
-        "sha256": "b834f2d66f734cb897113e34aaff2f1ab4719ca946f9a7358dba8f8064148701",
-        "dest": "cargo/vendor",
-        "dest-filename": "synstructure-0.12.4.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22b834f2d66f734cb897113e34aaff2f1ab4719ca946f9a7358dba8f8064148701%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/synstructure-0.12.4",
         "dest-filename": ".cargo-checksum.json"
     },
     {
