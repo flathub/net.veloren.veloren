@@ -30,7 +30,7 @@ modules:
 
       - cargo --offline fetch --manifest-path Cargo.toml
       - cargo --offline build --release
-      - install -D -m 755 ./target/release/veloren-{voxygen,{server,chat}-cli} -t /app/bin/
+      - install -D -m 755 ./target/release/veloren-{voxygen,server-cli} -t /app/bin/
     post-install:
       # Install assets
       - mkdir -p /app/share/veloren/
