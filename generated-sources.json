@@ -4483,15 +4483,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/noise/noise-0.6.0.crate",
-        "sha256": "337525774dd8a197b613a01ea88058ef0ed023e5ed1e4b7e93de478e1f2bf770",
+        "url": "https://static.crates.io/crates/noise/noise-0.7.0.crate",
+        "sha256": "82051dd6745d5184c6efb7bc8be14892a7f6d4f3ad6dbf754d1c7d7d5fe24b43",
         "dest": "cargo/vendor",
-        "dest-filename": "noise-0.6.0.crate"
+        "dest-filename": "noise-0.7.0.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22337525774dd8a197b613a01ea88058ef0ed023e5ed1e4b7e93de478e1f2bf770%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/noise-0.6.0",
+        "url": "data:%7B%22package%22%3A%20%2282051dd6745d5184c6efb7bc8be14892a7f6d4f3ad6dbf754d1c7d7d5fe24b43%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/noise-0.7.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5523,19 +5523,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/rand/rand-0.5.6.crate",
-        "sha256": "c618c47cd3ebd209790115ab837de41425723956ad3ce2e6a7f09890947cacb9",
-        "dest": "cargo/vendor",
-        "dest-filename": "rand-0.5.6.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22c618c47cd3ebd209790115ab837de41425723956ad3ce2e6a7f09890947cacb9%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/rand-0.5.6",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/rand/rand-0.6.5.crate",
         "sha256": "6d71dacdc3c88c1fde3885a3be3fbab9f35724e6ce99467f7d9c5026132184ca",
         "dest": "cargo/vendor",
@@ -5727,6 +5714,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22cbf7e9e623549b0e21f6e97cf8ecf247c1a8fd2e8a992ae265314300b2455d5c%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/rand_xorshift-0.1.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/rand_xorshift/rand_xorshift-0.2.0.crate",
+        "sha256": "77d416b86801d23dde1aa643023b775c3a462efc0ed96443add11546cdf1dca8",
+        "dest": "cargo/vendor",
+        "dest-filename": "rand_xorshift-0.2.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2277d416b86801d23dde1aa643023b775c3a462efc0ed96443add11546cdf1dca8%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/rand_xorshift-0.2.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
