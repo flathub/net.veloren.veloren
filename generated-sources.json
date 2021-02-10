@@ -1978,6 +1978,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/dirs/dirs-3.0.1.crate",
+        "sha256": "142995ed02755914747cc6ca76fc7e4583cd18578746716d0508ea6ed558b9ff",
+        "dest": "cargo/vendor",
+        "dest-filename": "dirs-3.0.1.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22142995ed02755914747cc6ca76fc7e4583cd18578746716d0508ea6ed558b9ff%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/dirs-3.0.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/dirs-sys/dirs-sys-0.3.5.crate",
         "sha256": "8e93d7f5705de3e49895a2b5e0b8855a1c27f080192ae9c32a6432d50741a57a",
         "dest": "cargo/vendor",
@@ -4379,15 +4392,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/native-dialog/native-dialog-0.4.3.crate",
-        "sha256": "3587334d8bdcc3fd7338845341b150ff97f961cabdb7b420c194ff1bb7e5ee86",
+        "url": "https://static.crates.io/crates/native-dialog/native-dialog-0.5.2.crate",
+        "sha256": "9f491dab19c26687b897fcb4ecaa984fc87a7dd5a21d69f48eab41e254116981",
         "dest": "cargo/vendor",
-        "dest-filename": "native-dialog-0.4.3.crate"
+        "dest-filename": "native-dialog-0.5.2.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%223587334d8bdcc3fd7338845341b150ff97f961cabdb7b420c194ff1bb7e5ee86%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/native-dialog-0.4.3",
+        "url": "data:%7B%22package%22%3A%20%229f491dab19c26687b897fcb4ecaa984fc87a7dd5a21d69f48eab41e254116981%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/native-dialog-0.5.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4999,19 +5012,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22dacdec97876ef3ede8c50efc429220641a0b11ba0048b4b0c357bccbc47c5204%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/ordered-float-2.0.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/osascript/osascript-0.3.0.crate",
-        "sha256": "38731fa859ef679f1aec66ca9562165926b442f298467f76f5990f431efe87dc",
-        "dest": "cargo/vendor",
-        "dest-filename": "osascript-0.3.0.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2238731fa859ef679f1aec66ca9562165926b442f298467f76f5990f431efe87dc%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/osascript-0.3.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
