@@ -8422,15 +8422,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/wfd/wfd-0.1.4.crate",
-        "sha256": "26dc321f50616fda50ecd30cc7330c2eff16c299e9df0ae8af1760971ce8b1d3",
+        "url": "https://static.crates.io/crates/wfd/wfd-0.1.7.crate",
+        "sha256": "e713040b67aae5bf1a0ae3e1ebba8cc29ab2b90da9aa1bff6e09031a8a41d7a8",
         "dest": "cargo/vendor",
-        "dest-filename": "wfd-0.1.4.crate"
+        "dest-filename": "wfd-0.1.7.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2226dc321f50616fda50ecd30cc7330c2eff16c299e9df0ae8af1760971ce8b1d3%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/wfd-0.1.4",
+        "url": "data:%7B%22package%22%3A%20%22e713040b67aae5bf1a0ae3e1ebba8cc29ab2b90da9aa1bff6e09031a8a41d7a8%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/wfd-0.1.7",
         "dest-filename": ".cargo-checksum.json"
     },
     {
