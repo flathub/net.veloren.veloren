@@ -1,8 +1,8 @@
 name: Auto update
 
 env:
-  BUILDER_TOOLS_URL: https://github.com/gasinvein/flatpak-builder-tools.git
-  BUILDER_TOOLS_BRANCH: cargo-git-http
+  BUILDER_TOOLS_URL: https://github.com/flatpak/flatpak-builder-tools.git
+  BUILDER_TOOLS_BRANCH: master
 
 on:
   schedule:
