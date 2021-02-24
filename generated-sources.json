@@ -1484,19 +1484,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/crossbeam-channel/crossbeam-channel-0.3.9.crate",
-        "sha256": "c8ec7fcd21571dc78f96cc96243cab8d8f035247c3efd16c687be154c3fa9efa",
-        "dest": "cargo/vendor",
-        "dest-filename": "crossbeam-channel-0.3.9.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22c8ec7fcd21571dc78f96cc96243cab8d8f035247c3efd16c687be154c3fa9efa%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/crossbeam-channel-0.3.9",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/crossbeam-channel/crossbeam-channel-0.5.0.crate",
         "sha256": "dca26ee1f8d361640700bde38b2c37d8c22b3ce2d360e1fc1c74ea4b0aa7d775",
         "dest": "cargo/vendor",
@@ -1571,19 +1558,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%220f6cb3c7f5b8e51bc3ebb73a2327ad4abdbd119dc13223f14f961d2f38486756%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/crossbeam-queue-0.3.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/crossbeam-utils/crossbeam-utils-0.6.6.crate",
-        "sha256": "04973fa96e96579258a5091af6003abde64af786b860f18622b82e026cca60e6",
-        "dest": "cargo/vendor",
-        "dest-filename": "crossbeam-utils-0.6.6.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2204973fa96e96579258a5091af6003abde64af786b860f18622b82e026cca60e6%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/crossbeam-utils-0.6.6",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2468,19 +2442,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2213de07eb8ea81ae445aca7b69f5f7bf15d7bf4912d8ca37d6645c77ae8a58d86%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/futures-task-0.3.12",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/futures-timer/futures-timer-3.0.2.crate",
-        "sha256": "e64b03909df88034c26dc1547e8970b91f98bdb65165d6a4e9110d94263dbb2c",
-        "dest": "cargo/vendor",
-        "dest-filename": "futures-timer-3.0.2.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22e64b03909df88034c26dc1547e8970b91f98bdb65165d6a4e9110d94263dbb2c%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/futures-timer-3.0.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6265,6 +6226,27 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/amethyst/specs/tar.gz/d4435bdf496cf322c74886ca09dd8795984919b4",
+        "sha256": "381445afc87b14b4f8171c000615f134aecb1ef37530a02dd8ff3524e49b1864",
+        "dest": "cargo/vendor/specs-derive"
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mv cargo/vendor/specs-derive cargo/vendor/specs-derive.repo",
+            "mv cargo/vendor/specs-derive.repo/specs-derive cargo/vendor/specs-derive",
+            "rm -rf cargo/vendor/specs-derive.repo"
+        ]
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20null%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/specs-derive",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/specs-idvs/repository/archive.tar.gz?ref=9fab7b396acd6454585486e50ae4bfe2069858a9",
         "sha256": "6060e22604698275e5e53e48256e5b8630816b9ac74fbcf2bc89cbd996f3bb59",
         "dest": "cargo/vendor/specs-idvs"
@@ -7261,19 +7243,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22bc5cf98d8186244414c848017f0e2676b3fcb46807f6668a97dfe67359a3c4b7%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/uuid-0.8.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/uvth/uvth-3.1.1.crate",
-        "sha256": "e59a167890d173eb0fcd7a1b99b84dc05c521ae8d76599130b8e19bef287abbf",
-        "dest": "cargo/vendor",
-        "dest-filename": "uvth-3.1.1.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22e59a167890d173eb0fcd7a1b99b84dc05c521ae8d76599130b8e19bef287abbf%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/uvth-3.1.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
