@@ -2,8 +2,6 @@ app-id: net.veloren.veloren
 runtime: org.freedesktop.Platform
 runtime-version: '20.08'
 sdk: org.freedesktop.Sdk
-sdk-extensions:
-  - org.freedesktop.Sdk.Extension.rust-nightly
 command: veloren-voxygen
 finish-args:
   - --device=all
@@ -13,14 +11,42 @@ finish-args:
   - --socket=pulseaudio
   - --socket=x11
   - --socket=wayland
-build-options:
-  append-path: /usr/lib/sdk/rust-nightly/bin
-  env:
-    RUSTFLAGS: --remap-path-prefix =../
-    CARGO_HOME: /run/build/veloren/cargo
-    VELOREN_USERDATA_STRATEGY: system
 modules:
+  - name: rust-nightly
+    build-options:
+      no-debuginfo: true
+    buildsystem: simple
+    build-commands:
+      - ./install.sh --prefix=/app --without=rust-docs --disable-ldconfig --verbose
+    cleanup:
+      - '*'
+    sources:
+      - type: archive
+        only-arches: [x86_64]
+        url: https://static.rust-lang.org/dist/2021-01-01/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
+        sha256: 7b7139372619ce67914d99d96dfedbc8d33105dbb05f7c5c60d3c5a9ea2be4e0
+        x-checker-data:
+          type: html
+          url: https://gitlab.com/veloren/veloren/-/raw/master/rust-toolchain
+          version-pattern: nightly-(\d\d\d\d-\d\d-\d\d)
+          url-template: https://static.rust-lang.org/dist/$version/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
+
+      - type: archive
+        only-arches: [aarch64]
+        url: https://static.rust-lang.org/dist/2021-01-01/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
+        sha256: e5ebff07432600319ced4909e1fdd5aa45802f4f21a63f0b350f6b98fd0c2054
+        x-checker-data:
+          type: html
+          url: https://gitlab.com/veloren/veloren/-/raw/master/rust-toolchain
+          version-pattern: nightly-(\d\d\d\d-\d\d-\d\d)
+          url-template: https://static.rust-lang.org/dist/$version/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
+
   - name: veloren
+    build-options:
+      env:
+        RUSTFLAGS: --remap-path-prefix =../
+        CARGO_HOME: /run/build/veloren/cargo
+        VELOREN_USERDATA_STRATEGY: system
     buildsystem: simple
     build-commands:
       # Unoptimize dev/debug builds to speed up build process
