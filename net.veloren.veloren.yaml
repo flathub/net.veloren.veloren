@@ -15,12 +15,13 @@ finish-args:
   - --socket=wayland
 build-options:
   append-path: /usr/lib/sdk/rust-nightly/bin
-  env:
-    RUSTFLAGS: --remap-path-prefix =../
-    CARGO_HOME: /run/build/veloren/cargo
-    VELOREN_USERDATA_STRATEGY: system
 modules:
   - name: veloren
+    build-options:
+      env:
+        RUSTFLAGS: --remap-path-prefix =../
+        CARGO_HOME: /run/build/veloren/cargo
+        VELOREN_USERDATA_STRATEGY: system
     buildsystem: simple
     build-commands:
       # Unoptimize dev/debug builds to speed up build process
