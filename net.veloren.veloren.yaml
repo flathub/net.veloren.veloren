@@ -23,8 +23,8 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://static.rust-lang.org/dist/2021-01-01/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
-        sha256: 7b7139372619ce67914d99d96dfedbc8d33105dbb05f7c5c60d3c5a9ea2be4e0
+        url: https://static.rust-lang.org/dist/2021-03-22/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
+        sha256: c28ed18f123370bfbebf6b3293f427dbd9999670d5219fe05ee1b142beea057b
         x-checker-data:
           type: html
           url: https://gitlab.com/veloren/veloren/-/raw/master/rust-toolchain
@@ -33,8 +33,8 @@ modules:
 
       - type: archive
         only-arches: [aarch64]
-        url: https://static.rust-lang.org/dist/2021-01-01/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
-        sha256: e5ebff07432600319ced4909e1fdd5aa45802f4f21a63f0b350f6b98fd0c2054
+        url: https://static.rust-lang.org/dist/2021-03-22/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
+        sha256: 833430a326981f1727b24e333882bcb241ec22b237cc66d78ecc82363b472706
         x-checker-data:
           type: html
           url: https://gitlab.com/veloren/veloren/-/raw/master/rust-toolchain
