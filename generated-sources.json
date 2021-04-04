@@ -380,7 +380,7 @@
         "type": "archive",
         "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/auth/repository/archive.tar.gz?ref=fb3dcbc4962b367253f8f2f92760ef44d2679c9a",
-        "sha256": "a08ab09271ec1540ebc91fe5de86ac0d6d8ede3c599cff824f78222fcf380ecf",
+        "sha256": "72017f9769f6708c67cdb28b5776fe5b97a53bf42dba626be20df8f2007eb52b",
         "dest": "cargo/vendor/auth-common"
     },
     {
@@ -401,7 +401,7 @@
         "type": "archive",
         "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/auth/repository/archive.tar.gz?ref=fb3dcbc4962b367253f8f2f92760ef44d2679c9a",
-        "sha256": "b969a3589037b4a0041ed833e2c2ae7fc4cff71712bd5fddb52ee546ab635c6b",
+        "sha256": "65ad5f91d96f9fb9a21183e46a5c7069fa0876ba518c36fe9b867f5d6019ba6d",
         "dest": "cargo/vendor/authc"
     },
     {
@@ -968,7 +968,7 @@
         "type": "archive",
         "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/conrod/repository/archive.tar.gz?ref=1ae5193588fb662a7189d81edd9f2d653c7f1da0",
-        "sha256": "adde127adce939d4eca2fa7459b299612a215cddba10515130423c7e34e70ec2",
+        "sha256": "829704efaae255b47c47d12a332e2205f173580df38c3778293d192ed1cfd8ad",
         "dest": "cargo/vendor/conrod_core"
     },
     {
@@ -989,7 +989,7 @@
         "type": "archive",
         "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/conrod/repository/archive.tar.gz?ref=1ae5193588fb662a7189d81edd9f2d653c7f1da0",
-        "sha256": "dcc6e63e8eabcb3eff6fd834951398841481e9505a6f5b06c606acfffe0ed3f5",
+        "sha256": "52ce28358df422ade32333f7dc475179ea00355091a218e14577b48feaf15004",
         "dest": "cargo/vendor/conrod_derive"
     },
     {
@@ -1010,7 +1010,7 @@
         "type": "archive",
         "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/conrod/repository/archive.tar.gz?ref=1ae5193588fb662a7189d81edd9f2d653c7f1da0",
-        "sha256": "fe019fab906af7b87fca510bbe46ca36c62fc38fddf5a0b63351ff1a98c653b8",
+        "sha256": "8dd617f2987205edec13ba97cbe8e22808c78d55b849a6bfcae1f76ba8312580",
         "dest": "cargo/vendor/conrod_winit"
     },
     {
@@ -6105,7 +6105,7 @@
         "type": "archive",
         "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/specs-idvs/repository/archive.tar.gz?ref=b65fb220e94f5d3c9bc30074a076149763795556",
-        "sha256": "960173e31be09b904dddc5d4670f47e8bcaf6e0f3b3423d8648c88e2d5a9d61f",
+        "sha256": "edab7dbf5e92751f812efd187ac8c2853def93b48565ccd190d15542392928b9",
         "dest": "cargo/vendor/specs-idvs"
     },
     {
@@ -7041,7 +7041,7 @@
         "type": "archive",
         "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/vek/repository/archive.tar.gz?ref=df6842cc874a697dec8896c66851817e744af7e8",
-        "sha256": "834e03fa8283f999604ceaf0ceda7b92a883f49acb0540d39f9d96f163ad206b",
+        "sha256": "55f6d9c34d4373cc0cf1e61ad7f075ba38cd92f15e5be5865ae4fc39f5e2116b",
         "dest": "cargo/vendor/vek"
     },
     {
@@ -7743,7 +7743,7 @@
         "type": "archive",
         "archive-type": "tar-gzip",
         "url": "https://gitlab.com/veloren/winit/repository/archive.tar.gz?ref=488c511802dfd95ca54f6f76a38547c93c7b02c9",
-        "sha256": "db928bbb939c2494c595cf0d56d12ac31e981c3a5dbe735e8940e81473f8ae55",
+        "sha256": "16aa53791177a46745a56a9f68173fb11aa80a8c711cfee0656c6f2dbd2e31c0",
         "dest": "cargo/vendor/winit"
     },
     {
