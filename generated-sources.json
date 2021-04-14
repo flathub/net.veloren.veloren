@@ -1718,45 +1718,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/diesel/diesel-1.4.6.crate",
-        "sha256": "047bfc4d5c3bd2ef6ca6f981941046113524b9a9f9a7cbdfdd7ff40f58e6f542",
-        "dest": "cargo/vendor",
-        "dest-filename": "diesel-1.4.6.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22047bfc4d5c3bd2ef6ca6f981941046113524b9a9f9a7cbdfdd7ff40f58e6f542%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/diesel-1.4.6",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/diesel_derives/diesel_derives-1.4.1.crate",
-        "sha256": "45f5098f628d02a7a0f68ddba586fb61e80edec3bdc1be3b921f4ceec60858d3",
-        "dest": "cargo/vendor",
-        "dest-filename": "diesel_derives-1.4.1.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2245f5098f628d02a7a0f68ddba586fb61e80edec3bdc1be3b921f4ceec60858d3%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/diesel_derives-1.4.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/diesel_migrations/diesel_migrations-1.4.0.crate",
-        "sha256": "bf3cde8413353dc7f5d72fa8ce0b99a560a359d2c5ef1e5817ca731cd9008f4c",
-        "dest": "cargo/vendor",
-        "dest-filename": "diesel_migrations-1.4.0.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22bf3cde8413353dc7f5d72fa8ce0b99a560a359d2c5ef1e5817ca731cd9008f4c%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/diesel_migrations-1.4.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/directories-next/directories-next-2.0.0.crate",
         "sha256": "339ee130d97a610ea5a5872d2bbb130fdf68884ff09d3028b81bec8a1ac23bbc",
         "dest": "cargo/vendor",
@@ -2065,6 +2026,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%224443176a9f2c162692bd3d352d745ef9413eec5782a80d8fd6f8a1ac692a07f7%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/fallible-iterator-0.2.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/fallible-streaming-iterator/fallible-streaming-iterator-0.1.9.crate",
+        "sha256": "7360491ce676a36bf9bb3c56c1aa791658183a54d2744120f27285738d90465a",
+        "dest": "cargo/vendor",
+        "dest-filename": "fallible-streaming-iterator-0.1.9.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%227360491ce676a36bf9bb3c56c1aa791658183a54d2744120f27285738d90465a%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/fallible-streaming-iterator-0.1.9",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -2875,6 +2849,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/hashlink/hashlink-0.6.0.crate",
+        "sha256": "d99cf782f0dc4372d26846bec3de7804ceb5df083c2d4462c0b8d2330e894fa8",
+        "dest": "cargo/vendor",
+        "dest-filename": "hashlink-0.6.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22d99cf782f0dc4372d26846bec3de7804ceb5df083c2d4462c0b8d2330e894fa8%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/hashlink-0.6.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/heapless/heapless-0.5.6.crate",
         "sha256": "74911a68a1658cfcfb61bc0ccfbd536e3b6e906f8c2f7883ee50157e3e2184f1",
         "dest": "cargo/vendor",
@@ -3404,6 +3391,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/keyboard-keynames/keyboard-keynames-0.1.0.crate",
+        "sha256": "f6dbe132877d7a0327c4282840703c2cb456312fae930898b5dc126844889626",
+        "dest": "cargo/vendor",
+        "dest-filename": "keyboard-keynames-0.1.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22f6dbe132877d7a0327c4282840703c2cb456312fae930898b5dc126844889626%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/keyboard-keynames-0.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/khronos_api/khronos_api-3.1.0.crate",
         "sha256": "e2db585e1d738fc771bf08a151420d3ed193d9d895a36df7f6f8a9456b911ddc",
         "dest": "cargo/vendor",
@@ -3573,15 +3573,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/libsqlite3-sys/libsqlite3-sys-0.18.0.crate",
-        "sha256": "1e704a02bcaecd4a08b93a23f6be59d0bd79cd161e0963e9499165a0a35df7bd",
+        "url": "https://static.crates.io/crates/libsqlite3-sys/libsqlite3-sys-0.20.1.crate",
+        "sha256": "64d31059f22935e6c31830db5249ba2b7ecd54fd73a9909286f0a67aa55c2fbd",
         "dest": "cargo/vendor",
-        "dest-filename": "libsqlite3-sys-0.18.0.crate"
+        "dest-filename": "libsqlite3-sys-0.20.1.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%221e704a02bcaecd4a08b93a23f6be59d0bd79cd161e0963e9499165a0a35df7bd%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/libsqlite3-sys-0.18.0",
+        "url": "data:%7B%22package%22%3A%20%2264d31059f22935e6c31830db5249ba2b7ecd54fd73a9909286f0a67aa55c2fbd%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/libsqlite3-sys-0.20.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3781,6 +3781,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/memmap/memmap-0.7.0.crate",
+        "sha256": "6585fd95e7bb50d6cc31e20d4cf9afb4e2ba16c5846fc76793f11218da9c475b",
+        "dest": "cargo/vendor",
+        "dest-filename": "memmap-0.7.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%226585fd95e7bb50d6cc31e20d4cf9afb4e2ba16c5846fc76793f11218da9c475b%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/memmap-0.7.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/memmap2/memmap2-0.1.0.crate",
         "sha256": "d9b70ca2a6103ac8b665dc150b142ef0e4e89df640c9e6cf295d189c3caebe5a",
         "dest": "cargo/vendor",
@@ -3829,32 +3842,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22f83fb6581e8ed1f85fd45c116db8405483899489e38406156c25eb743554361d%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/memoffset-0.6.3",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/migrations_internals/migrations_internals-1.4.1.crate",
-        "sha256": "2b4fc84e4af020b837029e017966f86a1c2d5e83e64b589963d5047525995860",
-        "dest": "cargo/vendor",
-        "dest-filename": "migrations_internals-1.4.1.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%222b4fc84e4af020b837029e017966f86a1c2d5e83e64b589963d5047525995860%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/migrations_internals-1.4.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/migrations_macros/migrations_macros-1.4.2.crate",
-        "sha256": "9753f12909fd8d923f75ae5c3258cae1ed3c8ec052e1b38c93c21a6d157f789c",
-        "dest": "cargo/vendor",
-        "dest-filename": "migrations_macros-1.4.2.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%229753f12909fd8d923f75ae5c3258cae1ed3c8ec052e1b38c93c21a6d157f789c%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/migrations_macros-1.4.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5379,6 +5366,69 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/refinery/-/archive/8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e/refinery-8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e.tar.gz",
+        "sha256": "5b66f3a324504b64edf02806953fa5228578b5ab70837fba10736dab2ac60df0",
+        "dest": "cargo/vendor/refinery"
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mv cargo/vendor/refinery cargo/vendor/refinery.repo",
+            "mv cargo/vendor/refinery.repo/refinery cargo/vendor/refinery",
+            "rm -rf cargo/vendor/refinery.repo"
+        ]
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20null%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/refinery",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/refinery/-/archive/8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e/refinery-8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e.tar.gz",
+        "sha256": "5b66f3a324504b64edf02806953fa5228578b5ab70837fba10736dab2ac60df0",
+        "dest": "cargo/vendor/refinery-core"
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mv cargo/vendor/refinery-core cargo/vendor/refinery-core.repo",
+            "mv cargo/vendor/refinery-core.repo/refinery_core cargo/vendor/refinery-core",
+            "rm -rf cargo/vendor/refinery-core.repo"
+        ]
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20null%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/refinery-core",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/refinery/-/archive/8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e/refinery-8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e.tar.gz",
+        "sha256": "5b66f3a324504b64edf02806953fa5228578b5ab70837fba10736dab2ac60df0",
+        "dest": "cargo/vendor/refinery-macros"
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mv cargo/vendor/refinery-macros cargo/vendor/refinery-macros.repo",
+            "mv cargo/vendor/refinery-macros.repo/refinery_macros cargo/vendor/refinery-macros",
+            "rm -rf cargo/vendor/refinery-macros.repo"
+        ]
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20null%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/refinery-macros",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
         "type": "file",
         "url": "https://static.crates.io/crates/regalloc/regalloc-0.0.31.crate",
         "sha256": "571f7f397d61c4755285cd37853fe8e03271c243424a907415909379659381c5",
@@ -5506,6 +5556,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2284348444bd7ad45729d0c49a4240d7cdc11c9d512c06c5ad1835c1ad4acda6db%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/roots-0.0.6",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/rusqlite/rusqlite-0.24.2.crate",
+        "sha256": "d5f38ee71cbab2c827ec0ac24e76f82eca723cee92c509a65f67dee393c25112",
+        "dest": "cargo/vendor",
+        "dest-filename": "rusqlite-0.24.2.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22d5f38ee71cbab2c827ec0ac24e76f82eca723cee92c509a65f67dee393c25112%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/rusqlite-0.24.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6039,6 +6102,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2216f1d0fef1604ba8f7a073c7e701f213e056707210e9020af4528e0101ce11a6%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/signal-hook-registry-1.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/siphasher/siphasher-0.3.3.crate",
+        "sha256": "fa8f3741c7372e75519bd9346068370c9cdaabcc1f9599cbcf2a2719352286b7",
+        "dest": "cargo/vendor",
+        "dest-filename": "siphasher-0.3.3.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22fa8f3741c7372e75519bd9346068370c9cdaabcc1f9599cbcf2a2719352286b7%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/siphasher-0.3.3",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -7936,6 +8012,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/xcb/xcb-0.8.2.crate",
+        "sha256": "5e917a3f24142e9ff8be2414e36c649d47d6cc2ba81f16201cdef96e533e02de",
+        "dest": "cargo/vendor",
+        "dest-filename": "xcb-0.8.2.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%225e917a3f24142e9ff8be2414e36c649d47d6cc2ba81f16201cdef96e533e02de%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/xcb-0.8.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/xcb/xcb-0.9.0.crate",
         "sha256": "62056f63138b39116f82a540c983cc11f1c90cd70b3d492a70c25eaa50bd22a6",
         "dest": "cargo/vendor",
@@ -8001,6 +8090,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/xkbcommon/xkbcommon-0.4.0.crate",
+        "sha256": "fda0ea5f7ddabd51deeeda7799bee06274112f577da7dd3d954b8eda731b2fce",
+        "dest": "cargo/vendor",
+        "dest-filename": "xkbcommon-0.4.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22fda0ea5f7ddabd51deeeda7799bee06274112f577da7dd3d954b8eda731b2fce%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/xkbcommon-0.4.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/xkbcommon-sys/xkbcommon-sys-0.7.4.crate",
         "sha256": "fa434980dca02ebf28795d71e570dbb78316d095a228707efd6117bf8246d78b",
         "dest": "cargo/vendor",
@@ -8034,7 +8136,7 @@
     },
     {
         "type": "file",
-        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/auth%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/auth%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22fb3dcbc4962b367253f8f2f92760ef44d2679c9a%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/conrod%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/conrod%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22copypasta_0.7%22%0A%0A%5Bsource.%22https%3A//github.com/hecrj/iced%22%5D%0Agit%20%3D%20%22https%3A//github.com/hecrj/iced%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%228d882d787e6b7fd7c2435f42f82933e2ed904edf%22%0A%0A%5Bsource.%22https%3A//github.com/xmac94x/portpicker-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/xmac94x/portpicker-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22df6b37872f3586ac3b21d08b56c8ec7cd92fb172%22%0A%0A%5Bsource.%22https%3A//github.com/amethyst/specs%22%5D%0Agit%20%3D%20%22https%3A//github.com/amethyst/specs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%225a9b71035007be0e3574f35184acac1cd4530496%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/specs-idvs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/specs-idvs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22b65fb220e94f5d3c9bc30074a076149763795556%22%0A%0A%5Bsource.%22https%3A//github.com/fdehau/tui-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/fdehau/tui-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22paragraph-scroll%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/vek%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/vek%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22fix_intrinsics2%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/winit%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/winit%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22macos-test-spiffed%22%0A",
+        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/auth%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/auth%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22fb3dcbc4962b367253f8f2f92760ef44d2679c9a%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/conrod%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/conrod%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22copypasta_0.7%22%0A%0A%5Bsource.%22https%3A//github.com/hecrj/iced%22%5D%0Agit%20%3D%20%22https%3A//github.com/hecrj/iced%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%228d882d787e6b7fd7c2435f42f82933e2ed904edf%22%0A%0A%5Bsource.%22https%3A//github.com/xmac94x/portpicker-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/xmac94x/portpicker-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22df6b37872f3586ac3b21d08b56c8ec7cd92fb172%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/refinery%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/refinery%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%228ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e%22%0A%0A%5Bsource.%22https%3A//github.com/amethyst/specs%22%5D%0Agit%20%3D%20%22https%3A//github.com/amethyst/specs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%225a9b71035007be0e3574f35184acac1cd4530496%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/specs-idvs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/specs-idvs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22b65fb220e94f5d3c9bc30074a076149763795556%22%0A%0A%5Bsource.%22https%3A//github.com/fdehau/tui-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/fdehau/tui-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22paragraph-scroll%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/vek%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/vek%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22fix_intrinsics2%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/winit%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/winit%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22macos-test-spiffed%22%0A",
         "dest": "cargo",
         "dest-filename": "config"
     }
