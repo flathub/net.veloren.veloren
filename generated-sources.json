@@ -2927,19 +2927,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/hound/hound-3.4.0.crate",
-        "sha256": "8a164bb2ceaeff4f42542bdb847c41517c78a60f5649671b2a07312b6e117549",
-        "dest": "cargo/vendor",
-        "dest-filename": "hound-3.4.0.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%228a164bb2ceaeff4f42542bdb847c41517c78a60f5649671b2a07312b6e117549%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/hound-3.4.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/http/http-0.2.4.crate",
         "sha256": "527e8c9ac747e28542699a951517aa9a6945af506cd1f2e1b53a576c17b6cc11",
         "dest": "cargo/vendor",
