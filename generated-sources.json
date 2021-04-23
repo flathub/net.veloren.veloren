@@ -1692,6 +1692,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/deflate/deflate-0.9.1.crate",
+        "sha256": "5f95bf05dffba6e6cce8dfbb30def788154949ccd9aed761b472119c21e01c70",
+        "dest": "cargo/vendor",
+        "dest-filename": "deflate-0.9.1.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%225f95bf05dffba6e6cce8dfbb30def788154949ccd9aed761b472119c21e01c70%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/deflate-0.9.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/derivative/derivative-2.2.0.crate",
         "sha256": "fcc3dd5e9e9c0b295d6e1e4d811fb6f157d5ffd784b8d202fc62eac8035a770b",
         "dest": "cargo/vendor",
