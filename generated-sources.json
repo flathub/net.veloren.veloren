@@ -261,19 +261,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/arraygen/arraygen-0.1.14.crate",
-        "sha256": "5a1ae06b5f52588295bfd019b837b6fb1a6914d58ece30b0c43ae439ef08e562",
-        "dest": "cargo/vendor",
-        "dest-filename": "arraygen-0.1.14.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%225a1ae06b5f52588295bfd019b837b6fb1a6914d58ece30b0c43ae439ef08e562%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/arraygen-0.1.14",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/arrayref/arrayref-0.3.6.crate",
         "sha256": "a4c527152e37cf757a3f78aae5a06fbeefdb07ccc535c980a3208ee3060dd544",
         "dest": "cargo/vendor",
@@ -1848,19 +1835,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/dotenv/dotenv-0.15.0.crate",
-        "sha256": "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f",
-        "dest": "cargo/vendor",
-        "dest-filename": "dotenv-0.15.0.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2277c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/dotenv-0.15.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/downcast-rs/downcast-rs-1.2.0.crate",
         "sha256": "9ea835d29036a4087793836fa931b08837ad5e957da9e23886b29586fb9b6650",
         "dest": "cargo/vendor",
@@ -3192,19 +3166,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22824845a0bf897a9042383849b02c1bc219c2383772efcd5c6f9766fa4b81aef3%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/indexmap-1.6.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/inline_tweak/inline_tweak-1.0.8.crate",
-        "sha256": "7033e97b20277cc0d043226d1940fa7719ff08d2305d1fc7421e53066d00eb4b",
-        "dest": "cargo/vendor",
-        "dest-filename": "inline_tweak-1.0.8.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%227033e97b20277cc0d043226d1940fa7719ff08d2305d1fc7421e53066d00eb4b%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/inline_tweak-1.0.8",
         "dest-filename": ".cargo-checksum.json"
     },
     {
