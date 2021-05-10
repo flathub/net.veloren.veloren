@@ -2589,15 +2589,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/git2/git2-0.13.17.crate",
-        "sha256": "1d250f5f82326884bd39c2853577e70a121775db76818ffa452ed1e80de12986",
+        "url": "https://static.crates.io/crates/git2/git2-0.12.0.crate",
+        "sha256": "26e07ef27260a78f7e8d218ebac2c72f2c4db50493741b190b6e8eade1da7c68",
         "dest": "cargo/vendor",
-        "dest-filename": "git2-0.13.17.crate"
+        "dest-filename": "git2-0.12.0.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%221d250f5f82326884bd39c2853577e70a121775db76818ffa452ed1e80de12986%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/git2-0.13.17",
+        "url": "data:%7B%22package%22%3A%20%2226e07ef27260a78f7e8d218ebac2c72f2c4db50493741b190b6e8eade1da7c68%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/git2-0.12.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3469,15 +3469,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/libgit2-sys/libgit2-sys-0.12.18+1.1.0.crate",
-        "sha256": "3da6a42da88fc37ee1ecda212ffa254c25713532980005d5f7c0b0fbe7e6e885",
+        "url": "https://static.crates.io/crates/libgit2-sys/libgit2-sys-0.11.0+0.99.0.crate",
+        "sha256": "4d5d1459353d397a029fb18862166338de938e6be976606bd056cf8f1a912ecf",
         "dest": "cargo/vendor",
-        "dest-filename": "libgit2-sys-0.12.18+1.1.0.crate"
+        "dest-filename": "libgit2-sys-0.11.0+0.99.0.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%223da6a42da88fc37ee1ecda212ffa254c25713532980005d5f7c0b0fbe7e6e885%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/libgit2-sys-0.12.18+1.1.0",
+        "url": "data:%7B%22package%22%3A%20%224d5d1459353d397a029fb18862166338de938e6be976606bd056cf8f1a912ecf%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/libgit2-sys-0.11.0+0.99.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3556,19 +3556,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2264d31059f22935e6c31830db5249ba2b7ecd54fd73a9909286f0a67aa55c2fbd%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/libsqlite3-sys-0.20.1",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/libssh2-sys/libssh2-sys-0.2.21.crate",
-        "sha256": "e0186af0d8f171ae6b9c4c90ec51898bad5d08a2d5e470903a50d9ad8959cbee",
-        "dest": "cargo/vendor",
-        "dest-filename": "libssh2-sys-0.2.21.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22e0186af0d8f171ae6b9c4c90ec51898bad5d08a2d5e470903a50d9ad8959cbee%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/libssh2-sys-0.2.21",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4583,19 +4570,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2277af24da69f9d9341038eba93a073b1fdaaa1b788221b00a69bce9e762cb32de%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/openssl-probe-0.1.2",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/openssl-sys/openssl-sys-0.9.61.crate",
-        "sha256": "313752393519e876837e09e1fa183ddef0be7735868dced3196f4472d536277f",
-        "dest": "cargo/vendor",
-        "dest-filename": "openssl-sys-0.9.61.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22313752393519e876837e09e1fa183ddef0be7735868dced3196f4472d536277f%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/openssl-sys-0.9.61",
         "dest-filename": ".cargo-checksum.json"
     },
     {
