@@ -352,6 +352,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/atomicwrites/atomicwrites-0.3.0.crate",
+        "sha256": "d4830ac690261d0b47f06e86d18c47eaa65d0184e576cf9b62c3a49b28cb876b",
+        "dest": "cargo/vendor",
+        "dest-filename": "atomicwrites-0.3.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22d4830ac690261d0b47f06e86d18c47eaa65d0184e576cf9b62c3a49b28cb876b%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/atomicwrites-0.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/atty/atty-0.2.14.crate",
         "sha256": "d9b39be18770d11421cdb1b9947a45dd3f37e93092cbf377614828a319d5fee8",
         "dest": "cargo/vendor",
@@ -2962,6 +2975,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22494b4d60369511e7dea41cf646832512a94e542f68bb9c49e54518e0f468eb47%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/httpdate-0.3.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/humantime/humantime-2.1.0.crate",
+        "sha256": "9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4",
+        "dest": "cargo/vendor",
+        "dest-filename": "humantime-2.1.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%229a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/humantime-2.1.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5998,6 +6024,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%225a9e7e0f2bfae24d8a5b5a66c5b257a83c7412304311512a0c054cd5e619da11%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/shared_library-0.1.9",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/shell-words/shell-words-1.0.0.crate",
+        "sha256": "b6fa3938c99da4914afedd13bf3d79bcb6c277d1b2c398d23257a304d9e1b074",
+        "dest": "cargo/vendor",
+        "dest-filename": "shell-words-1.0.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22b6fa3938c99da4914afedd13bf3d79bcb6c277d1b2c398d23257a304d9e1b074%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/shell-words-1.0.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
