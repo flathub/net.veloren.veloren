@@ -993,8 +993,8 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/conrod/-/archive/1ae5193588fb662a7189d81edd9f2d653c7f1da0/conrod-1ae5193588fb662a7189d81edd9f2d653c7f1da0.tar.gz",
-        "sha256": "23ac9bb66ca9964a52346a1f043bcf0838a646d88ab6200319fb78ea1b1dbfc1",
+        "url": "https://gitlab.com/veloren/conrod/-/archive/ca9fd429ca7db854e018acc6dcb2cd8abd9e070d/conrod-ca9fd429ca7db854e018acc6dcb2cd8abd9e070d.tar.gz",
+        "sha256": "26fafb4d05a0f47fd66a4350d664ed63bc3a7ac00aed289d50f8f9e3dc12a877",
         "dest": "cargo/vendor/conrod_core"
     },
     {
@@ -1014,8 +1014,8 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/conrod/-/archive/1ae5193588fb662a7189d81edd9f2d653c7f1da0/conrod-1ae5193588fb662a7189d81edd9f2d653c7f1da0.tar.gz",
-        "sha256": "23ac9bb66ca9964a52346a1f043bcf0838a646d88ab6200319fb78ea1b1dbfc1",
+        "url": "https://gitlab.com/veloren/conrod/-/archive/ca9fd429ca7db854e018acc6dcb2cd8abd9e070d/conrod-ca9fd429ca7db854e018acc6dcb2cd8abd9e070d.tar.gz",
+        "sha256": "26fafb4d05a0f47fd66a4350d664ed63bc3a7ac00aed289d50f8f9e3dc12a877",
         "dest": "cargo/vendor/conrod_derive"
     },
     {
@@ -1035,8 +1035,8 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/conrod/-/archive/1ae5193588fb662a7189d81edd9f2d653c7f1da0/conrod-1ae5193588fb662a7189d81edd9f2d653c7f1da0.tar.gz",
-        "sha256": "23ac9bb66ca9964a52346a1f043bcf0838a646d88ab6200319fb78ea1b1dbfc1",
+        "url": "https://gitlab.com/veloren/conrod/-/archive/ca9fd429ca7db854e018acc6dcb2cd8abd9e070d/conrod-ca9fd429ca7db854e018acc6dcb2cd8abd9e070d.tar.gz",
+        "sha256": "26fafb4d05a0f47fd66a4350d664ed63bc3a7ac00aed289d50f8f9e3dc12a877",
         "dest": "cargo/vendor/conrod_winit"
     },
     {
