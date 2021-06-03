@@ -1380,19 +1380,6 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/crossbeam/crossbeam-0.8.0.crate",
-        "sha256": "fd01a6eb3daaafa260f6fc94c3a6c36390abc2080e38e3e34ced87393fb77d80",
-        "dest": "cargo/vendor",
-        "dest-filename": "crossbeam-0.8.0.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22fd01a6eb3daaafa260f6fc94c3a6c36390abc2080e38e3e34ced87393fb77d80%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/crossbeam-0.8.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
         "url": "https://static.crates.io/crates/crossbeam-channel/crossbeam-channel-0.5.0.crate",
         "sha256": "dca26ee1f8d361640700bde38b2c37d8c22b3ce2d360e1fc1c74ea4b0aa7d775",
         "dest": "cargo/vendor",
@@ -4678,15 +4665,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/packed_simd_2/packed_simd_2-0.3.4.crate",
-        "sha256": "3278e0492f961fd4ae70909f56b2723a7e8d01a228427294e19cdfdebda89a17",
+        "url": "https://static.crates.io/crates/packed_simd_2/packed_simd_2-0.3.5.crate",
+        "sha256": "0e64858a2d3733fdd61adfdd6da89aa202f7ff0e741d2fc7ed1e452ba9dc99d7",
         "dest": "cargo/vendor",
-        "dest-filename": "packed_simd_2-0.3.4.crate"
+        "dest-filename": "packed_simd_2-0.3.5.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%223278e0492f961fd4ae70909f56b2723a7e8d01a228427294e19cdfdebda89a17%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/packed_simd_2-0.3.4",
+        "url": "data:%7B%22package%22%3A%20%220e64858a2d3733fdd61adfdd6da89aa202f7ff0e741d2fc7ed1e452ba9dc99d7%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/packed_simd_2-0.3.5",
         "dest-filename": ".cargo-checksum.json"
     },
     {
