@@ -70,7 +70,7 @@ modules:
       # Automatically add build version and date into AppData
       - |
         set -e
-        VERSION=0.9.0-$(git describe --tags --always | sed 's/^[vV]//')
+        VERSION=0.10.0-$(git describe --tags --always | sed 's/^[vV]//')
         DATE=$(date -d @$(git show -s --format=%ct) +'%Y-%m-%d')
         sed \
           -e "s/@VERSION@/${VERSION}/g" \
