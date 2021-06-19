@@ -979,6 +979,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/comma/comma-0.1.2.crate",
+        "sha256": "96677551532ffe910f470bd767a9a7daf9ba53b1f5532e0891dba6c735f692e5",
+        "dest": "cargo/vendor",
+        "dest-filename": "comma-0.1.2.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2296677551532ffe910f470bd767a9a7daf9ba53b1f5532e0891dba6c735f692e5%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/comma-0.1.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/concurrent-queue/concurrent-queue-1.2.2.crate",
         "sha256": "30ed07550be01594c6026cff2a1d7fe9c8f683caa798e12b68694ac9e88286a3",
         "dest": "cargo/vendor",
