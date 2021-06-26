@@ -53,9 +53,8 @@ modules:
       # * Purpose of this to test local builds. Comment for Flathub build.
       #- sed -i 's/opt-level = 3/opt-level = 0/' Cargo.toml
       #- sed -i 's/opt-level = 2/opt-level = 0/g' Cargo.toml
-
       - cargo --offline fetch --manifest-path Cargo.toml
-      - cargo --offline build --release
+      - cargo --offline build --release --no-default-features --features="default-publish"
       - install -D -m 755 ./target/release/veloren-{voxygen,server-cli} -t /app/bin/
     post-install:
       # Install assets
