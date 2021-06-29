@@ -485,15 +485,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/bindgen/bindgen-0.53.3.crate",
-        "sha256": "c72a978d268b1d70b0e963217e60fdabd9523a941457a6c42a7315d15c7e89e5",
+        "url": "https://static.crates.io/crates/bindgen/bindgen-0.56.0.crate",
+        "sha256": "2da379dbebc0b76ef63ca68d8fc6e71c0f13e59432e0987e508c1820e6ab5239",
         "dest": "cargo/vendor",
-        "dest-filename": "bindgen-0.53.3.crate"
+        "dest-filename": "bindgen-0.56.0.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22c72a978d268b1d70b0e963217e60fdabd9523a941457a6c42a7315d15c7e89e5%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/bindgen-0.53.3",
+        "url": "data:%7B%22package%22%3A%20%222da379dbebc0b76ef63ca68d8fc6e71c0f13e59432e0987e508c1820e6ab5239%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/bindgen-0.56.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -797,15 +797,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/clang-sys/clang-sys-0.29.3.crate",
-        "sha256": "fe6837df1d5cba2397b835c8530f51723267e16abbf83892e9e5af4f0e5dd10a",
+        "url": "https://static.crates.io/crates/clang-sys/clang-sys-1.2.0.crate",
+        "sha256": "853eda514c284c2287f4bf20ae614f8781f40a81d32ecda6e91449304dfe077c",
         "dest": "cargo/vendor",
-        "dest-filename": "clang-sys-0.29.3.crate"
+        "dest-filename": "clang-sys-1.2.0.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22fe6837df1d5cba2397b835c8530f51723267e16abbf83892e9e5af4f0e5dd10a%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/clang-sys-0.29.3",
+        "url": "data:%7B%22package%22%3A%20%22853eda514c284c2287f4bf20ae614f8781f40a81d32ecda6e91449304dfe077c%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/clang-sys-1.2.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1263,15 +1263,15 @@
     },
     {
         "type": "file",
-        "url": "https://static.crates.io/crates/coreaudio-sys/coreaudio-sys-0.2.5.crate",
-        "sha256": "d6570ee6e089131e928d5ec9236db9e818aa3cf850f48b0eec6ef700571271d4",
+        "url": "https://static.crates.io/crates/coreaudio-sys/coreaudio-sys-0.2.8.crate",
+        "sha256": "2b7e3347be6a09b46aba228d6608386739fb70beff4f61e07422da87b0bb31fa",
         "dest": "cargo/vendor",
-        "dest-filename": "coreaudio-sys-0.2.5.crate"
+        "dest-filename": "coreaudio-sys-0.2.8.crate"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22d6570ee6e089131e928d5ec9236db9e818aa3cf850f48b0eec6ef700571271d4%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/coreaudio-sys-0.2.5",
+        "url": "data:%7B%22package%22%3A%20%222b7e3347be6a09b46aba228d6608386739fb70beff4f61e07422da87b0bb31fa%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/coreaudio-sys-0.2.8",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -3633,19 +3633,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%224d5d1459353d397a029fb18862166338de938e6be976606bd056cf8f1a912ecf%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/libgit2-sys-0.11.0+0.99.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "file",
-        "url": "https://static.crates.io/crates/libloading/libloading-0.5.2.crate",
-        "sha256": "f2b111a074963af1d37a139918ac6d49ad1d0d5e47f72fd55388619691a7d753",
-        "dest": "cargo/vendor",
-        "dest-filename": "libloading-0.5.2.crate"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%22f2b111a074963af1d37a139918ac6d49ad1d0d5e47f72fd55388619691a7d753%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/libloading-0.5.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
