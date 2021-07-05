@@ -352,6 +352,19 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/atomic_refcell/atomic_refcell-0.1.7.crate",
+        "sha256": "681b971236e0f76b20fcafca0236b8718c9186ee778d67cd78bd5f28fd85427f",
+        "dest": "cargo/vendor",
+        "dest-filename": "atomic_refcell-0.1.7.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22681b971236e0f76b20fcafca0236b8718c9186ee778d67cd78bd5f28fd85427f%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/atomic_refcell-0.1.7",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/atomicwrites/atomicwrites-0.3.0.crate",
         "sha256": "d4830ac690261d0b47f06e86d18c47eaa65d0184e576cf9b62c3a49b28cb876b",
         "dest": "cargo/vendor",
@@ -1900,6 +1913,45 @@
     },
     {
         "type": "file",
+        "url": "https://static.crates.io/crates/egui/egui-0.12.0.crate",
+        "sha256": "788148861d80b87d28d64440a3d31cae190e50ccc3ea585597466d38428365d7",
+        "dest": "cargo/vendor",
+        "dest-filename": "egui-0.12.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22788148861d80b87d28d64440a3d31cae190e50ccc3ea585597466d38428365d7%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/egui-0.12.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/hasenbanck/egui_wgpu_backend/tar.gz/63a002c6a9b6c016e45806dd065864431caab621",
+        "sha256": "0adea0f9f167886d2bc7535c09d8f543a7c1c9a6524ca6981f9d39525c6830a6",
+        "dest": "cargo/vendor/egui_wgpu_backend"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20null%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/egui_wgpu_backend",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/egui_winit_platform/egui_winit_platform-0.8.0.crate",
+        "sha256": "cd4cf17c0cd4dbcf2f8fef55a3592b9b7cfd970576c7302d8ba5c521b8560371",
+        "dest": "cargo/vendor",
+        "dest-filename": "egui_winit_platform-0.8.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22cd4cf17c0cd4dbcf2f8fef55a3592b9b7cfd970576c7302d8ba5c521b8560371%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/egui_winit_platform-0.8.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
         "url": "https://static.crates.io/crates/either/either-1.6.1.crate",
         "sha256": "e78d4f1cc4ae33bbfc157ed5d5a5ef3bc29227303d595861deb238fcec4e9457",
         "dest": "cargo/vendor",
@@ -1909,6 +1961,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22e78d4f1cc4ae33bbfc157ed5d5a5ef3bc29227303d595861deb238fcec4e9457%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/either-1.6.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/emath/emath-0.12.0.crate",
+        "sha256": "3e73d6c8c70eadb71756fbbc3c303ab25e163b46b656886dd250de5636efea12",
+        "dest": "cargo/vendor",
+        "dest-filename": "emath-0.12.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%223e73d6c8c70eadb71756fbbc3c303ab25e163b46b656886dd250de5636efea12%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/emath-0.12.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -1987,6 +2052,32 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22e19c52f9ec503c8a68dc04daf71a04b07e690c32ab1a8b68e33897f255269d47%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/enumset_derive-0.5.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/epaint/epaint-0.12.0.crate",
+        "sha256": "80e2db640801230bdda80629bc3a063927a462f5eaf38a98da676954e78ccb99",
+        "dest": "cargo/vendor",
+        "dest-filename": "epaint-0.12.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2280e2db640801230bdda80629bc3a063927a462f5eaf38a98da676954e78ccb99%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/epaint-0.12.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "file",
+        "url": "https://static.crates.io/crates/epi/epi-0.12.0.crate",
+        "sha256": "59c4f6cbede1fc8f836384f85295a59199a4825940abcc3a8a29cfe2e3c37583",
+        "dest": "cargo/vendor",
+        "dest-filename": "epi-0.12.0.crate"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2259c4f6cbede1fc8f836384f85295a59199a4825940abcc3a8a29cfe2e3c37583%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/epi-0.12.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -8648,7 +8739,7 @@
     },
     {
         "type": "file",
-        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/auth%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/auth%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22fb3dcbc4962b367253f8f2f92760ef44d2679c9a%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/conrod%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/conrod%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22copypasta_0.7%22%0A%0A%5Bsource.%22https%3A//github.com/gfx-rs/gfx%22%5D%0Agit%20%3D%20%22https%3A//github.com/gfx-rs/gfx%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%2227a1dae3796d33d23812f2bb8c7e3b5aea18b521%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/iced%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/iced%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Atag%20%3D%20%22winit-0.25%22%0A%0A%5Bsource.%22https%3A//gitlab.com/Frinksy/keyboard-keynames%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/Frinksy/keyboard-keynames%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%229ae8f89014d0b0c5b61d0e821c5aeb6140c5c0dc%22%0A%0A%5Bsource.%22https%3A//github.com/gfx-rs/naga%22%5D%0Agit%20%3D%20%22https%3A//github.com/gfx-rs/naga%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Atag%20%3D%20%22gfx-25%22%0A%0A%5Bsource.%22https%3A//github.com/xmac94x/portpicker-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/xmac94x/portpicker-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22df6b37872f3586ac3b21d08b56c8ec7cd92fb172%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/refinery%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/refinery%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%228ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e%22%0A%0A%5Bsource.%22https%3A//github.com/amethyst/specs%22%5D%0Agit%20%3D%20%22https%3A//github.com/amethyst/specs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22f985bec5d456f7b0dd8aae99848f9473c2cd9d46%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/specs-idvs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/specs-idvs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%228be2abcddf8f524cb5876e8dd20a7e47cfaf7573%22%0A%0A%5Bsource.%22https%3A//github.com/fdehau/tui-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/fdehau/tui-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22paragraph-scroll%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/vek%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/vek%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22fix_intrinsics2%22%0A%0A%5Bsource.%22https%3A//github.com/gfx-rs/wgpu%22%5D%0Agit%20%3D%20%22https%3A//github.com/gfx-rs/wgpu%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22a92b8549a8e2cb9dac781bafc5ed32828f3caf46%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/wgpu-profiler%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/wgpu-profiler%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Atag%20%3D%20%22wgpu-0.8%22%0A%0A%5Bsource.%22https%3A//github.com/frinksy/rust-xkbcommon-sys%22%5D%0Agit%20%3D%20%22https%3A//github.com/frinksy/rust-xkbcommon-sys%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22d5d69e05a81f7ee8d2f65a824ae692610ed7cb14%22%0A",
+        "url": "data:%5Bsource.vendored-sources%5D%0Adirectory%20%3D%20%22cargo/vendor%22%0A%0A%5Bsource.crates-io%5D%0Areplace-with%20%3D%20%22vendored-sources%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/auth%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/auth%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22fb3dcbc4962b367253f8f2f92760ef44d2679c9a%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/conrod%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/conrod%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22copypasta_0.7%22%0A%0A%5Bsource.%22https%3A//github.com/hasenbanck/egui_wgpu_backend%22%5D%0Agit%20%3D%20%22https%3A//github.com/hasenbanck/egui_wgpu_backend%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%2263a002c6a9b6c016e45806dd065864431caab621%22%0A%0A%5Bsource.%22https%3A//github.com/gfx-rs/gfx%22%5D%0Agit%20%3D%20%22https%3A//github.com/gfx-rs/gfx%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%2227a1dae3796d33d23812f2bb8c7e3b5aea18b521%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/iced%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/iced%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Atag%20%3D%20%22winit-0.25%22%0A%0A%5Bsource.%22https%3A//gitlab.com/Frinksy/keyboard-keynames%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/Frinksy/keyboard-keynames%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%229ae8f89014d0b0c5b61d0e821c5aeb6140c5c0dc%22%0A%0A%5Bsource.%22https%3A//github.com/gfx-rs/naga%22%5D%0Agit%20%3D%20%22https%3A//github.com/gfx-rs/naga%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Atag%20%3D%20%22gfx-25%22%0A%0A%5Bsource.%22https%3A//github.com/xmac94x/portpicker-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/xmac94x/portpicker-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22df6b37872f3586ac3b21d08b56c8ec7cd92fb172%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/refinery%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/refinery%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%228ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e%22%0A%0A%5Bsource.%22https%3A//github.com/amethyst/specs%22%5D%0Agit%20%3D%20%22https%3A//github.com/amethyst/specs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22f985bec5d456f7b0dd8aae99848f9473c2cd9d46%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/specs-idvs%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/specs-idvs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%228be2abcddf8f524cb5876e8dd20a7e47cfaf7573%22%0A%0A%5Bsource.%22https%3A//github.com/fdehau/tui-rs%22%5D%0Agit%20%3D%20%22https%3A//github.com/fdehau/tui-rs%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22paragraph-scroll%22%0A%0A%5Bsource.%22https%3A//gitlab.com/veloren/vek%22%5D%0Agit%20%3D%20%22https%3A//gitlab.com/veloren/vek%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Abranch%20%3D%20%22fix_intrinsics2%22%0A%0A%5Bsource.%22https%3A//github.com/gfx-rs/wgpu%22%5D%0Agit%20%3D%20%22https%3A//github.com/gfx-rs/wgpu%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22a92b8549a8e2cb9dac781bafc5ed32828f3caf46%22%0A%0A%5Bsource.%22https%3A//github.com/imberflur/wgpu-profiler%22%5D%0Agit%20%3D%20%22https%3A//github.com/imberflur/wgpu-profiler%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Atag%20%3D%20%22wgpu-0.8%22%0A%0A%5Bsource.%22https%3A//github.com/frinksy/rust-xkbcommon-sys%22%5D%0Agit%20%3D%20%22https%3A//github.com/frinksy/rust-xkbcommon-sys%22%0Areplace-with%20%3D%20%22vendored-sources%22%0Arev%20%3D%20%22d5d69e05a81f7ee8d2f65a824ae692610ed7cb14%22%0A",
         "dest": "cargo",
         "dest-filename": "config"
     }
