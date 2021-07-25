@@ -811,6 +811,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/chumsky/chumsky-0.3.2.crate",
+        "sha256": "d6144914dd4928dc86677ef8824a77cf1a5df915590af7befa0ac8d9815cd740",
+        "dest": "cargo/vendor/chumsky-0.3.2"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22d6144914dd4928dc86677ef8824a77cf1a5df915590af7befa0ac8d9815cd740%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/chumsky-0.3.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/clang-sys/clang-sys-1.2.0.crate",
         "sha256": "853eda514c284c2287f4bf20ae614f8781f40a81d32ecda6e91449304dfe077c",
         "dest": "cargo/vendor/clang-sys-1.2.0"
@@ -988,19 +1001,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22a2d47c1b11006b87e492b53b313bb699ce60e16613c4dddaa91f8f7c220ab2fa%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/combine-4.6.0",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/comma/comma-0.1.2.crate",
-        "sha256": "96677551532ffe910f470bd767a9a7daf9ba53b1f5532e0891dba6c735f692e5",
-        "dest": "cargo/vendor/comma-0.1.2"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2296677551532ffe910f470bd767a9a7daf9ba53b1f5532e0891dba6c735f692e5%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/comma-0.1.2",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -6135,19 +6135,6 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%2293fc1dc3aaa9bfed95e02e6eadabb4baf7e3078b0bd1b4d7b6b0b68378900502%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/same-file-1.0.6",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/scan_fmt/scan_fmt-0.2.6.crate",
-        "sha256": "0b53b0a5db882a8e2fdaae0a43f7b39e7e9082389e978398bdf223a55b581248",
-        "dest": "cargo/vendor/scan_fmt-0.2.6"
-    },
-    {
-        "type": "file",
-        "url": "data:%7B%22package%22%3A%20%220b53b0a5db882a8e2fdaae0a43f7b39e7e9082389e978398bdf223a55b581248%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/scan_fmt-0.2.6",
         "dest-filename": ".cargo-checksum.json"
     },
     {
