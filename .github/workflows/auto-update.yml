@@ -20,6 +20,9 @@ jobs:
 
       - uses: actions/checkout@v2
 
+      - name: Pull before
+        run: git pull
+
       - name: Download flatpak-builder-tools
         run: |
           git clone -b ${BUILDER_TOOLS_BRANCH} \
