@@ -19,6 +19,7 @@ jobs:
           sudo apt install python3-toml python3-aiohttp
 
       - uses: actions/checkout@v2
+        run: git pull
 
       - name: Download flatpak-builder-tools
         run: |
