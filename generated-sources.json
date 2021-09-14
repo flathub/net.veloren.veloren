@@ -4249,6 +4249,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/mumble-link/mumble-link-0.1.0.crate",
+        "sha256": "7a92ff7d87d3ca752fda7a1ccfcde284ea3de84fc8b8a0c43bf434652226bd95",
+        "dest": "cargo/vendor/mumble-link-0.1.0"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%227a92ff7d87d3ca752fda7a1ccfcde284ea3de84fc8b8a0c43bf434652226bd95%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/mumble-link-0.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://codeload.github.com/gfx-rs/naga/tar.gz/057d03ad86f18e3bb3866b20901d8d4e892dd3d6",
         "sha256": "5cd1e240d32cd04202a6dc1f2002e99a957d7f8b432280878bcbf4e445a02ee2",
         "dest": "cargo/vendor/naga"
