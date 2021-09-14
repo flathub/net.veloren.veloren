@@ -1,0 +1,37 @@
+From e61eb5b4ea7761da525198f8d38105019407b9f7 Mon Sep 17 00:00:00 2001
+From: Artem Polishchuk <ego.cordatus@gmail.com>
+Date: Mon, 13 Sep 2021 19:15:48 +0300
+Subject: [PATCH] fix(AppData): Update screenshots due 404
+
+---
+ assets/voxygen/net.veloren.veloren.metainfo.xml | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/assets/voxygen/net.veloren.veloren.metainfo.xml b/assets/voxygen/net.veloren.veloren.metainfo.xml
+index 70b0f342b9..895eaee2af 100644
+--- a/assets/voxygen/net.veloren.veloren.metainfo.xml
++++ b/assets/voxygen/net.veloren.veloren.metainfo.xml
+@@ -47,16 +47,16 @@
+ 
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://veloren.net/screenshot1.png</image>
++      <image>https://media.discordapp.net/attachments/634860358623821835/884138091537907793/screenshot_1630865233900.png</image>
+     </screenshot>
+     <screenshot>
+-      <image>https://veloren.net/screenshot2.png</image>
++      <image>https://media.discordapp.net/attachments/634860358623821835/885141629902684180/bg_12.jpg</image>
+     </screenshot>
+     <screenshot>
+-      <image>https://veloren.net/screenshot3.png</image>
++      <image>https://media.discordapp.net/attachments/634860358623821835/884297602462539876/screenshot_1630903166427.png</image>
+     </screenshot>
+     <screenshot>
+-      <image>https://veloren.net/screenshot4.png</image>
++      <image>https://media.discordapp.net/attachments/634860358623821835/885141632519905330/bg_10.jpg</image>
+     </screenshot>
+   </screenshots>
+ 
+-- 
+GitLab
+
