@@ -3651,14 +3651,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/kiddo/kiddo-0.1.4.crate",
-        "sha256": "73e70400c6435a3f5e4d7bfb406af50bc66950cc8f24f45488d66f47bf3f5e25",
-        "dest": "cargo/vendor/kiddo-0.1.4"
+        "url": "https://static.crates.io/crates/kiddo/kiddo-0.1.5.crate",
+        "sha256": "66d93815d7b36a79b35bafa5227738f81e2072764235f1369a412de0e16459e7",
+        "dest": "cargo/vendor/kiddo-0.1.5"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2273e70400c6435a3f5e4d7bfb406af50bc66950cc8f24f45488d66f47bf3f5e25%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/kiddo-0.1.4",
+        "url": "data:%7B%22package%22%3A%20%2266d93815d7b36a79b35bafa5227738f81e2072764235f1369a412de0e16459e7%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/kiddo-0.1.5",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4990,14 +4990,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/packed_simd_2/packed_simd_2-0.3.5.crate",
-        "sha256": "0e64858a2d3733fdd61adfdd6da89aa202f7ff0e741d2fc7ed1e452ba9dc99d7",
-        "dest": "cargo/vendor/packed_simd_2-0.3.5"
+        "url": "https://static.crates.io/crates/packed_simd_2/packed_simd_2-0.3.6.crate",
+        "sha256": "71c0c06716cfc81616fa8e22b721ce92fecd594508bc0eb3d04ae3ef35ac10c5",
+        "dest": "cargo/vendor/packed_simd_2-0.3.6"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%220e64858a2d3733fdd61adfdd6da89aa202f7ff0e741d2fc7ed1e452ba9dc99d7%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/packed_simd_2-0.3.5",
+        "url": "data:%7B%22package%22%3A%20%2271c0c06716cfc81616fa8e22b721ce92fecd594508bc0eb3d04ae3ef35ac10c5%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/packed_simd_2-0.3.6",
         "dest-filename": ".cargo-checksum.json"
     },
     {
