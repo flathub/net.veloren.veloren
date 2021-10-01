@@ -2,6 +2,118 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/auth/-/archive/fb3dcbc4962b367253f8f2f92760ef44d2679c9a/auth-fb3dcbc4962b367253f8f2f92760ef44d2679c9a.tar.gz",
+        "sha256": "b2d4945ddb39ad719985b189fb720350ab86df94332f362a0e4477d7a2a774a3",
+        "dest": "flatpak-cargo/git/auth-fb3dcbc"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/conrod/-/archive/ca9fd429ca7db854e018acc6dcb2cd8abd9e070d/conrod-ca9fd429ca7db854e018acc6dcb2cd8abd9e070d.tar.gz",
+        "sha256": "26fafb4d05a0f47fd66a4350d664ed63bc3a7ac00aed289d50f8f9e3dc12a877",
+        "dest": "flatpak-cargo/git/conrod-ca9fd42"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/hasenbanck/egui_wgpu_backend/tar.gz/63a002c6a9b6c016e45806dd065864431caab621",
+        "sha256": "0adea0f9f167886d2bc7535c09d8f543a7c1c9a6524ca6981f9d39525c6830a6",
+        "dest": "flatpak-cargo/git/egui_wgpu_backend-63a002c"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
+        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
+        "dest": "flatpak-cargo/git/gfx-27a1dae"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/imberflur/iced/tar.gz/18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
+        "sha256": "ebf02a205a789a647c6b1b67157ccf9cd8072d94aebbb09dc3a6500b52a9b9c8",
+        "dest": "flatpak-cargo/git/iced-18a48a5"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/Frinksy/keyboard-keynames/-/archive/721c8b301f8003332d0cc767ab2649fdd330e842/keyboard-keynames-721c8b301f8003332d0cc767ab2649fdd330e842.tar.gz",
+        "sha256": "63fa34bb1c7743893105b73770c27426f68fbe38d70f55e912b5a18c2a955cc3",
+        "dest": "flatpak-cargo/git/keyboard-keynames-721c8b3"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/gfx-rs/naga/tar.gz/057d03ad86f18e3bb3866b20901d8d4e892dd3d6",
+        "sha256": "5cd1e240d32cd04202a6dc1f2002e99a957d7f8b432280878bcbf4e445a02ee2",
+        "dest": "flatpak-cargo/git/naga-057d03a"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/xmac94x/portpicker-rs/tar.gz/df6b37872f3586ac3b21d08b56c8ec7cd92fb172",
+        "sha256": "29252101e189bbe067f0bacba18181afc69a2fb9bc031bbba8dcbade45dec02f",
+        "dest": "flatpak-cargo/git/portpicker-rs-df6b378"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/refinery/-/archive/8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e/refinery-8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e.tar.gz",
+        "sha256": "5b66f3a324504b64edf02806953fa5228578b5ab70837fba10736dab2ac60df0",
+        "dest": "flatpak-cargo/git/refinery-8ecf4b4"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/amethyst/specs/tar.gz/f985bec5d456f7b0dd8aae99848f9473c2cd9d46",
+        "sha256": "9b510fb4805975dc4b853750ec5f23d407da889ffd0c4964b49ba8b7efb0aa6c",
+        "dest": "flatpak-cargo/git/specs-f985bec"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/specs-idvs/-/archive/8be2abcddf8f524cb5876e8dd20a7e47cfaf7573/specs-idvs-8be2abcddf8f524cb5876e8dd20a7e47cfaf7573.tar.gz",
+        "sha256": "c7a75c7e5201b67d13d255641852499c7c1d82758a339f9df1bcadec35a1428c",
+        "dest": "flatpak-cargo/git/specs-idvs-8be2abc"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/fdehau/tui-rs/tar.gz/54b841fab6cfdb38e8dc1382176e965787964b4c",
+        "sha256": "920e26b3816975b77f9111206aec5859560141e222bef2d539c05894798ac4ba",
+        "dest": "flatpak-cargo/git/tui-rs-54b841f"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://gitlab.com/veloren/vek/-/archive/df6842cc874a697dec8896c66851817e744af7e8/vek-df6842cc874a697dec8896c66851817e744af7e8.tar.gz",
+        "sha256": "0e08b590dcc7b33ae643c5e700b0ea4c8aa6f7cbbcd686f727fcc79b0e2e8381",
+        "dest": "flatpak-cargo/git/vek-df6842c"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/gfx-rs/wgpu/tar.gz/a92b8549a8e2cb9dac781bafc5ed32828f3caf46",
+        "sha256": "c33f2d7640bdb420b3cf104f873649e83888e2a3c7d7f2dd1a4be29510861b8c",
+        "dest": "flatpak-cargo/git/wgpu-a92b854"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/imberflur/wgpu-profiler/tar.gz/b156eb145bc223386ef344860d9b33b3c181650c",
+        "sha256": "d47968040c4dbe55c99f5f5aaba6c915c9d250b7c0a3dc0e22649bc36c6453a6",
+        "dest": "flatpak-cargo/git/wgpu-profiler-b156eb1"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://codeload.github.com/frinksy/rust-xkbcommon-sys/tar.gz/8f615dd6cd90a4ab77c45627830dde49b592b9b5",
+        "sha256": "58bb45ab6a5ff5a492449a0fce318f6a33d2caee9e8ba5f5a34e2ff143f9a7b0",
+        "dest": "flatpak-cargo/git/rust-xkbcommon-sys-8f615dd"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/ab_glyph/ab_glyph-0.2.11.crate",
         "sha256": "af0ac006645f86f20f6c6fa4dcaef920bf803df819123626f9440e35835e7d80",
         "dest": "cargo/vendor/ab_glyph-0.2.11"
@@ -390,18 +502,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/auth/-/archive/fb3dcbc4962b367253f8f2f92760ef44d2679c9a/auth-fb3dcbc4962b367253f8f2f92760ef44d2679c9a.tar.gz",
-        "sha256": "b2d4945ddb39ad719985b189fb720350ab86df94332f362a0e4477d7a2a774a3",
-        "dest": "cargo/vendor/auth-common"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/auth-common cargo/vendor/auth-common.repo",
-            "mv cargo/vendor/auth-common.repo/common cargo/vendor/auth-common",
-            "rm -rf cargo/vendor/auth-common.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/auth-fb3dcbc/common\" \"cargo/vendor/auth-common\""
         ]
     },
     {
@@ -411,18 +514,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/auth/-/archive/fb3dcbc4962b367253f8f2f92760ef44d2679c9a/auth-fb3dcbc4962b367253f8f2f92760ef44d2679c9a.tar.gz",
-        "sha256": "b2d4945ddb39ad719985b189fb720350ab86df94332f362a0e4477d7a2a774a3",
-        "dest": "cargo/vendor/authc"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/authc cargo/vendor/authc.repo",
-            "mv cargo/vendor/authc.repo/authc cargo/vendor/authc",
-            "rm -rf cargo/vendor/authc.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/auth-fb3dcbc/authc\" \"cargo/vendor/authc\""
         ]
     },
     {
@@ -1017,18 +1111,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/conrod/-/archive/ca9fd429ca7db854e018acc6dcb2cd8abd9e070d/conrod-ca9fd429ca7db854e018acc6dcb2cd8abd9e070d.tar.gz",
-        "sha256": "26fafb4d05a0f47fd66a4350d664ed63bc3a7ac00aed289d50f8f9e3dc12a877",
-        "dest": "cargo/vendor/conrod_core"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/conrod_core cargo/vendor/conrod_core.repo",
-            "mv cargo/vendor/conrod_core.repo/conrod_core cargo/vendor/conrod_core",
-            "rm -rf cargo/vendor/conrod_core.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/conrod-ca9fd42/conrod_core\" \"cargo/vendor/conrod_core\""
         ]
     },
     {
@@ -1038,18 +1123,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/conrod/-/archive/ca9fd429ca7db854e018acc6dcb2cd8abd9e070d/conrod-ca9fd429ca7db854e018acc6dcb2cd8abd9e070d.tar.gz",
-        "sha256": "26fafb4d05a0f47fd66a4350d664ed63bc3a7ac00aed289d50f8f9e3dc12a877",
-        "dest": "cargo/vendor/conrod_derive"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/conrod_derive cargo/vendor/conrod_derive.repo",
-            "mv cargo/vendor/conrod_derive.repo/conrod_derive cargo/vendor/conrod_derive",
-            "rm -rf cargo/vendor/conrod_derive.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/conrod-ca9fd42/conrod_derive\" \"cargo/vendor/conrod_derive\""
         ]
     },
     {
@@ -1059,18 +1135,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/conrod/-/archive/ca9fd429ca7db854e018acc6dcb2cd8abd9e070d/conrod-ca9fd429ca7db854e018acc6dcb2cd8abd9e070d.tar.gz",
-        "sha256": "26fafb4d05a0f47fd66a4350d664ed63bc3a7ac00aed289d50f8f9e3dc12a877",
-        "dest": "cargo/vendor/conrod_winit"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/conrod_winit cargo/vendor/conrod_winit.repo",
-            "mv cargo/vendor/conrod_winit.repo/backends/conrod_winit cargo/vendor/conrod_winit",
-            "rm -rf cargo/vendor/conrod_winit.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/conrod-ca9fd42/backends/conrod_winit\" \"cargo/vendor/conrod_winit\""
         ]
     },
     {
@@ -1925,11 +1992,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hasenbanck/egui_wgpu_backend/tar.gz/63a002c6a9b6c016e45806dd065864431caab621",
-        "sha256": "0adea0f9f167886d2bc7535c09d8f543a7c1c9a6524ca6981f9d39525c6830a6",
-        "dest": "cargo/vendor/egui_wgpu_backend"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/egui_wgpu_backend-63a002c/.\" \"cargo/vendor/egui_wgpu_backend\""
+        ]
     },
     {
         "type": "file",
@@ -2627,18 +2693,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/gfx-auxil"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/gfx-auxil cargo/vendor/gfx-auxil.repo",
-            "mv cargo/vendor/gfx-auxil.repo/src/auxil/auxil cargo/vendor/gfx-auxil",
-            "rm -rf cargo/vendor/gfx-auxil.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/auxil/auxil\" \"cargo/vendor/gfx-auxil\""
         ]
     },
     {
@@ -2648,18 +2705,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/gfx-backend-dx11"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/gfx-backend-dx11 cargo/vendor/gfx-backend-dx11.repo",
-            "mv cargo/vendor/gfx-backend-dx11.repo/src/backend/dx11 cargo/vendor/gfx-backend-dx11",
-            "rm -rf cargo/vendor/gfx-backend-dx11.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/dx11\" \"cargo/vendor/gfx-backend-dx11\""
         ]
     },
     {
@@ -2669,18 +2717,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/gfx-backend-dx12"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/gfx-backend-dx12 cargo/vendor/gfx-backend-dx12.repo",
-            "mv cargo/vendor/gfx-backend-dx12.repo/src/backend/dx12 cargo/vendor/gfx-backend-dx12",
-            "rm -rf cargo/vendor/gfx-backend-dx12.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/dx12\" \"cargo/vendor/gfx-backend-dx12\""
         ]
     },
     {
@@ -2690,18 +2729,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/gfx-backend-empty"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/gfx-backend-empty cargo/vendor/gfx-backend-empty.repo",
-            "mv cargo/vendor/gfx-backend-empty.repo/src/backend/empty cargo/vendor/gfx-backend-empty",
-            "rm -rf cargo/vendor/gfx-backend-empty.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/empty\" \"cargo/vendor/gfx-backend-empty\""
         ]
     },
     {
@@ -2711,18 +2741,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/gfx-backend-gl"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/gfx-backend-gl cargo/vendor/gfx-backend-gl.repo",
-            "mv cargo/vendor/gfx-backend-gl.repo/src/backend/gl cargo/vendor/gfx-backend-gl",
-            "rm -rf cargo/vendor/gfx-backend-gl.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/gl\" \"cargo/vendor/gfx-backend-gl\""
         ]
     },
     {
@@ -2732,18 +2753,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/gfx-backend-metal"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/gfx-backend-metal cargo/vendor/gfx-backend-metal.repo",
-            "mv cargo/vendor/gfx-backend-metal.repo/src/backend/metal cargo/vendor/gfx-backend-metal",
-            "rm -rf cargo/vendor/gfx-backend-metal.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/metal\" \"cargo/vendor/gfx-backend-metal\""
         ]
     },
     {
@@ -2753,18 +2765,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/gfx-backend-vulkan"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/gfx-backend-vulkan cargo/vendor/gfx-backend-vulkan.repo",
-            "mv cargo/vendor/gfx-backend-vulkan.repo/src/backend/vulkan cargo/vendor/gfx-backend-vulkan",
-            "rm -rf cargo/vendor/gfx-backend-vulkan.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/vulkan\" \"cargo/vendor/gfx-backend-vulkan\""
         ]
     },
     {
@@ -2774,18 +2777,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/gfx-hal"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/gfx-hal cargo/vendor/gfx-hal.repo",
-            "mv cargo/vendor/gfx-hal.repo/src/hal cargo/vendor/gfx-hal",
-            "rm -rf cargo/vendor/gfx-hal.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/hal\" \"cargo/vendor/gfx-hal\""
         ]
     },
     {
@@ -3250,18 +3244,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/iced/tar.gz/18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
-        "sha256": "ebf02a205a789a647c6b1b67157ccf9cd8072d94aebbb09dc3a6500b52a9b9c8",
-        "dest": "cargo/vendor/iced_core"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/iced_core cargo/vendor/iced_core.repo",
-            "mv cargo/vendor/iced_core.repo/core cargo/vendor/iced_core",
-            "rm -rf cargo/vendor/iced_core.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/core\" \"cargo/vendor/iced_core\""
         ]
     },
     {
@@ -3271,18 +3256,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/iced/tar.gz/18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
-        "sha256": "ebf02a205a789a647c6b1b67157ccf9cd8072d94aebbb09dc3a6500b52a9b9c8",
-        "dest": "cargo/vendor/iced_futures"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/iced_futures cargo/vendor/iced_futures.repo",
-            "mv cargo/vendor/iced_futures.repo/futures cargo/vendor/iced_futures",
-            "rm -rf cargo/vendor/iced_futures.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/futures\" \"cargo/vendor/iced_futures\""
         ]
     },
     {
@@ -3292,18 +3268,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/iced/tar.gz/18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
-        "sha256": "ebf02a205a789a647c6b1b67157ccf9cd8072d94aebbb09dc3a6500b52a9b9c8",
-        "dest": "cargo/vendor/iced_graphics"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/iced_graphics cargo/vendor/iced_graphics.repo",
-            "mv cargo/vendor/iced_graphics.repo/graphics cargo/vendor/iced_graphics",
-            "rm -rf cargo/vendor/iced_graphics.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/graphics\" \"cargo/vendor/iced_graphics\""
         ]
     },
     {
@@ -3313,18 +3280,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/iced/tar.gz/18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
-        "sha256": "ebf02a205a789a647c6b1b67157ccf9cd8072d94aebbb09dc3a6500b52a9b9c8",
-        "dest": "cargo/vendor/iced_native"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/iced_native cargo/vendor/iced_native.repo",
-            "mv cargo/vendor/iced_native.repo/native cargo/vendor/iced_native",
-            "rm -rf cargo/vendor/iced_native.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/native\" \"cargo/vendor/iced_native\""
         ]
     },
     {
@@ -3334,18 +3292,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/iced/tar.gz/18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
-        "sha256": "ebf02a205a789a647c6b1b67157ccf9cd8072d94aebbb09dc3a6500b52a9b9c8",
-        "dest": "cargo/vendor/iced_style"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/iced_style cargo/vendor/iced_style.repo",
-            "mv cargo/vendor/iced_style.repo/style cargo/vendor/iced_style",
-            "rm -rf cargo/vendor/iced_style.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/style\" \"cargo/vendor/iced_style\""
         ]
     },
     {
@@ -3355,18 +3304,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/iced/tar.gz/18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
-        "sha256": "ebf02a205a789a647c6b1b67157ccf9cd8072d94aebbb09dc3a6500b52a9b9c8",
-        "dest": "cargo/vendor/iced_winit"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/iced_winit cargo/vendor/iced_winit.repo",
-            "mv cargo/vendor/iced_winit.repo/winit cargo/vendor/iced_winit",
-            "rm -rf cargo/vendor/iced_winit.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/winit\" \"cargo/vendor/iced_winit\""
         ]
     },
     {
@@ -3623,11 +3563,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/Frinksy/keyboard-keynames/-/archive/721c8b301f8003332d0cc767ab2649fdd330e842/keyboard-keynames-721c8b301f8003332d0cc767ab2649fdd330e842.tar.gz",
-        "sha256": "63fa34bb1c7743893105b73770c27426f68fbe38d70f55e912b5a18c2a955cc3",
-        "dest": "cargo/vendor/keyboard-keynames"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/keyboard-keynames-721c8b3/.\" \"cargo/vendor/keyboard-keynames\""
+        ]
     },
     {
         "type": "file",
@@ -4299,11 +4238,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/naga/tar.gz/057d03ad86f18e3bb3866b20901d8d4e892dd3d6",
-        "sha256": "5cd1e240d32cd04202a6dc1f2002e99a957d7f8b432280878bcbf4e445a02ee2",
-        "dest": "cargo/vendor/naga"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/naga-057d03a/.\" \"cargo/vendor/naga\""
+        ]
     },
     {
         "type": "file",
@@ -5261,11 +5199,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/xmac94x/portpicker-rs/tar.gz/df6b37872f3586ac3b21d08b56c8ec7cd92fb172",
-        "sha256": "29252101e189bbe067f0bacba18181afc69a2fb9bc031bbba8dcbade45dec02f",
-        "dest": "cargo/vendor/portpicker"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/portpicker-rs-df6b378/.\" \"cargo/vendor/portpicker\""
+        ]
     },
     {
         "type": "file",
@@ -5677,18 +5614,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
-        "dest": "cargo/vendor/range-alloc"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/range-alloc cargo/vendor/range-alloc.repo",
-            "mv cargo/vendor/range-alloc.repo/src/auxil/range-alloc cargo/vendor/range-alloc",
-            "rm -rf cargo/vendor/range-alloc.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/auxil/range-alloc\" \"cargo/vendor/range-alloc\""
         ]
     },
     {
@@ -5789,18 +5717,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/refinery/-/archive/8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e/refinery-8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e.tar.gz",
-        "sha256": "5b66f3a324504b64edf02806953fa5228578b5ab70837fba10736dab2ac60df0",
-        "dest": "cargo/vendor/refinery"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/refinery cargo/vendor/refinery.repo",
-            "mv cargo/vendor/refinery.repo/refinery cargo/vendor/refinery",
-            "rm -rf cargo/vendor/refinery.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/refinery-8ecf4b4/refinery\" \"cargo/vendor/refinery\""
         ]
     },
     {
@@ -5810,18 +5729,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/refinery/-/archive/8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e/refinery-8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e.tar.gz",
-        "sha256": "5b66f3a324504b64edf02806953fa5228578b5ab70837fba10736dab2ac60df0",
-        "dest": "cargo/vendor/refinery-core"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/refinery-core cargo/vendor/refinery-core.repo",
-            "mv cargo/vendor/refinery-core.repo/refinery_core cargo/vendor/refinery-core",
-            "rm -rf cargo/vendor/refinery-core.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/refinery-8ecf4b4/refinery_core\" \"cargo/vendor/refinery-core\""
         ]
     },
     {
@@ -5831,18 +5741,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/refinery/-/archive/8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e/refinery-8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e.tar.gz",
-        "sha256": "5b66f3a324504b64edf02806953fa5228578b5ab70837fba10736dab2ac60df0",
-        "dest": "cargo/vendor/refinery-macros"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/refinery-macros cargo/vendor/refinery-macros.repo",
-            "mv cargo/vendor/refinery-macros.repo/refinery_macros cargo/vendor/refinery-macros",
-            "rm -rf cargo/vendor/refinery-macros.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/refinery-8ecf4b4/refinery_macros\" \"cargo/vendor/refinery-macros\""
         ]
     },
     {
@@ -6801,11 +6702,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/amethyst/specs/tar.gz/f985bec5d456f7b0dd8aae99848f9473c2cd9d46",
-        "sha256": "9b510fb4805975dc4b853750ec5f23d407da889ffd0c4964b49ba8b7efb0aa6c",
-        "dest": "cargo/vendor/specs"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/specs-f985bec/.\" \"cargo/vendor/specs\""
+        ]
     },
     {
         "type": "file",
@@ -6814,18 +6714,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/amethyst/specs/tar.gz/f985bec5d456f7b0dd8aae99848f9473c2cd9d46",
-        "sha256": "9b510fb4805975dc4b853750ec5f23d407da889ffd0c4964b49ba8b7efb0aa6c",
-        "dest": "cargo/vendor/specs-derive"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/specs-derive cargo/vendor/specs-derive.repo",
-            "mv cargo/vendor/specs-derive.repo/specs-derive cargo/vendor/specs-derive",
-            "rm -rf cargo/vendor/specs-derive.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/specs-f985bec/specs-derive\" \"cargo/vendor/specs-derive\""
         ]
     },
     {
@@ -6835,11 +6726,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/specs-idvs/-/archive/8be2abcddf8f524cb5876e8dd20a7e47cfaf7573/specs-idvs-8be2abcddf8f524cb5876e8dd20a7e47cfaf7573.tar.gz",
-        "sha256": "c7a75c7e5201b67d13d255641852499c7c1d82758a339f9df1bcadec35a1428c",
-        "dest": "cargo/vendor/specs-idvs"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/specs-idvs-8be2abc/.\" \"cargo/vendor/specs-idvs\""
+        ]
     },
     {
         "type": "file",
@@ -7615,11 +7505,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/fdehau/tui-rs/tar.gz/54b841fab6cfdb38e8dc1382176e965787964b4c",
-        "sha256": "920e26b3816975b77f9111206aec5859560141e222bef2d539c05894798ac4ba",
-        "dest": "cargo/vendor/tui"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/tui-rs-54b841f/.\" \"cargo/vendor/tui\""
+        ]
     },
     {
         "type": "file",
@@ -7849,11 +7738,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/vek/-/archive/df6842cc874a697dec8896c66851817e744af7e8/vek-df6842cc874a697dec8896c66851817e744af7e8.tar.gz",
-        "sha256": "0e08b590dcc7b33ae643c5e700b0ea4c8aa6f7cbbcd686f727fcc79b0e2e8381",
-        "dest": "cargo/vendor/vek"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/vek-df6842c/.\" \"cargo/vendor/vek\""
+        ]
     },
     {
         "type": "file",
@@ -8330,18 +8218,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/wgpu/tar.gz/a92b8549a8e2cb9dac781bafc5ed32828f3caf46",
-        "sha256": "c33f2d7640bdb420b3cf104f873649e83888e2a3c7d7f2dd1a4be29510861b8c",
-        "dest": "cargo/vendor/wgpu"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/wgpu cargo/vendor/wgpu.repo",
-            "mv cargo/vendor/wgpu.repo/wgpu cargo/vendor/wgpu",
-            "rm -rf cargo/vendor/wgpu.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/wgpu-a92b854/wgpu\" \"cargo/vendor/wgpu\""
         ]
     },
     {
@@ -8351,18 +8230,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/wgpu/tar.gz/a92b8549a8e2cb9dac781bafc5ed32828f3caf46",
-        "sha256": "c33f2d7640bdb420b3cf104f873649e83888e2a3c7d7f2dd1a4be29510861b8c",
-        "dest": "cargo/vendor/wgpu-core"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/wgpu-core cargo/vendor/wgpu-core.repo",
-            "mv cargo/vendor/wgpu-core.repo/wgpu-core cargo/vendor/wgpu-core",
-            "rm -rf cargo/vendor/wgpu-core.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/wgpu-a92b854/wgpu-core\" \"cargo/vendor/wgpu-core\""
         ]
     },
     {
@@ -8372,11 +8242,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/wgpu-profiler/tar.gz/b156eb145bc223386ef344860d9b33b3c181650c",
-        "sha256": "d47968040c4dbe55c99f5f5aaba6c915c9d250b7c0a3dc0e22649bc36c6453a6",
-        "dest": "cargo/vendor/wgpu-profiler"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/wgpu-profiler-b156eb1/.\" \"cargo/vendor/wgpu-profiler\""
+        ]
     },
     {
         "type": "file",
@@ -8385,18 +8254,9 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/wgpu/tar.gz/a92b8549a8e2cb9dac781bafc5ed32828f3caf46",
-        "sha256": "c33f2d7640bdb420b3cf104f873649e83888e2a3c7d7f2dd1a4be29510861b8c",
-        "dest": "cargo/vendor/wgpu-types"
-    },
-    {
         "type": "shell",
         "commands": [
-            "mv cargo/vendor/wgpu-types cargo/vendor/wgpu-types.repo",
-            "mv cargo/vendor/wgpu-types.repo/wgpu-types cargo/vendor/wgpu-types",
-            "rm -rf cargo/vendor/wgpu-types.repo"
+            "cp -r --reflink=auto \"flatpak-cargo/git/wgpu-a92b854/wgpu-types\" \"cargo/vendor/wgpu-types\""
         ]
     },
     {
@@ -8731,11 +8591,10 @@
         "dest-filename": ".cargo-checksum.json"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/frinksy/rust-xkbcommon-sys/tar.gz/8f615dd6cd90a4ab77c45627830dde49b592b9b5",
-        "sha256": "58bb45ab6a5ff5a492449a0fce318f6a33d2caee9e8ba5f5a34e2ff143f9a7b0",
-        "dest": "cargo/vendor/xkbcommon-sys"
+        "type": "shell",
+        "commands": [
+            "cp -r --reflink=auto \"flatpak-cargo/git/rust-xkbcommon-sys-8f615dd/.\" \"cargo/vendor/xkbcommon-sys\""
+        ]
     },
     {
         "type": "file",
