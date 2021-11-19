@@ -77,8 +77,6 @@ modules:
           -i /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - veloren-git.json
-      - type: patch
-        path: 2834-fix(AppData):-Update-screenshots-due-404.patch
 
       # LLVM ERROR: out of memory on ARM
       - type: shell
