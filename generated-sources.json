@@ -413,14 +413,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/assets_manager/assets_manager-0.6.1.crate",
-        "sha256": "35c55040a3eee1353bfa4bee2c03a695395d64176e8063223aa62d11b4ef669c",
-        "dest": "cargo/vendor/assets_manager-0.6.1"
+        "url": "https://static.crates.io/crates/assets_manager/assets_manager-0.7.0.crate",
+        "sha256": "912acc83cc5bf31b0d9685e8d11a9d7c36b949e850ca2db1a3203b3b656a5e4a",
+        "dest": "cargo/vendor/assets_manager-0.7.0"
     },
     {
         "type": "file",
-        "url": "data:%7B%22package%22%3A%20%2235c55040a3eee1353bfa4bee2c03a695395d64176e8063223aa62d11b4ef669c%22%2C%20%22files%22%3A%20%7B%7D%7D",
-        "dest": "cargo/vendor/assets_manager-0.6.1",
+        "url": "data:%7B%22package%22%3A%20%22912acc83cc5bf31b0d9685e8d11a9d7c36b949e850ca2db1a3203b3b656a5e4a%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/assets_manager-0.7.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
