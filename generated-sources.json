@@ -684,6 +684,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/block-buffer/block-buffer-0.9.0.crate",
+        "sha256": "4152116fd6e9dadb291ae18fc1ec3575ed6d84c29642d97890f4b4a3417297e4",
+        "dest": "cargo/vendor/block-buffer-0.9.0"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%224152116fd6e9dadb291ae18fc1ec3575ed6d84c29642d97890f4b4a3417297e4%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/block-buffer-0.9.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/bstr/bstr-0.2.17.crate",
         "sha256": "ba3569f383e8f1598449f1a423e72e99569137b47740b1da11ef19af3d5c3223",
         "dest": "cargo/vendor/bstr-0.2.17"
@@ -1396,6 +1409,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/cpufeatures/cpufeatures-0.2.1.crate",
+        "sha256": "95059428f66df56b63431fdb4e1947ed2190586af5c5a8a8b71122bdf5a7f469",
+        "dest": "cargo/vendor/cpufeatures-0.2.1"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%2295059428f66df56b63431fdb4e1947ed2190586af5c5a8a8b71122bdf5a7f469%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/cpufeatures-0.2.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/cranelift-bforest/cranelift-bforest-0.74.0.crate",
         "sha256": "c8ca3560686e7c9c7ed7e0fe77469f2410ba5d7781b1acaa9adc8d8deea28e3e",
         "dest": "cargo/vendor/cranelift-bforest-0.74.0"
@@ -1872,6 +1898,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%22f2c9736e15e7df1638a7f6eee92a6511615c738246a052af5ba86f039b65aede%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/deunicode-1.3.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/digest/digest-0.9.0.crate",
+        "sha256": "d3dd60d1080a57a05ab032377049e0591415d2b31afd7028356dbf3cc6dcb066",
+        "dest": "cargo/vendor/digest-0.9.0"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22d3dd60d1080a57a05ab032377049e0591415d2b31afd7028356dbf3cc6dcb066%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/digest-0.9.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -4928,6 +4967,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/opaque-debug/opaque-debug-0.3.0.crate",
+        "sha256": "624a8340c38c1b80fd549087862da4ba43e08858af025b236e509b6649fc13d5",
+        "dest": "cargo/vendor/opaque-debug-0.3.0"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22624a8340c38c1b80fd549087862da4ba43e08858af025b236e509b6649fc13d5%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/opaque-debug-0.3.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/openssl-probe/openssl-probe-0.1.4.crate",
         "sha256": "28988d872ab76095a6e6ac88d99b54fd267702734fd7ffe610ca27f533ddb95a",
         "dest": "cargo/vendor/openssl-probe-0.1.4"
@@ -6634,6 +6686,19 @@
         "type": "file",
         "url": "data:%7B%22package%22%3A%20%222579985fda508104f7587689507983eadd6a6e84dd35d6d115361f530916fa0d%22%2C%20%22files%22%3A%20%7B%7D%7D",
         "dest": "cargo/vendor/sha1-0.6.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/sha2/sha2-0.9.8.crate",
+        "sha256": "b69f9a4c9740d74c5baa3fd2e547f9525fa8088a8a958e0ca2409a514e33f5fa",
+        "dest": "cargo/vendor/sha2-0.9.8"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%22b69f9a4c9740d74c5baa3fd2e547f9525fa8088a8a958e0ca2409a514e33f5fa%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/sha2-0.9.8",
         "dest-filename": ".cargo-checksum.json"
     },
     {
