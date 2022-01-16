@@ -3461,6 +3461,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/inline_tweak/inline_tweak-1.0.8.crate",
+        "sha256": "7033e97b20277cc0d043226d1940fa7719ff08d2305d1fc7421e53066d00eb4b",
+        "dest": "cargo/vendor/inline_tweak-1.0.8"
+    },
+    {
+        "type": "file",
+        "url": "data:%7B%22package%22%3A%20%227033e97b20277cc0d043226d1940fa7719ff08d2305d1fc7421e53066d00eb4b%22%2C%20%22files%22%3A%20%7B%7D%7D",
+        "dest": "cargo/vendor/inline_tweak-1.0.8",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/inotify/inotify-0.7.1.crate",
         "sha256": "4816c66d2c8ae673df83366c18341538f234a26d65a9ecea5c348b453ac1d02f",
         "dest": "cargo/vendor/inotify-0.7.1"
