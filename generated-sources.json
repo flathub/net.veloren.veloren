@@ -8844,6 +8844,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/wavefront/wavefront-0.2.2.crate",
+        "sha256": "249b7e6cd5bd1cc78a61d0475e5790c98bebabf2dc644a94a51ad58b39298652",
+        "dest": "cargo/vendor/wavefront-0.2.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"249b7e6cd5bd1cc78a61d0475e5790c98bebabf2dc644a94a51ad58b39298652\", \"files\": {}}",
+        "dest": "cargo/vendor/wavefront-0.2.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/wayland-client/wayland-client-0.28.6.crate",
         "sha256": "e3ab332350e502f159382201394a78e3cc12d0f04db863429260164ea40e0355",
         "dest": "cargo/vendor/wayland-client-0.28.6"
