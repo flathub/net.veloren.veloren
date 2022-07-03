@@ -2370,6 +2370,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/etagere/etagere-0.2.7.crate",
+        "sha256": "6301151a318f367f392c31395beb1cfba5ccd9abc44d1db0db3a4b27b9601c89",
+        "dest": "cargo/vendor/etagere-0.2.7"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"6301151a318f367f392c31395beb1cfba5ccd9abc44d1db0db3a4b27b9601c89\", \"files\": {}}",
+        "dest": "cargo/vendor/etagere-0.2.7",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/euc/euc-0.5.3.crate",
         "sha256": "0947d06646d28a4ac2862ac5eadc1062704d61ee398b3baba8b4a21e2f1ef5ed",
         "dest": "cargo/vendor/euc-0.5.3"
