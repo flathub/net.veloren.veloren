@@ -872,6 +872,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/censor/censor-0.2.0.crate",
+        "sha256": "5563d2728feef9a6186acdd148bccbe850dad63c5ba55a3b3355abc9137cb3eb",
+        "dest": "cargo/vendor/censor-0.2.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"5563d2728feef9a6186acdd148bccbe850dad63c5ba55a3b3355abc9137cb3eb\", \"files\": {}}",
+        "dest": "cargo/vendor/censor-0.2.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/cesu8/cesu8-1.1.0.crate",
         "sha256": "6d43a04d8753f35258c91f8ec639f792891f748a1edbd759cf1dcea3382ad83c",
         "dest": "cargo/vendor/cesu8-1.1.0"
