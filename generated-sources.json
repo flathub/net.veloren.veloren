@@ -289,6 +289,32 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/anyhow/anyhow-1.0.61.crate",
+        "sha256": "508b352bb5c066aac251f6daf6b36eccd03e8a88e8081cd44959ea277a3af9a8",
+        "dest": "cargo/vendor/anyhow-1.0.61"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"508b352bb5c066aac251f6daf6b36eccd03e8a88e8081cd44959ea277a3af9a8\", \"files\": {}}",
+        "dest": "cargo/vendor/anyhow-1.0.61",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/app_dirs2/app_dirs2-2.5.2.crate",
+        "sha256": "c3564c46eaa62f4a4e50c98e2c698cbb95f95c08501bd2e3baf6ea73773ab9fc",
+        "dest": "cargo/vendor/app_dirs2-2.5.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"c3564c46eaa62f4a4e50c98e2c698cbb95f95c08501bd2e3baf6ea73773ab9fc\", \"files\": {}}",
+        "dest": "cargo/vendor/app_dirs2-2.5.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/approx/approx-0.3.2.crate",
         "sha256": "f0e60b75072ecd4168020818c0107f2857bb6c4e64252d8d3983f6263b40a5c3",
         "dest": "cargo/vendor/approx-0.3.2"
@@ -2112,6 +2138,19 @@
         "type": "inline",
         "contents": "{\"package\": \"212d0f5754cb6769937f4501cc0e67f4f4483c8d2c3e1e922ee9edbe4ab4c7c0\", \"files\": {}}",
         "dest": "cargo/vendor/discard-1.0.4",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/discord-sdk/discord-sdk-0.3.0.crate",
+        "sha256": "e314b59ba110cb4fad80073f5276eb62cda4cc3caabe998f5d664b19fd6a7be0",
+        "dest": "cargo/vendor/discord-sdk-0.3.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"e314b59ba110cb4fad80073f5276eb62cda4cc3caabe998f5d664b19fd6a7be0\", \"files\": {}}",
+        "dest": "cargo/vendor/discord-sdk-0.3.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -9425,6 +9464,19 @@
         "type": "inline",
         "contents": "{\"package\": \"79610794594d5e86be473ef7763f604f2159cbac8c94debd00df8fb41e86c2f8\", \"files\": {}}",
         "dest": "cargo/vendor/winit-0.25.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/winreg/winreg-0.10.1.crate",
+        "sha256": "80d0f4e272c85def139476380b12f9ac60926689dd2e01d4923222f40580869d",
+        "dest": "cargo/vendor/winreg-0.10.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"80d0f4e272c85def139476380b12f9ac60926689dd2e01d4923222f40580869d\", \"files\": {}}",
+        "dest": "cargo/vendor/winreg-0.10.1",
         "dest-filename": ".cargo-checksum.json"
     },
     {
