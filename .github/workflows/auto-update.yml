@@ -34,5 +34,5 @@ jobs:
           set -e
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git config user.name "Workflow trigger"
-          ./update.py veloren-git.json -g builder-tools/cargo/flatpak-cargo-generator.py --generator-arg=-t
+          ./update.py veloren-git.json -g builder-tools/cargo/flatpak-cargo-generator.py
           git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}
