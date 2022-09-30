@@ -1,114 +1,98 @@
 [
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/auth/-/archive/fb3dcbc4962b367253f8f2f92760ef44d2679c9a/auth-fb3dcbc4962b367253f8f2f92760ef44d2679c9a.tar.gz",
-        "sha256": "b2d4945ddb39ad719985b189fb720350ab86df94332f362a0e4477d7a2a774a3",
+        "type": "git",
+        "url": "https://gitlab.com/veloren/auth",
+        "commit": "fb3dcbc4962b367253f8f2f92760ef44d2679c9a",
         "dest": "flatpak-cargo/git/auth-fb3dcbc"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/conrod/-/archive/ca9fd429ca7db854e018acc6dcb2cd8abd9e070d/conrod-ca9fd429ca7db854e018acc6dcb2cd8abd9e070d.tar.gz",
-        "sha256": "26fafb4d05a0f47fd66a4350d664ed63bc3a7ac00aed289d50f8f9e3dc12a877",
+        "type": "git",
+        "url": "https://gitlab.com/veloren/conrod",
+        "commit": "ca9fd429ca7db854e018acc6dcb2cd8abd9e070d",
         "dest": "flatpak-cargo/git/conrod-ca9fd42"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/hasenbanck/egui_wgpu_backend/tar.gz/63a002c6a9b6c016e45806dd065864431caab621",
-        "sha256": "0adea0f9f167886d2bc7535c09d8f543a7c1c9a6524ca6981f9d39525c6830a6",
+        "type": "git",
+        "url": "https://github.com/hasenbanck/egui_wgpu_backend",
+        "commit": "63a002c6a9b6c016e45806dd065864431caab621",
         "dest": "flatpak-cargo/git/egui_wgpu_backend-63a002c"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/juliancoffee/fluent-rs/tar.gz/929cf9512de121cce9b4cbf1cb860cd3294a1cd9",
-        "sha256": "b1666caeb396b844788a732346e8ab6e555190978efe7a6386469040959acebf",
+        "type": "git",
+        "url": "https://github.com/juliancoffee/fluent-rs",
+        "commit": "929cf9512de121cce9b4cbf1cb860cd3294a1cd9",
         "dest": "flatpak-cargo/git/fluent-rs-929cf95"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/gfx/tar.gz/27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
-        "sha256": "0e3578dae85a52adba9cb75e583d4a73c1f50491d3021c80610e2cebca223191",
+        "type": "git",
+        "url": "https://github.com/gfx-rs/gfx",
+        "commit": "27a1dae3796d33d23812f2bb8c7e3b5aea18b521",
         "dest": "flatpak-cargo/git/gfx-27a1dae"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/iced/tar.gz/18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
-        "sha256": "ebf02a205a789a647c6b1b67157ccf9cd8072d94aebbb09dc3a6500b52a9b9c8",
+        "type": "git",
+        "url": "https://github.com/imberflur/iced",
+        "commit": "18a48a5eeefd2aa6e50f5dd0751ac2e94c88a9eb",
         "dest": "flatpak-cargo/git/iced-18a48a5"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/Frinksy/keyboard-keynames/-/archive/1ae010ca032a57dfe0ba01d4346a3b03bde36de0/keyboard-keynames-1ae010ca032a57dfe0ba01d4346a3b03bde36de0.tar.gz",
-        "sha256": "245e62c05484f0d1e2b7d7dfcd37e32ae4739d955e2e0a915ecf1bdcddfec86f",
+        "type": "git",
+        "url": "https://gitlab.com/Frinksy/keyboard-keynames",
+        "commit": "1ae010ca032a57dfe0ba01d4346a3b03bde36de0",
         "dest": "flatpak-cargo/git/keyboard-keynames-1ae010c"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/gfx-rs/naga/tar.gz/057d03ad86f18e3bb3866b20901d8d4e892dd3d6",
-        "sha256": "5cd1e240d32cd04202a6dc1f2002e99a957d7f8b432280878bcbf4e445a02ee2",
+        "type": "git",
+        "url": "https://github.com/gfx-rs/naga",
+        "commit": "057d03ad86f18e3bb3866b20901d8d4e892dd3d6",
         "dest": "flatpak-cargo/git/naga-057d03a"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/xmac94x/portpicker-rs/tar.gz/df6b37872f3586ac3b21d08b56c8ec7cd92fb172",
-        "sha256": "29252101e189bbe067f0bacba18181afc69a2fb9bc031bbba8dcbade45dec02f",
+        "type": "git",
+        "url": "https://github.com/xmac94x/portpicker-rs",
+        "commit": "df6b37872f3586ac3b21d08b56c8ec7cd92fb172",
         "dest": "flatpak-cargo/git/portpicker-rs-df6b378"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://gitlab.com/veloren/refinery/-/archive/8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e/refinery-8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e.tar.gz",
-        "sha256": "5b66f3a324504b64edf02806953fa5228578b5ab70837fba10736dab2ac60df0",
+        "type": "git",
+        "url": "https://gitlab.com/veloren/refinery",
+        "commit": "8ecf4b4772d791e6c8c0a3f9b66a7530fad1af3e",
         "dest": "flatpak-cargo/git/refinery-8ecf4b4"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/pythonesque/shaderc-rs/tar.gz/f2605a02062834019bedff911aee2fd2998c49f9",
-        "sha256": "1fb4bdfd4c74d2c6598d4a9c844e9318cda70557798edfe6058b16541428ca92",
+        "type": "git",
+        "url": "https://github.com/pythonesque/shaderc-rs",
+        "commit": "f2605a02062834019bedff911aee2fd2998c49f9",
         "dest": "flatpak-cargo/git/shaderc-rs-f2605a0"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/fdehau/tui-rs/tar.gz/54b841fab6cfdb38e8dc1382176e965787964b4c",
-        "sha256": "920e26b3816975b77f9111206aec5859560141e222bef2d539c05894798ac4ba",
+        "type": "git",
+        "url": "https://github.com/fdehau/tui-rs",
+        "commit": "54b841fab6cfdb38e8dc1382176e965787964b4c",
         "dest": "flatpak-cargo/git/tui-rs-54b841f"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/yoanlcq/vek/tar.gz/84d5cb65841d46599a986c5477341bea4456be26",
-        "sha256": "f6fc0b8e9b1290729ea94865be84a8c47846e49e3c193dab700940e1452d2fed",
+        "type": "git",
+        "url": "https://github.com/yoanlcq/vek",
+        "commit": "84d5cb65841d46599a986c5477341bea4456be26",
         "dest": "flatpak-cargo/git/vek-84d5cb6"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/pythonesque/wgpu/tar.gz/179ea209374a92837cde252f1d9ee01f628cae08",
-        "sha256": "1c8347a91ee9767812db6d5a36800afe45dc2ee6b125afca39b0139ad90ef9d7",
+        "type": "git",
+        "url": "https://github.com/pythonesque/wgpu",
+        "commit": "179ea209374a92837cde252f1d9ee01f628cae08",
         "dest": "flatpak-cargo/git/wgpu-179ea20"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/imberflur/wgpu-profiler/tar.gz/b156eb145bc223386ef344860d9b33b3c181650c",
-        "sha256": "d47968040c4dbe55c99f5f5aaba6c915c9d250b7c0a3dc0e22649bc36c6453a6",
+        "type": "git",
+        "url": "https://github.com/imberflur/wgpu-profiler",
+        "commit": "b156eb145bc223386ef344860d9b33b3c181650c",
         "dest": "flatpak-cargo/git/wgpu-profiler-b156eb1"
     },
     {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://codeload.github.com/frinksy/rust-xkbcommon-sys/tar.gz/8f615dd6cd90a4ab77c45627830dde49b592b9b5",
-        "sha256": "58bb45ab6a5ff5a492449a0fce318f6a33d2caee9e8ba5f5a34e2ff143f9a7b0",
+        "type": "git",
+        "url": "https://github.com/frinksy/rust-xkbcommon-sys",
+        "commit": "8f615dd6cd90a4ab77c45627830dde49b592b9b5",
         "dest": "flatpak-cargo/git/rust-xkbcommon-sys-8f615dd"
     },
     {
