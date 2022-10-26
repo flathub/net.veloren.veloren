@@ -11,14 +11,21 @@ on:
 
 jobs:
   update:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
         run: |
           set -e
-          sudo apt install python3-toml python3-aiohttp
+          sudo apt install \
+            python3-aiohttp \
+            python3-toml
 
-      - uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        if: github.event_name == 'pull_request'
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          submodules: true
 
       - name: Pull before
         run: git pull
@@ -30,9 +37,14 @@ jobs:
                        builder-tools
 
       - name: Run update
+        env:
+          GIT_AUTHOR_NAME: Flatpak External Data Checker
+          GIT_COMMITTER_NAME: Flatpak External Data Checker
+          GIT_AUTHOR_EMAIL: ${{ github.actor }}@users.noreply.github.com
+          GIT_COMMITTER_EMAIL: ${{ github.actor }}@users.noreply.github.com
+          EMAIL: ${{ github.actor }}@users.noreply.github.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git config user.name "Workflow trigger"
-          ./update.py veloren-git.json -g builder-tools/cargo/flatpak-cargo-generator.py
-          git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}
+          ./update-generated-sources.sh
+          git push
