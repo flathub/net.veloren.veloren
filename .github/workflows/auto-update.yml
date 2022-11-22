@@ -3,10 +3,10 @@ name: Auto update
 env:
   BUILDER_TOOLS_URL: https://github.com/flatpak/flatpak-builder-tools.git
   BUILDER_TOOLS_BRANCH: master
+  TOOLS_DIR: builder-tools
 
 on:
-  schedule:
-    - cron: '45 6 * * *'
+  pull_request: {}
   workflow_dispatch: {}
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
         run: |
           git clone -b ${BUILDER_TOOLS_BRANCH} \
                        ${BUILDER_TOOLS_URL} \
-                       builder-tools
+                       ${TOOLS_DIR}
 
       - name: Run update
         env:
