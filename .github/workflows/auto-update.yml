@@ -39,6 +39,7 @@ jobs:
           GIT_COMMITTER_EMAIL: ${{ github.actor }}@users.noreply.github.com
           EMAIL: ${{ github.actor }}@users.noreply.github.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_LFS_SKIP_SMUDGE: '1'
         run: |
           set -e
           ./update-generated-sources.sh
