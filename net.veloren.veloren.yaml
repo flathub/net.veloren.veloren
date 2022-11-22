@@ -76,7 +76,10 @@ modules:
           -e "s/@DATE@/${DATE}/g" \
           -i /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
-      - veloren-git.json
+      - type: git
+        url: https://gitlab.com/veloren/veloren.git
+        commit: 863dc4e0177c2db93a7ba6337ce864278c1d2072
+        tag: nightly
 
       # LLVM ERROR: out of memory on ARM
       - type: shell
