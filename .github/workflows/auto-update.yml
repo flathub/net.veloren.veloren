@@ -27,9 +27,6 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           submodules: true
 
-      - name: Pull before
-        run: git pull
-
       - name: Download flatpak-builder-tools
         run: |
           git clone -b ${BUILDER_TOOLS_BRANCH} \
