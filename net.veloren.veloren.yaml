@@ -17,7 +17,7 @@ modules:
       no-debuginfo: true
     buildsystem: simple
     build-commands:
-      - ./install.sh --prefix=/app --without=rust-docs --disable-ldconfig --verbose
+      - ./install.sh --prefix=/app --disable-ldconfig --verbose
     cleanup:
       - '*'
     sources:
