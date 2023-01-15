@@ -8036,6 +8036,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/timer-queue/timer-queue-0.1.0.crate",
+        "sha256": "13756c29c43d836ff576221498bf4916b0d2f7ea24cd47d3531b70dc4341f038",
+        "dest": "cargo/vendor/timer-queue-0.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"13756c29c43d836ff576221498bf4916b0d2f7ea24cd47d3531b70dc4341f038\", \"files\": {}}",
+        "dest": "cargo/vendor/timer-queue-0.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/tiny-keccak/tiny-keccak-2.0.2.crate",
         "sha256": "2c9d3793400a45f954c52e73d068316d76b6f4e36977e3fcebb13a2721e80237",
         "dest": "cargo/vendor/tiny-keccak-2.0.2"
