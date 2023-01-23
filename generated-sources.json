@@ -2278,14 +2278,14 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://static.crates.io/crates/dot_vox/dot_vox-4.1.0.crate",
-        "sha256": "83c18405ef54de0398b77a3ec8394d3a1639e7bf060e1385201e8db40c44ab41",
-        "dest": "cargo/vendor/dot_vox-4.1.0"
+        "url": "https://static.crates.io/crates/dot_vox/dot_vox-5.1.0.crate",
+        "sha256": "822f8b56c7ce710d336190a76a03690238d19a214ce2b85db33a47cac30f106c",
+        "dest": "cargo/vendor/dot_vox-5.1.0"
     },
     {
         "type": "inline",
-        "contents": "{\"package\": \"83c18405ef54de0398b77a3ec8394d3a1639e7bf060e1385201e8db40c44ab41\", \"files\": {}}",
-        "dest": "cargo/vendor/dot_vox-4.1.0",
+        "contents": "{\"package\": \"822f8b56c7ce710d336190a76a03690238d19a214ce2b85db33a47cac30f106c\", \"files\": {}}",
+        "dest": "cargo/vendor/dot_vox-5.1.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
