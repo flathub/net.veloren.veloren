@@ -4196,6 +4196,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/levenshtein/levenshtein-1.0.5.crate",
+        "sha256": "db13adb97ab515a3691f56e4dbab09283d0b86cb45abd991d8634a9d6f501760",
+        "dest": "cargo/vendor/levenshtein-1.0.5"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"db13adb97ab515a3691f56e4dbab09283d0b86cb45abd991d8634a9d6f501760\", \"files\": {}}",
+        "dest": "cargo/vendor/levenshtein-1.0.5",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/lewton/lewton-0.10.2.crate",
         "sha256": "777b48df9aaab155475a83a7df3070395ea1ac6902f5cd062b8f2b028075c030",
         "dest": "cargo/vendor/lewton-0.10.2"
