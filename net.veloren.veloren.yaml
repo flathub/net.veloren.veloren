@@ -80,7 +80,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/veloren/veloren.git
-        commit: d6fdc2637b5cb0a5511eb3288ce8efffa9c33cb8
+        commit: c8d0b337bb0eb1fc26a9bdc6947051aa539bd8d0
         tag: nightly
 
       # LLVM ERROR: out of memory on ARM
