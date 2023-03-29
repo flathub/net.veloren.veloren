@@ -559,6 +559,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"auth-common\"\nversion = \"0.1.0\"\nauthors = [ \"Acrimon <joel.wejdenstal@gmail.com>\",]\nedition = \"2018\"\n\n[dependencies]\nrand = \"0.8\"\n\n[dependencies.uuid]\nversion = \"0.8.2\"\ndefault-features = false\nfeatures = [ \"serde\", \"v4\",]\n\n[dependencies.serde]\nversion = \"1.0.115\"\ndefault-features = false\nfeatures = [ \"derive\",]\n",
+        "dest": "cargo/vendor/auth-common",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/auth-common",
         "dest-filename": ".cargo-checksum.json"
@@ -568,6 +574,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/auth-fb3dcbc/authc\" \"cargo/vendor/authc\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"authc\"\nversion = \"1.0.0\"\nauthors = [ \"Acrimon <joel.wejdenstal@gmail.com>\",]\nedition = \"2018\"\n\n[dependencies]\nhttp = \"0.2.3\"\nhyper-rustls = \"0.22.1\"\nserde_json = \"1.0\"\nhex = \"0.3.2\"\nfxhash = \"0.2.1\"\n\n[dependencies.hyper]\nversion = \"0.14.4\"\nfeatures = [ \"client\", \"http2\",]\n\n[dependencies.serde]\nversion = \"1.0.115\"\nfeatures = [ \"derive\",]\n\n[dependencies.uuid]\nversion = \"0.8.1\"\ndefault-features = false\nfeatures = [ \"serde\", \"v4\",]\n\n[dependencies.auth-common]\npath = \"../common\"\n\n[dependencies.rust-argon2]\nversion = \"0.8.2\"\ndefault-features = false\n",
+        "dest": "cargo/vendor/authc",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -1337,6 +1349,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"conrod_core\"\nversion = \"0.63.0\"\nauthors = [ \"Mitchell Nordine <mitchell.nordine@gmail.com>\", \"Sven Nilsen <bvssvni@gmail.com>\",]\nkeywords = [ \"ui\", \"widgets\", \"gui\", \"interface\", \"graphics\",]\ndescription = \"An easy-to-use, 100% Rust, extensible 2D GUI library.\"\nlicense = \"MIT OR Apache-2.0\"\nreadme = \"../README.md\"\nrepository = \"https://github.com/pistondevelopers/conrod.git\"\nhomepage = \"https://github.com/pistondevelopers/conrod\"\ndocumentation = \"http://docs.piston.rs/conrod/conrod/\"\ncategories = [ \"gui\",]\n\n[features]\nstdweb = [ \"instant/stdweb\",]\nwasm-bindgen = [ \"instant/wasm-bindgen\",]\n\n[dependencies]\ndaggy = \"0.5\"\nfnv = \"1.0\"\nnum = \"0.2\"\npistoncore-input = \"0.24\"\ninstant = \"0.1\"\ncopypasta = \"0.7\"\n\n[dependencies.conrod_derive]\npath = \"../conrod_derive\"\nversion = \"0.63\"\n\n[dependencies.rusttype]\nversion = \"0.7\"\nfeatures = [ \"gpu_cache\",]\n\n[package.metadata.docs.rs]\nall-features = true\n",
+        "dest": "cargo/vendor/conrod_core",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/conrod_core",
         "dest-filename": ".cargo-checksum.json"
@@ -1349,6 +1367,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"conrod_derive\"\nversion = \"0.63.0\"\nauthors = [ \"mitchmindtree <mitchell.nordine@gmail.com>\",]\ndescription = \"A crate providing procedural macros for the conrod library\"\nlicense = \"MIT OR Apache-2.0\"\nkeywords = [ \"conrod\", \"gui\", \"derive\", \"procedural\", \"macro\",]\nrepository = \"https://github.com/pistondevelopers/conrod.git\"\nhomepage = \"https://github.com/pistondevelopers/conrod\"\n\n[lib]\nproc-macro = true\n\n[dependencies]\nproc-macro2 = \"0.4.2\"\nquote = \"0.6\"\n\n[dependencies.syn]\nversion = \"0.15\"\nfeatures = [ \"extra-traits\", \"full\",]\n",
+        "dest": "cargo/vendor/conrod_derive",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/conrod_derive",
         "dest-filename": ".cargo-checksum.json"
@@ -1358,6 +1382,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/conrod-ca9fd42/backends/conrod_winit\" \"cargo/vendor/conrod_winit\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"conrod_winit\"\nversion = \"0.63.0\"\nauthors = [ \"Mitchell Nordine <mitchell.nordine@gmail.com>\", \"Sven Nilsen <bvssvni@gmail.com>\",]\nkeywords = [ \"ui\", \"widgets\", \"gui\", \"interface\", \"graphics\",]\ndescription = \"An easy-to-use, 100% Rust, extensible 2D GUI library.\"\nlicense = \"MIT OR Apache-2.0\"\nreadme = \"../../README.md\"\nrepository = \"https://github.com/pistondevelopers/conrod.git\"\nhomepage = \"https://github.com/pistondevelopers/conrod\"\ndocumentation = \"https://docs.rs/conrod\"\ncategories = [ \"gui\",]\n\n[lib]\nname = \"conrod_winit\"\npath = \"./src/lib.rs\"\n\n[dependencies]\n",
+        "dest": "cargo/vendor/conrod_winit",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -2335,6 +2365,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"egui_wgpu_backend\"\nversion = \"0.8.0\"\nauthors = [ \"Nils Hasenbanck <nils@hasenbanck.de>\",]\nedition = \"2018\"\ndescription = \"Backend code to use egui with wgpu.\"\nhomepage = \"https://github.com/hasenbanck/egui_wgpu_backend\"\nrepository = \"https://github.com/hasenbanck/egui_wgpu_backend\"\nlicense = \"MIT OR Apache-2.0\"\nreadme = \"README.md\"\n\n[features]\ndefault = []\nweb = []\n\n[dependencies]\nepi = \"0.12\"\nwgpu = \"0.8\"\nbytemuck = \"1.5\"\n",
+        "dest": "cargo/vendor/egui_wgpu_backend",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/egui_wgpu_backend",
         "dest-filename": ".cargo-checksum.json"
@@ -2776,6 +2812,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"fluent\"\ndescription = \"A localization system designed to unleash the entire expressive power of\\nnatural language translations.\\n\"\nversion = \"0.16.0\"\nedition = \"2021\"\nauthors = [ \"Zibi Braniecki <gandalf@mozilla.com>\", \"Sta\u015b Ma\u0142olepszy <stas@mozilla.com>\",]\nhomepage = \"http://www.projectfluent.org\"\nlicense = \"Apache-2.0/MIT\"\nrepository = \"https://github.com/projectfluent/fluent-rs\"\nreadme = \"README.md\"\nkeywords = [ \"localization\", \"l10n\", \"i18n\", \"intl\", \"internationalization\",]\ncategories = [ \"localization\", \"internationalization\",]\ninclude = [ \"src/**/*\", \"benches/*.rs\", \"Cargo.toml\", \"README.md\", \"LICENSE-APACHE\", \"LICENSE-MIT\",]\n\n[dependencies]\nunic-langid = \"0.9\"\n\n[dependencies.fluent-bundle]\nversion = \"0.15\"\npath = \"../fluent-bundle\"\n\n[dependencies.fluent-pseudo]\nversion = \"0.3\"\noptional = true\n",
+        "dest": "cargo/vendor/fluent",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/fluent",
         "dest-filename": ".cargo-checksum.json"
@@ -2785,6 +2827,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/fluent-rs-929cf95/fluent-bundle\" \"cargo/vendor/fluent-bundle\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[[bench]]\nname = \"resolver\"\nharness = false\n\n[[bench]]\nname = \"resolver_iai\"\nharness = false\n\n[package]\nname = \"fluent-bundle\"\ndescription = \"A localization system designed to unleash the entire expressive power of\\nnatural language translations.\\n\"\nversion = \"0.15.2\"\nedition = \"2021\"\nauthors = [ \"Zibi Braniecki <gandalf@mozilla.com>\", \"Sta\u015b Ma\u0142olepszy <stas@mozilla.com>\",]\nhomepage = \"http://www.projectfluent.org\"\nlicense = \"Apache-2.0/MIT\"\nrepository = \"https://github.com/projectfluent/fluent-rs\"\nreadme = \"README.md\"\nkeywords = [ \"localization\", \"l10n\", \"i18n\", \"intl\", \"internationalization\",]\ncategories = [ \"localization\", \"internationalization\",]\ninclude = [ \"src/**/*\", \"benches/*.rs\", \"Cargo.toml\", \"README.md\", \"LICENSE-APACHE\", \"LICENSE-MIT\",]\n\n[dependencies]\nfluent-langneg = \"0.13\"\nintl_pluralrules = \"7.0.1\"\nrustc-hash = \"1\"\nself_cell = \"0.10\"\nsmallvec = \"1\"\nunic-langid = \"0.9\"\n\n[dev-dependencies]\ncriterion = \"0.3\"\niai = \"0.1\"\nserde_yaml = \"0.8\"\nrand = \"0.8\"\n\n[features]\ndefault = []\nall-benchmarks = []\n\n[dependencies.fluent-syntax]\nversion = \"0.11\"\npath = \"../fluent-syntax\"\n\n[dependencies.intl-memoizer]\nversion = \"0.5\"\npath = \"../intl-memoizer\"\n\n[dev-dependencies.serde]\nversion = \"1.0\"\nfeatures = [ \"derive\",]\n\n[dev-dependencies.unic-langid]\nversion = \"0.9\"\nfeatures = [ \"macros\",]\n",
+        "dest": "cargo/vendor/fluent-bundle",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -2810,6 +2858,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/fluent-rs-929cf95/fluent-syntax\" \"cargo/vendor/fluent-syntax\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[[bench]]\nname = \"parser\"\nharness = false\n\n[[bench]]\nname = \"parser_iai\"\nharness = false\n\n[[bin]]\nname = \"parser\"\npath = \"src/bin/parser.rs\"\n\n[[bin]]\nname = \"update_fixtures\"\npath = \"src/bin/update_fixtures.rs\"\nrequired-features = [ \"json\",]\n\n[[test]]\nname = \"parser_fixtures\"\npath = \"tests/parser_fixtures.rs\"\nrequired-features = [ \"json\",]\n\n[package]\nname = \"fluent-syntax\"\ndescription = \"Parser/Serializer tools for Fluent Syntax.\\n\"\nversion = \"0.11.0\"\nedition = \"2021\"\nauthors = [ \"Zibi Braniecki <gandalf@mozilla.com>\", \"Sta\u015b Ma\u0142olepszy <stas@mozilla.com>\",]\nhomepage = \"http://www.projectfluent.org\"\nlicense = \"Apache-2.0/MIT\"\nrepository = \"https://github.com/projectfluent/fluent-rs\"\nreadme = \"README.md\"\nkeywords = [ \"localization\", \"l10n\", \"i18n\", \"intl\", \"internationalization\",]\ncategories = [ \"localization\", \"internationalization\",]\ninclude = [ \"src/**/*\", \"benches/*.rs\", \"Cargo.toml\", \"README.md\", \"LICENSE-APACHE\", \"LICENSE-MIT\",]\n\n[dependencies]\nthiserror = \"1.0\"\n\n[dev-dependencies]\nserde_json = \"1.0\"\nglob = \"0.3\"\ncriterion = \"0.3\"\niai = \"0.1\"\n\n[features]\ndefault = []\njson = [ \"serde\", \"serde_json\",]\nall-benchmarks = []\n\n[dependencies.serde]\nversion = \"1.0\"\nfeatures = [ \"derive\",]\noptional = true\n\n[dependencies.serde_json]\nversion = \"1.0\"\noptional = true\n\n[dev-dependencies.serde]\nversion = \"1.0\"\nfeatures = [ \"derive\",]\n",
+        "dest": "cargo/vendor/fluent-syntax",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -3124,6 +3178,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"gfx-auxil\"\nversion = \"0.9.0\"\ndescription = \"Implementation details shared between gfx-rs backends\"\nhomepage = \"https://github.com/gfx-rs/gfx\"\nrepository = \"https://github.com/gfx-rs/gfx\"\nkeywords = [ \"graphics\", \"gamedev\",]\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\ndocumentation = \"https://docs.rs/gfx-auxil\"\nworkspace = \"../../../\"\nedition = \"2018\"\n\n[dependencies]\nfxhash = \"0.2.1\"\n\n[lib]\nname = \"gfx_auxil\"\n\n[dependencies.hal]\npath = \"../../hal\"\nversion = \"0.8\"\npackage = \"gfx-hal\"\n\n[dependencies.spirv_cross]\nversion = \"0.23\"\noptional = true\n",
+        "dest": "cargo/vendor/gfx-auxil",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/gfx-auxil",
         "dest-filename": ".cargo-checksum.json"
@@ -3133,6 +3193,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/dx11\" \"cargo/vendor/gfx-backend-dx11\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"gfx-backend-dx11\"\nversion = \"0.8.0\"\ndescription = \"DirectX-11 API backend for gfx-rs\"\nhomepage = \"https://github.com/gfx-rs/gfx\"\nrepository = \"https://github.com/gfx-rs/gfx\"\nkeywords = [ \"graphics\", \"gamedev\",]\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\nreadme = \"README.md\"\ndocumentation = \"https://docs.rs/gfx-backend-dx11\"\nworkspace = \"../../..\"\nedition = \"2018\"\n\n[features]\ndefault = []\n\n[lib]\nname = \"gfx_backend_dx11\"\n\n[dependencies]\narrayvec = \"0.5\"\nbitflags = \"1\"\nlibloading = \"0.7\"\nlog = \"0.4\"\nsmallvec = \"1.0\"\nthunderdome = \"0.4\"\nparking_lot = \"0.11\"\nwio = \"0.2\"\nraw-window-handle = \"0.3\"\n\n[dependencies.auxil]\npath = \"../../auxil/auxil\"\nversion = \"0.9\"\npackage = \"gfx-auxil\"\nfeatures = [ \"spirv_cross\",]\n\n[dependencies.hal]\npath = \"../../hal\"\nversion = \"0.8\"\npackage = \"gfx-hal\"\n\n[dependencies.range-alloc]\npath = \"../../auxil/range-alloc\"\nversion = \"0.1\"\n\n[dependencies.spirv_cross]\nversion = \"0.23\"\nfeatures = [ \"hlsl\",]\n\n[dependencies.winapi]\nversion = \"0.3\"\nfeatures = [ \"basetsd\", \"d3d11\", \"d3d11_1\", \"d3d11sdklayers\", \"d3dcommon\", \"d3dcompiler\", \"dxgi1_2\", \"dxgi1_3\", \"dxgi1_4\", \"dxgi1_5\", \"dxgiformat\", \"dxgitype\", \"handleapi\", \"minwindef\", \"synchapi\", \"unknwnbase\", \"winbase\", \"windef\", \"winerror\", \"winnt\", \"winuser\",]\n\n[package.metadata.docs.rs]\ndefault-target = \"x86_64-pc-windows-msvc\"\n",
+        "dest": "cargo/vendor/gfx-backend-dx11",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -3148,6 +3214,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"gfx-backend-dx12\"\nversion = \"0.8.0\"\ndescription = \"DirectX-12 API backend for gfx-rs\"\nhomepage = \"https://github.com/gfx-rs/gfx\"\nrepository = \"https://github.com/gfx-rs/gfx\"\nkeywords = [ \"graphics\", \"gamedev\",]\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\nreadme = \"README.md\"\ndocumentation = \"https://docs.rs/gfx-backend-dx12\"\nworkspace = \"../../..\"\nedition = \"2018\"\n\n[features]\ndefault = []\n\n[lib]\nname = \"gfx_backend_dx12\"\n\n[dependencies]\narrayvec = \"0.5\"\nbitflags = \"1\"\nbit-set = \"0.5\"\nlog = \"0.4\"\nparking_lot = \"0.11\"\nsmallvec = \"1\"\nthunderdome = \"0.4\"\nraw-window-handle = \"0.3\"\n\n[dependencies.auxil]\npath = \"../../auxil/auxil\"\nversion = \"0.9\"\npackage = \"gfx-auxil\"\nfeatures = [ \"spirv_cross\",]\n\n[dependencies.hal]\npath = \"../../hal\"\nversion = \"0.8\"\npackage = \"gfx-hal\"\n\n[dependencies.range-alloc]\npath = \"../../auxil/range-alloc\"\nversion = \"0.1.1\"\n\n[dependencies.native]\npackage = \"d3d12\"\nversion = \"0.4\"\nfeatures = [ \"libloading\",]\n\n[dependencies.spirv_cross]\nversion = \"0.23\"\nfeatures = [ \"hlsl\",]\n\n[dependencies.winapi]\nversion = \"0.3\"\nfeatures = [ \"basetsd\", \"d3d12\", \"d3d12sdklayers\", \"d3d12shader\", \"d3dcommon\", \"d3dcompiler\", \"dxgi1_2\", \"dxgi1_3\", \"dxgi1_4\", \"dxgi1_5\", \"dxgi1_6\", \"dxgidebug\", \"dxgiformat\", \"dxgitype\", \"handleapi\", \"minwindef\", \"synchapi\", \"unknwnbase\", \"winbase\", \"windef\", \"winerror\", \"winnt\", \"winuser\",]\n\n[package.metadata.docs.rs]\ndefault-target = \"x86_64-pc-windows-msvc\"\n",
+        "dest": "cargo/vendor/gfx-backend-dx12",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/gfx-backend-dx12",
         "dest-filename": ".cargo-checksum.json"
@@ -3157,6 +3229,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/empty\" \"cargo/vendor/gfx-backend-empty\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"gfx-backend-empty\"\nversion = \"0.8.0\"\ndescription = \"Empty backend for gfx-rs\"\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\ndocumentation = \"https://docs.rs/gfx-backend-empty\"\nworkspace = \"../../..\"\nedition = \"2018\"\n\n[lib]\nname = \"gfx_backend_empty\"\n\n[dependencies]\nraw-window-handle = \"0.3\"\nlog = \"0.4\"\n\n[dependencies.gfx-hal]\npath = \"../../hal\"\nversion = \"0.8\"\n",
+        "dest": "cargo/vendor/gfx-backend-empty",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -3172,6 +3250,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"gfx-backend-gl\"\nversion = \"0.8.1\"\ndescription = \"OpenGL backend for gfx-rs\"\nhomepage = \"https://github.com/gfx-rs/gfx\"\nrepository = \"https://github.com/gfx-rs/gfx\"\nkeywords = [ \"graphics\", \"gamedev\",]\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\nreadme = \"README.md\"\ndocumentation = \"https://docs.rs/gfx-backend-gl\"\nworkspace = \"../../..\"\nedition = \"2018\"\n\n[lib]\nname = \"gfx_backend_gl\"\n\n[features]\ndefault = []\ncross = [ \"spirv_cross\", \"auxil\", \"naga/spv-out\",]\n\n[dependencies]\narrayvec = \"0.5\"\nbitflags = \"1\"\nfxhash = \"0.2.1\"\nlog = \"0.4\"\nglow = \"0.9\"\nparking_lot = \"0.11\"\nraw-window-handle = \"0.3\"\n\n[dependencies.hal]\npackage = \"gfx-hal\"\npath = \"../../hal\"\nversion = \"0.8\"\n\n[dependencies.auxil]\npackage = \"gfx-auxil\"\npath = \"../../auxil/auxil\"\nversion = \"0.9\"\nfeatures = [ \"spirv_cross\",]\noptional = true\n\n[dependencies.spirv_cross]\nversion = \"0.23\"\nfeatures = [ \"glsl\",]\noptional = true\n\n[dependencies.naga]\ngit = \"https://github.com/gfx-rs/naga\"\ntag = \"gfx-25\"\nfeatures = [ \"spv-in\", \"glsl-out\",]\n\n[target.\"cfg(not(target_arch = \\\"wasm32\\\"))\".dependencies]\nlibloading = \"0.7\"\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dependencies]\njs-sys = \"0.3.6\"\nwasm-bindgen = \"0.2.60\"\n\n[target.\"cfg(not(target_arch = \\\"wasm32\\\"))\".dependencies.egl]\npackage = \"khronos-egl\"\nversion = \"4.1\"\nfeatures = [ \"dynamic\",]\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dependencies.web-sys]\nversion = \"0.3.6\"\nfeatures = [ \"console\", \"Document\", \"Element\", \"HtmlCanvasElement\", \"HtmlElement\", \"Node\", \"Performance\", \"WebGlBuffer\", \"WebGlRenderingContext\", \"WebGl2RenderingContext\", \"WebGlProgram\", \"WebGlSampler\", \"WebGlShader\", \"WebGlTexture\", \"Window\",]\n",
+        "dest": "cargo/vendor/gfx-backend-gl",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/gfx-backend-gl",
         "dest-filename": ".cargo-checksum.json"
@@ -3181,6 +3265,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/backend/metal\" \"cargo/vendor/gfx-backend-metal\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"gfx-backend-metal\"\nversion = \"0.8.1\"\ndescription = \"Metal API backend for gfx-rs\"\nhomepage = \"https://github.com/gfx-rs/gfx\"\nrepository = \"https://github.com/gfx-rs/gfx\"\nkeywords = [ \"graphics\", \"gamedev\",]\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\nreadme = \"README.md\"\ndocumentation = \"https://docs.rs/gfx-backend-metal\"\nworkspace = \"../../..\"\nedition = \"2018\"\n\n[features]\ndefault = []\nsignpost = []\ncross = [ \"spirv_cross\", \"auxil\", \"naga/spv-out\",]\npipeline-cache = [ \"tempfile\", \"serde\", \"bincode\", \"naga/serialize\", \"naga/deserialize\", \"naga/spv-out\",]\n\n[lib]\nname = \"gfx_backend_metal\"\n\n[dependencies]\narrayvec = \"0.5\"\nbitflags = \"1.0\"\ncopyless = \"0.1.4\"\nfxhash = \"0.2.1\"\nlog = \"0.4\"\nforeign-types = \"0.3\"\nobjc = \"0.2.5\"\nblock = \"0.1\"\ncocoa-foundation = \"0.1\"\nparking_lot = \"0.11\"\nstorage-map = \"0.3\"\nraw-window-handle = \"0.3\"\n\n[dependencies.hal]\npackage = \"gfx-hal\"\npath = \"../../hal\"\nversion = \"0.8\"\n\n[dependencies.range-alloc]\npath = \"../../auxil/range-alloc\"\nversion = \"0.1\"\n\n[dependencies.dispatch]\nversion = \"0.2\"\noptional = true\n\n[dependencies.metal]\nversion = \"0.22\"\nfeatures = [ \"private\",]\n\n[dependencies.profiling]\nversion = \"1\"\ndefault-features = false\n\n[dependencies.tempfile]\nversion = \"3.2\"\noptional = true\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [ \"serde_derive\",]\noptional = true\n\n[dependencies.bincode]\nversion = \"1\"\noptional = true\n\n[dependencies.auxil]\npackage = \"gfx-auxil\"\npath = \"../../auxil/auxil\"\nversion = \"0.9\"\nfeatures = [ \"spirv_cross\",]\noptional = true\n\n[dependencies.spirv_cross]\nversion = \"0.23\"\nfeatures = [ \"msl\",]\noptional = true\n\n[dependencies.naga]\ngit = \"https://github.com/gfx-rs/naga\"\ntag = \"gfx-25\"\nfeatures = [ \"spv-in\", \"msl-out\",]\n\n[package.metadata.docs.rs]\ndefault-target = \"x86_64-apple-darwin\"\n",
+        "dest": "cargo/vendor/gfx-backend-metal",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -3196,6 +3286,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"gfx-backend-vulkan\"\nversion = \"0.8.0\"\ndescription = \"Vulkan API backend for gfx-rs\"\nhomepage = \"https://github.com/gfx-rs/gfx\"\nrepository = \"https://github.com/gfx-rs/gfx\"\nkeywords = [ \"graphics\", \"gamedev\",]\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\nreadme = \"README.md\"\ndocumentation = \"https://docs.rs/gfx-backend-vulkan\"\nworkspace = \"../../..\"\nedition = \"2018\"\n\n[features]\ndefault = []\nuse-rtld-next = [ \"libc\",]\n\n[lib]\nname = \"gfx_backend_vulkan\"\n\n[dependencies]\narrayvec = \"0.5\"\nbyteorder = \"1\"\nlog = \"0.4\"\nash = \"0.32\"\nparking_lot = \"0.11\"\nsmallvec = \"1.0\"\nraw-window-handle = \"0.3\"\ninplace_it = \"0.3.3\"\nrenderdoc-sys = \"0.7.1\"\nlibloading = \"0.7\"\n\n[dependencies.libc]\nversion = \"0.2\"\noptional = true\n\n[dependencies.hal]\npath = \"../../hal\"\nversion = \"0.8\"\npackage = \"gfx-hal\"\n\n[dependencies.naga]\ngit = \"https://github.com/gfx-rs/naga\"\ntag = \"gfx-25\"\nfeatures = [ \"spv-out\",]\noptional = true\n\n[target.\"cfg(target_os = \\\"macos\\\")\".dependencies]\nobjc = \"0.2.5\"\ncore-graphics-types = \"0.1\"\n\n[target.\"cfg(windows)\".dependencies.winapi]\nversion = \"0.3\"\nfeatures = [ \"libloaderapi\", \"windef\", \"winuser\",]\n",
+        "dest": "cargo/vendor/gfx-backend-vulkan",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/gfx-backend-vulkan",
         "dest-filename": ".cargo-checksum.json"
@@ -3205,6 +3301,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/gfx-27a1dae/src/hal\" \"cargo/vendor/gfx-hal\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"gfx-hal\"\nversion = \"0.8.0\"\ndescription = \"gfx-rs hardware abstraction layer\"\nhomepage = \"https://github.com/gfx-rs/gfx\"\nrepository = \"https://github.com/gfx-rs/gfx\"\nkeywords = [ \"graphics\",]\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\ndocumentation = \"https://docs.rs/gfx-hal\"\nworkspace = \"../..\"\nedition = \"2018\"\n\n[features]\nunstable = []\n\n[lib]\nname = \"gfx_hal\"\npath = \"src/lib.rs\"\n\n[dependencies]\nbitflags = \"1.0\"\nraw-window-handle = \"0.3\"\nthiserror = \"1\"\n\n[dependencies.naga]\ngit = \"https://github.com/gfx-rs/naga\"\ntag = \"gfx-25\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [ \"serde_derive\",]\noptional = true\n\n[dev-dependencies.gfx-backend-empty]\npath = \"../backend/empty\"\nversion = \"0.8\"\n",
+        "dest": "cargo/vendor/gfx-hal",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -3714,6 +3816,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"iced_core\"\nversion = \"0.4.0\"\nauthors = [ \"H\u00e9ctor Ram\u00f3n Jim\u00e9nez <hector0193@gmail.com>\",]\nedition = \"2018\"\ndescription = \"The essential concepts of Iced\"\nlicense = \"MIT\"\nrepository = \"https://github.com/hecrj/iced\"\n\n[dependencies.palette]\nversion = \"0.5.0\"\noptional = true\n",
+        "dest": "cargo/vendor/iced_core",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/iced_core",
         "dest-filename": ".cargo-checksum.json"
@@ -3723,6 +3831,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/futures\" \"cargo/vendor/iced_futures\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"iced_futures\"\nversion = \"0.3.0\"\nauthors = [ \"H\u00e9ctor Ram\u00f3n Jim\u00e9nez <hector0193@gmail.com>\",]\nedition = \"2018\"\ndescription = \"Commands, subscriptions, and runtimes for Iced\"\nlicense = \"MIT\"\nrepository = \"https://github.com/hecrj/iced\"\ndocumentation = \"https://docs.rs/iced_futures\"\nkeywords = [ \"gui\", \"ui\", \"graphics\", \"interface\", \"futures\",]\ncategories = [ \"gui\",]\n\n[features]\nthread-pool = [ \"futures/thread-pool\",]\n\n[dependencies]\nlog = \"0.4\"\n\n[dependencies.futures]\nversion = \"0.3\"\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dependencies]\nwasm-bindgen-futures = \"0.4\"\n\n[package.metadata.docs.rs]\nrustdoc-args = [ \"--cfg\", \"docsrs\",]\nall-features = true\n\n[target.\"cfg(not(target_arch = \\\"wasm32\\\"))\".dependencies.tokio_old]\npackage = \"tokio\"\nversion = \"0.2\"\noptional = true\nfeatures = [ \"rt-core\", \"rt-threaded\", \"time\", \"stream\",]\n\n[target.\"cfg(not(target_arch = \\\"wasm32\\\"))\".dependencies.tokio]\npackage = \"tokio\"\nversion = \"1.0\"\noptional = true\nfeatures = [ \"rt\", \"rt-multi-thread\", \"time\",]\n\n[target.\"cfg(not(target_arch = \\\"wasm32\\\"))\".dependencies.async-std]\nversion = \"1.0\"\noptional = true\nfeatures = [ \"unstable\",]\n\n[target.\"cfg(not(target_arch = \\\"wasm32\\\"))\".dependencies.smol]\nversion = \"1.2\"\noptional = true\n",
+        "dest": "cargo/vendor/iced_futures",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -3738,6 +3852,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"iced_graphics\"\nversion = \"0.2.0\"\nauthors = [ \"H\u00e9ctor Ram\u00f3n Jim\u00e9nez <hector0193@gmail.com>\",]\nedition = \"2018\"\ndescription = \"A bunch of backend-agnostic types that can be leveraged to build a renderer for Iced\"\nlicense = \"MIT\"\nrepository = \"https://github.com/hecrj/iced\"\ndocumentation = \"https://docs.rs/iced_graphics\"\nkeywords = [ \"gui\", \"ui\", \"graphics\", \"interface\", \"widgets\",]\ncategories = [ \"gui\",]\n\n[features]\ncanvas = [ \"lyon\",]\nqr_code = [ \"qrcode\", \"canvas\",]\nfont-source = [ \"font-kit\",]\nfont-fallback = []\nfont-icons = []\nopengl = []\n\n[dependencies]\nglam = \"0.10\"\nraw-window-handle = \"0.3\"\nthiserror = \"1.0\"\n\n[dependencies.bytemuck]\nversion = \"1.4\"\nfeatures = [ \"derive\",]\n\n[dependencies.iced_native]\nversion = \"0.4\"\npath = \"../native\"\n\n[dependencies.iced_style]\nversion = \"0.3\"\npath = \"../style\"\n\n[dependencies.lyon]\nversion = \"0.16\"\noptional = true\n\n[dependencies.qrcode]\nversion = \"0.12\"\noptional = true\ndefault-features = false\n\n[dependencies.font-kit]\nversion = \"0.10\"\noptional = true\n\n[package.metadata.docs.rs]\nrustdoc-args = [ \"--cfg\", \"docsrs\",]\nall-features = true\n",
+        "dest": "cargo/vendor/iced_graphics",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/iced_graphics",
         "dest-filename": ".cargo-checksum.json"
@@ -3747,6 +3867,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/native\" \"cargo/vendor/iced_native\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"iced_native\"\nversion = \"0.4.0\"\nauthors = [ \"H\u00e9ctor Ram\u00f3n Jim\u00e9nez <hector0193@gmail.com>\",]\nedition = \"2018\"\ndescription = \"A renderer-agnostic library for native GUIs\"\nlicense = \"MIT\"\nrepository = \"https://github.com/hecrj/iced\"\n\n[features]\ndebug = []\n\n[dependencies]\ntwox-hash = \"1.5\"\nunicode-segmentation = \"1.6\"\nnum-traits = \"0.2\"\n\n[dependencies.iced_core]\nversion = \"0.4\"\npath = \"../core\"\n\n[dependencies.iced_futures]\nversion = \"0.3\"\npath = \"../futures\"\nfeatures = [ \"thread-pool\",]\n",
+        "dest": "cargo/vendor/iced_native",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -3762,6 +3888,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"iced_style\"\nversion = \"0.3.0\"\nauthors = [ \"H\u00e9ctor Ram\u00f3n Jim\u00e9nez <hector0193@gmail.com>\",]\nedition = \"2018\"\ndescription = \"The default set of styles of Iced\"\nlicense = \"MIT\"\nrepository = \"https://github.com/hecrj/iced\"\ndocumentation = \"https://docs.rs/iced_style\"\nkeywords = [ \"gui\", \"ui\", \"graphics\", \"interface\", \"widgets\",]\ncategories = [ \"gui\",]\n\n[dependencies.iced_core]\nversion = \"0.4\"\npath = \"../core\"\n",
+        "dest": "cargo/vendor/iced_style",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/iced_style",
         "dest-filename": ".cargo-checksum.json"
@@ -3771,6 +3903,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/iced-18a48a5/winit\" \"cargo/vendor/iced_winit\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"iced_winit\"\nversion = \"0.3.0\"\nauthors = [ \"H\u00e9ctor Ram\u00f3n Jim\u00e9nez <hector0193@gmail.com>\",]\nedition = \"2018\"\ndescription = \"A winit runtime for Iced\"\nlicense = \"MIT\"\nrepository = \"https://github.com/hecrj/iced\"\ndocumentation = \"https://docs.rs/iced_winit\"\nkeywords = [ \"gui\", \"ui\", \"graphics\", \"interface\", \"widgets\",]\ncategories = [ \"gui\",]\n\n[features]\ndebug = [ \"iced_native/debug\",]\n\n[dependencies]\nwinit = \"0.25\"\nwindow_clipboard = \"0.2\"\nlog = \"0.4\"\nthiserror = \"1.0\"\n\n[dependencies.iced_native]\nversion = \"0.4\"\npath = \"../native\"\n\n[dependencies.iced_graphics]\nversion = \"0.2\"\npath = \"../graphics\"\n\n[dependencies.iced_futures]\nversion = \"0.3\"\npath = \"../futures\"\n\n[target.\"cfg(target_os = \\\"windows\\\")\".dependencies.winapi]\nversion = \"0.3.6\"\n",
+        "dest": "cargo/vendor/iced_winit",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -3900,6 +4038,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/fluent-rs-929cf95/intl-memoizer\" \"cargo/vendor/intl-memoizer\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"intl-memoizer\"\ndescription = \"A memoizer specifically tailored for storing lazy-initialized\\nintl formatters.\\n\"\nversion = \"0.5.1\"\nedition = \"2021\"\nauthors = [ \"Zibi Braniecki <gandalf@mozilla.com>\", \"Manish Goregaokar <manishsmail@gmail.com>\",]\nhomepage = \"http://www.projectfluent.org\"\nlicense = \"Apache-2.0/MIT\"\nrepository = \"https://github.com/projectfluent/fluent-rs\"\nreadme = \"README.md\"\nkeywords = [ \"localization\", \"l10n\", \"i18n\", \"intl\", \"internationalization\",]\ncategories = [ \"localization\", \"internationalization\",]\ninclude = [ \"src/**/*\", \"benches/*.rs\", \"Cargo.toml\", \"README.md\", \"LICENSE-APACHE\", \"LICENSE-MIT\",]\n\n[dependencies]\ntype-map = \"0.5\"\nunic-langid = \"0.9\"\n\n[dev-dependencies]\nintl_pluralrules = \"7.0.1\"\nfluent-langneg = \"0.13\"\n",
+        "dest": "cargo/vendor/intl-memoizer",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -4718,6 +4862,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/naga-057d03a/.\" \"cargo/vendor/naga\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[[bin]]\nname = \"naga\"\npath = \"bin/naga.rs\"\n\n[package]\nname = \"naga\"\nversion = \"0.4.0\"\nauthors = [ \"Naga Developers\",]\nedition = \"2018\"\ndescription = \"Shader translation infrastructure\"\nhomepage = \"https://github.com/gfx-rs/naga\"\nrepository = \"https://github.com/gfx-rs/naga\"\nkeywords = [ \"shader\", \"SPIR-V\", \"GLSL\", \"MSL\",]\nlicense = \"MIT OR Apache-2.0\"\n\n[dependencies]\nbitflags = \"1\"\nbit-set = \"0.5\"\nfxhash = \"0.2\"\nlog = \"0.4\"\nnum-traits = \"0.2\"\nthiserror = \"1.0.21\"\n\n[features]\ndefault = []\ndot-out = []\nglsl-in = [ \"pomelo\", \"pp-rs\",]\nglsl-validate = []\nglsl-out = [ \"petgraph\",]\nmsl-out = []\nserialize = [ \"serde\",]\ndeserialize = [ \"serde\",]\nspv-in = [ \"petgraph\", \"spirv\", \"rose_tree\",]\nspv-out = [ \"spirv\",]\nwgsl-in = [ \"codespan-reporting\",]\nwgsl-out = []\nhlsl-out = []\n\n[dev-dependencies]\ndiff = \"0.1\"\nron = \"0.6\"\nrspirv = \"0.7\"\n\n[dependencies.codespan-reporting]\nversion = \"0.11.0\"\noptional = true\n\n[dependencies.spirv]\npackage = \"spirv_headers\"\nversion = \"1.5\"\noptional = true\n\n[dependencies.pomelo]\nversion = \"0.1.4\"\noptional = true\n\n[dependencies.serde]\nversion = \"1.0\"\nfeatures = [ \"derive\",]\noptional = true\n\n[dependencies.petgraph]\nversion = \"0.5\"\noptional = true\n\n[dependencies.rose_tree]\nversion = \"0.2\"\noptional = true\n\n[dependencies.pp-rs]\nversion = \"0.1\"\noptional = true\n\n[dev-dependencies.serde]\nversion = \"1.0\"\nfeatures = [ \"derive\",]\n\n[dev-dependencies.spirv]\npackage = \"spirv_headers\"\nversion = \"1.5\"\nfeatures = [ \"deserialize\",]\n\n[package.metadata.docs.rs]\nall-features = true\n",
+        "dest": "cargo/vendor/naga",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -5903,6 +6053,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"portpicker\"\ndescription = \"Pick a free unused port\"\nversion = \"0.1.0\"\nauthors = [ \"Hannes Karppila <hannes.karppila@gmail.com>\",]\nedition = \"2018\"\nrepository = \"https://github.com/Dentosal/portpicker-rs\"\nreadme = \"README.md\"\nkeywords = [ \"port\", \"network\",]\ncategories = [ \"network-programming\",]\nlicense = \"Unlicense\"\n\n[dependencies]\nrand = \"0.8\"\n",
+        "dest": "cargo/vendor/portpicker",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/portpicker",
         "dest-filename": ".cargo-checksum.json"
@@ -6318,6 +6474,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"range-alloc\"\nversion = \"0.1.2\"\ndescription = \"Generic range allocator used by gfx-rs backends\"\nhomepage = \"https://github.com/gfx-rs/gfx\"\nrepository = \"https://github.com/gfx-rs/gfx\"\nkeywords = [ \"allocator\",]\nlicense = \"MIT OR Apache-2.0\"\nauthors = [ \"The Gfx-rs Developers\",]\ndocumentation = \"https://docs.rs/range-alloc\"\ncategories = [ \"memory-management\",]\nworkspace = \"../../../\"\nedition = \"2018\"\n\n[lib]\nname = \"range_alloc\"\n",
+        "dest": "cargo/vendor/range-alloc",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/range-alloc",
         "dest-filename": ".cargo-checksum.json"
@@ -6447,6 +6609,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"refinery\"\nversion = \"0.5.0\"\nauthors = [ \"Katharina Fey <kookie@spacekookie.de>\", \"Jo\u00e3o Oliveira <hello@jxs.pt>\",]\nlicense = \"MIT\"\ndescription = \"Powerful SQL migration toolkit for Rust\"\nreadme = \"README.md\"\ndocumentation = \"https://docs.rs/refinery/\"\nrepository = \"https://github.com/rust-db/refinery\"\nkeywords = [ \"database\", \"sql\", \"migrations\", \"orm\",]\ncategories = [ \"database\",]\nedition = \"2018\"\n\n[features]\ndefault = []\nrusqlite-bundled = [ \"refinery-core/rusqlite-bundled\",]\nrusqlite = [ \"refinery-core/rusqlite\",]\npostgres = [ \"refinery-core/postgres\",]\nmysql = [ \"refinery-core/mysql\",]\ntokio-postgres = [ \"refinery-core/tokio-postgres\",]\nmysql_async = [ \"refinery-core/mysql_async\",]\ntokio = [ \"refinery-core/tokio\",]\n\n[dev-dependencies]\nfutures = \"0.3\"\nassert_cmd = \"1.0\"\npredicates = \"1\"\ntempfile = \"3\"\nchrono = \"0.4\"\n\n[dependencies.refinery-core]\nversion = \"0.5.0\"\npath = \"../refinery_core\"\n\n[dependencies.refinery-macros]\nversion = \"0.5.0\"\npath = \"../refinery_macros\"\n\n[dev-dependencies.barrel]\nversion = \"0.6\"\nfeatures = [ \"sqlite3\", \"pg\", \"mysql\",]\n",
+        "dest": "cargo/vendor/refinery",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/refinery",
         "dest-filename": ".cargo-checksum.json"
@@ -6459,6 +6627,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"refinery-core\"\nversion = \"0.5.0\"\nauthors = [ \"Katharina Fey <kookie@spacekookie.de>\", \"Jo\u00e3o Oliveira <hello@jxs.pt>\",]\ndescription = \"This crate should not be used directly, it is internaly related to Refinery\"\nlicense = \"MIT OR Apache-2.0\"\ndocumentation = \"https://docs.rs/refinery/\"\nrepository = \"https://github.com/rust-db/refinery\"\nedition = \"2018\"\n\n[features]\ndefault = []\nrusqlite-bundled = [ \"rusqlite\", \"rusqlite/bundled\",]\n\n[dependencies]\nasync-trait = \"0.1\"\ncfg-if = \"1.0\"\nchrono = \"0.4\"\nlazy_static = \"1\"\nlog = \"0.4\"\nregex = \"1\"\nsiphasher = \"0.3\"\nthiserror = \"1\"\ntoml = \"0.5\"\nurl = \"2.0\"\nwalkdir = \"2.3.1\"\n\n[dev-dependencies]\ntempfile = \"3.1.0\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [ \"derive\",]\n\n[dependencies.rusqlite]\nversion = \">= 0.23, < 0.25\"\noptional = true\n\n[dependencies.postgres]\nversion = \"0.19\"\noptional = true\n\n[dependencies.mysql]\nversion = \"20\"\noptional = true\n\n[dependencies.tokio-postgres]\nversion = \"0.7\"\noptional = true\n\n[dependencies.mysql_async]\nversion = \"0.26\"\noptional = true\n\n[dependencies.tokio]\nversion = \"1.0\"\nfeatures = [ \"full\",]\noptional = true\n\n[package.metadata.docs.rs]\nall-features = true\n",
+        "dest": "cargo/vendor/refinery-core",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/refinery-core",
         "dest-filename": ".cargo-checksum.json"
@@ -6468,6 +6642,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/refinery-8ecf4b4/refinery_macros\" \"cargo/vendor/refinery-macros\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"refinery-macros\"\nversion = \"0.5.0\"\nauthors = [ \"Katharina Fey <kookie@spacekookie.de>\", \"Jo\u00e3o Oliveira <hello@jxs.pt>\",]\ndescription = \"This crate should not be used directly, it is internaly related to Refinery\"\nlicense = \"MIT OR Apache-2.0\"\ndocumentation = \"https://docs.rs/refinery/\"\nrepository = \"https://github.com/rust-db/refinery\"\nedition = \"2018\"\n\n[lib]\nproc-macro = true\n\n[dependencies]\nquote = \"1\"\nproc-macro2 = \"1\"\nregex = \"1\"\n\n[dev-dependencies]\ntempfile = \"3\"\n\n[dependencies.refinery-core]\nversion = \"0.5.0\"\npath = \"../refinery_core\"\n\n[dependencies.syn]\nversion = \"1\"\nfeatures = [ \"full\",]\n",
+        "dest": "cargo/vendor/refinery-macros",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -7289,6 +7469,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"shaderc\"\nversion = \"0.8.0\"\nauthors = [ \"Lei Zhang <antiagainst@gmail.com>\",]\ndescription = \"Rust bindings for shaderc\"\ndocumentation = \"https://docs.rs/shaderc\"\nrepository = \"https://github.com/google/shaderc-rs\"\nreadme = \"../README.md\"\nlicense = \"Apache-2.0\"\nkeywords = [ \"shader\", \"compiler\", \"spirv\", \"glsl\", \"hlsl\",]\n\n[lib]\npath = \"src/lib.rs\"\n\n[dependencies]\nlibc = \"0.2\"\n\n[dev-dependencies]\nassert_matches = \"1.5\"\n\n[features]\nbuild-from-source = [ \"shaderc-sys/build-from-source\",]\n\n[dependencies.shaderc-sys]\nversion = \"0.8.0\"\npath = \"../shaderc-sys\"\n",
+        "dest": "cargo/vendor/shaderc",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/shaderc",
         "dest-filename": ".cargo-checksum.json"
@@ -7298,6 +7484,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/shaderc-rs-f2605a0/shaderc-sys\" \"cargo/vendor/shaderc-sys\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"shaderc-sys\"\nversion = \"0.8.0\"\nauthors = [ \"Lei Zhang <antiagainst@gmail.com>\", \"Mr. Knapp <knappador@gmail.com>\",]\nbuild = \"build/build.rs\"\ndescription = \"Shaderc system library FFI, building, and linking\"\nrepository = \"https://github.com/google/shaderc-rs\"\ndocumentation = \"https://docs.rs/shaderc\"\nreadme = \"../README.md\"\nlicense = \"Apache-2.0\"\nkeywords = [ \"shader\", \"compiler\", \"spirv\", \"glsl\", \"hlsl\",]\nlinks = \"shaderc\"\n\n[lib]\nname = \"shaderc_sys\"\n\n[features]\nbuild-from-source = []\n\n[dependencies]\nlibc = \"0.2\"\n\n[build-dependencies]\ncmake = \"^0.1.37\"\nroxmltree = \"0.14.1\"\n",
+        "dest": "cargo/vendor/shaderc-sys",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -8392,6 +8584,12 @@
     },
     {
         "type": "inline",
+        "contents": "[[example]]\nname = \"canvas\"\npath = \"examples/canvas.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"user_input\"\npath = \"examples/user_input.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"gauge\"\npath = \"examples/gauge.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"barchart\"\npath = \"examples/barchart.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"chart\"\npath = \"examples/chart.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"paragraph\"\npath = \"examples/paragraph.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"list\"\npath = \"examples/list.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"table\"\npath = \"examples/table.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"tabs\"\npath = \"examples/tabs.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"custom_widget\"\npath = \"examples/custom_widget.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"layout\"\npath = \"examples/layout.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"popup\"\npath = \"examples/popup.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"block\"\npath = \"examples/block.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"sparkline\"\npath = \"examples/sparkline.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"termion_demo\"\npath = \"examples/termion_demo.rs\"\nrequired-features = [ \"termion\",]\n\n[[example]]\nname = \"rustbox_demo\"\npath = \"examples/rustbox_demo.rs\"\nrequired-features = [ \"rustbox\",]\n\n[[example]]\nname = \"crossterm_demo\"\npath = \"examples/crossterm_demo.rs\"\nrequired-features = [ \"crossterm\",]\n\n[[example]]\nname = \"curses_demo\"\npath = \"examples/curses_demo.rs\"\nrequired-features = [ \"curses\",]\n\n[package]\nname = \"tui\"\nversion = \"0.10.0\"\nauthors = [ \"Florian Dehau <work@fdehau.com>\",]\ndescription = \"A library to build rich terminal user interfaces or dashboards\\n\"\ndocumentation = \"https://docs.rs/tui/0.10.0/tui/\"\nkeywords = [ \"tui\", \"terminal\", \"dashboard\",]\nrepository = \"https://github.com/fdehau/tui-rs\"\nlicense = \"MIT\"\nexclude = [ \"assets/*\", \".github\",]\nautoexamples = true\nedition = \"2018\"\n\n[badges]\n\n[features]\ndefault = [ \"termion\",]\ncurses = [ \"easycurses\", \"pancurses\",]\n\n[dependencies]\nbitflags = \"1.0\"\ncassowary = \"0.3\"\nunicode-segmentation = \"1.2\"\nunicode-width = \"0.1\"\n\n[dev-dependencies]\nrand = \"0.7\"\nargh = \"0.1\"\n\n[dependencies.termion]\nversion = \"1.5\"\noptional = true\n\n[dependencies.rustbox]\nversion = \"0.11\"\noptional = true\n\n[dependencies.crossterm]\nversion = \"0.17\"\noptional = true\n\n[dependencies.easycurses]\nversion = \"0.12.2\"\noptional = true\n\n[dependencies.pancurses]\nversion = \"0.16.1\"\noptional = true\nfeatures = [ \"win32a\",]\n\n[dependencies.serde]\nversion = \"1\"\noptional = true\nfeatures = [ \"derive\",]\n",
+        "dest": "cargo/vendor/tui",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/tui",
         "dest-filename": ".cargo-checksum.json"
@@ -8713,6 +8911,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/vek-84d5cb6/.\" \"cargo/vendor/vek\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nversion = \"0.15.8\"\nauthors = [ \"Yoan Lecoq <yoanlecoq.io@gmail.com>\", \"Joshua Barretto <joshua.s.barretto@gmail.com>\", \"Sunjay Varma <varma.sunjay@gmail.com>\", \"timokoesters <timo@koesters.xyz>\", \"Imbris <imbrisf@gmail.com>\",]\ndescription = \"Generic 2D-3D math swiss army knife for game engines, with SIMD support and focus on convenience.\"\ndocumentation = \"https://docs.rs/vek\"\nkeywords = [ \"vector\", \"matrix\", \"simd\", \"quaternion\", \"bezier\",]\ncategories = [ \"algorithms\", \"data-structures\", \"no-std\", \"science\",]\nlicense = \"MIT OR Apache-2.0\"\nreadme = \"README.md\"\nrepository = \"https://github.com/yoanlcq/vek\"\nname = \"vek\"\nbuild = \"build.rs\"\nexclude = [ \"ci/*\", \"appveyor.yml\", \".travis.yml\",]\nedition = \"2018\"\n\n[features]\ndefault = [ \"repr_simd\", \"rgba\", \"rgb\", \"std\",]\nvec8 = []\nvec16 = []\nvec32 = []\nvec64 = []\nrgb = []\nrgba = []\nuv = []\nuvw = []\nrepr_simd = []\nplatform_intrinsics = []\nstd = [ \"num-traits/std\", \"serde/std\",]\nlibm = [ \"num-traits/libm\",]\n\n[build-dependencies]\nrustc_version = \"0.4\"\n\n[dependencies]\nstatic_assertions = \"1.1.0\"\n\n[badges.travis-ci]\nrepository = \"yoanlcq/vek\"\n\n[badges.appveyor]\nrepository = \"yoanlcq/vek\"\n\n[badges.maintenance]\nstatus = \"experimental\"\n\n[dependencies.approx]\nversion = \"0.5.0\"\ndefault-features = false\n\n[dependencies.num-traits]\nversion = \"0.2.14\"\ndefault-features = false\n\n[dependencies.num-integer]\nversion = \"0.1.44\"\ndefault-features = false\n\n[dependencies.image]\nversion = \"0.23\"\noptional = true\ndefault-features = false\n\n[dependencies.serde]\nversion = \"1.0.105\"\noptional = true\ndefault-features = false\nfeatures = [ \"derive\",]\n\n[dependencies.mint]\nversion = \"0.5.4\"\noptional = true\n\n[dependencies.bytemuck]\nversion = \"1.7.2\"\noptional = true\n",
+        "dest": "cargo/vendor/vek",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -9352,6 +9556,12 @@
     },
     {
         "type": "inline",
+        "contents": "[[example]]\nname = \"hello-compute\"\npath = \"examples/hello-compute/main.rs\"\ntest = true\n\n[package]\nname = \"wgpu\"\nversion = \"0.8.0\"\nauthors = [ \"wgpu developers\",]\nedition = \"2018\"\ndescription = \"Rusty WebGPU API wrapper\"\nhomepage = \"https://github.com/gfx-rs/wgpu-rs\"\nrepository = \"https://github.com/gfx-rs/wgpu-rs\"\nkeywords = [ \"graphics\",]\nlicense = \"MPL-2.0\"\nexclude = [ \"etc/**/*\", \"examples/**/*\", \"tests/**/*\", \"Cargo.lock\", \"target/**/*\",]\n\n[lib]\n\n[features]\ndefault = []\ntrace = [ \"serde\", \"wgc/trace\",]\nreplay = [ \"serde\", \"wgc/replay\",]\nwebgl = [ \"wgc\",]\ncross = [ \"wgc/cross\",]\n\n[dependencies]\narrayvec = \"0.5\"\nlog = \"0.4\"\nparking_lot = \"0.11\"\nraw-window-handle = \"0.3\"\nsmallvec = \"1\"\n\n[dev-dependencies]\ncgmath = \"0.18\"\nddsfile = \"0.4\"\nlog = \"0.4\"\nnoise = \"0.7\"\nobj = \"0.10\"\npng = \"0.16\"\n\n[dependencies.wgt]\npackage = \"wgpu-types\"\npath = \"../wgpu-types\"\n\n[dependencies.serde]\nversion = \"1\"\nfeatures = [ \"derive\",]\noptional = true\n\n[dev-dependencies.bytemuck]\nversion = \"1.4\"\nfeatures = [ \"derive\",]\n\n[dev-dependencies.rand]\nversion = \"0.7.2\"\nfeatures = [ \"wasm-bindgen\",]\n\n[dev-dependencies.winit]\nversion = \"0.24\"\nfeatures = [ \"web-sys\",]\n\n[dev-dependencies.naga]\ngit = \"https://github.com/gfx-rs/naga\"\ntag = \"gfx-25\"\nfeatures = [ \"wgsl-in\",]\n\n[target.\"cfg(not(target_arch = \\\"wasm32\\\"))\".dev-dependencies]\nasync-executor = \"1.0\"\npollster = \"0.2\"\nenv_logger = \"0.8\"\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dependencies]\nwasm-bindgen = \"0.2.73\"\njs-sys = \"0.3.50\"\nwasm-bindgen-futures = \"0.4.23\"\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dev-dependencies]\nconsole_error_panic_hook = \"0.1.6\"\nconsole_log = \"0.1.2\"\n\n[package.metadata.docs.rs]\nall-features = true\n\n[target.\"cfg(not(target_arch = \\\"wasm32\\\"))\".dependencies.wgc]\npackage = \"wgpu-core\"\npath = \"../wgpu-core\"\nfeatures = [ \"raw-window-handle\",]\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dependencies.wgc]\npackage = \"wgpu-core\"\npath = \"../wgpu-core\"\nfeatures = [ \"raw-window-handle\",]\noptional = true\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dependencies.naga]\ngit = \"https://github.com/gfx-rs/naga\"\ntag = \"gfx-25\"\nfeatures = [ \"wgsl-in\", \"spv-out\",]\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dependencies.web-sys]\nversion = \"=0.3.50\"\nfeatures = [ \"Document\", \"Navigator\", \"Node\", \"NodeList\", \"Gpu\", \"GpuAdapter\", \"GpuAdapterFeatures\", \"GpuAdapterLimits\", \"GpuAddressMode\", \"GpuBindGroup\", \"GpuBindGroupDescriptor\", \"GpuBindGroupEntry\", \"GpuBindGroupLayout\", \"GpuBindGroupLayoutDescriptor\", \"GpuBindGroupLayoutEntry\", \"GpuBlendComponent\", \"GpuBlendFactor\", \"GpuBlendOperation\", \"GpuBlendState\", \"GpuBuffer\", \"GpuBufferBinding\", \"GpuBufferBindingLayout\", \"GpuBufferBindingType\", \"GpuBufferDescriptor\", \"GpuBufferUsage\", \"GpuCanvasContext\", \"GpuColorDict\", \"GpuColorTargetState\", \"GpuColorWrite\", \"GpuCommandBuffer\", \"GpuCommandBufferDescriptor\", \"GpuCommandEncoder\", \"GpuCommandEncoderDescriptor\", \"GpuCompareFunction\", \"GpuCompilationInfo\", \"GpuCompilationMessage\", \"GpuCompilationMessageType\", \"GpuComputePassDescriptor\", \"GpuComputePassEncoder\", \"GpuComputePipeline\", \"GpuComputePipelineDescriptor\", \"GpuCullMode\", \"GpuDepthStencilState\", \"GpuDevice\", \"GpuDeviceDescriptor\", \"GpuDeviceLostInfo\", \"GpuDeviceLostReason\", \"GpuErrorFilter\", \"GpuExtent3dDict\", \"GpuFeatureName\", \"GpuFilterMode\", \"GpuFragmentState\", \"GpuFrontFace\", \"GpuImageCopyBuffer\", \"GpuImageCopyImageBitmap\", \"GpuImageCopyTexture\", \"GpuImageDataLayout\", \"GpuIndexFormat\", \"GpuInputStepMode\", \"GpuLoadOp\", \"GpuMapMode\", \"GpuMultisampleState\", \"GpuObjectDescriptorBase\", \"GpuOrigin2dDict\", \"GpuOrigin3dDict\", \"GpuOutOfMemoryError\", \"GpuPipelineDescriptorBase\", \"GpuPipelineLayout\", \"GpuPipelineLayoutDescriptor\", \"GpuPipelineStatisticName\", \"GpuPowerPreference\", \"GpuPrimitiveState\", \"GpuPrimitiveTopology\", \"GpuProgrammableStage\", \"GpuQuerySet\", \"GpuQuerySetDescriptor\", \"GpuQueryType\", \"GpuQueue\", \"GpuRenderBundle\", \"GpuRenderBundleDescriptor\", \"GpuRenderBundleEncoder\", \"GpuRenderBundleEncoderDescriptor\", \"GpuRenderPassColorAttachment\", \"GpuRenderPassDepthStencilAttachment\", \"GpuRenderPassDescriptor\", \"GpuRenderPassEncoder\", \"GpuRenderPipeline\", \"GpuRenderPipelineDescriptor\", \"GpuRequestAdapterOptions\", \"GpuSampler\", \"GpuSamplerBindingLayout\", \"GpuSamplerBindingType\", \"GpuSamplerDescriptor\", \"GpuShaderModule\", \"GpuShaderModuleDescriptor\", \"GpuShaderStage\", \"GpuStencilFaceState\", \"GpuStencilOperation\", \"GpuStorageTextureAccess\", \"GpuStorageTextureBindingLayout\", \"GpuStoreOp\", \"GpuSwapChain\", \"GpuSwapChainDescriptor\", \"GpuTexture\", \"GpuTextureAspect\", \"GpuTextureBindingLayout\", \"GpuTextureDescriptor\", \"GpuTextureDimension\", \"GpuTextureFormat\", \"GpuTextureSampleType\", \"GpuTextureUsage\", \"GpuTextureView\", \"GpuTextureViewDescriptor\", \"GpuTextureViewDimension\", \"GpuUncapturedErrorEvent\", \"GpuUncapturedErrorEventInit\", \"GpuValidationError\", \"GpuVertexAttribute\", \"GpuVertexBufferLayout\", \"GpuVertexFormat\", \"GpuVertexState\", \"HtmlCanvasElement\", \"Window\",]\n",
+        "dest": "cargo/vendor/wgpu",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/wgpu",
         "dest-filename": ".cargo-checksum.json"
@@ -9361,6 +9571,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/wgpu-179ea20/wgpu-core\" \"cargo/vendor/wgpu-core\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"wgpu-core\"\nversion = \"0.8.0\"\nauthors = [ \"wgpu developers\",]\nedition = \"2018\"\ndescription = \"WebGPU core logic on gfx-hal\"\nhomepage = \"https://github.com/gfx-rs/wgpu\"\nrepository = \"https://github.com/gfx-rs/wgpu\"\nkeywords = [ \"graphics\",]\nlicense = \"MPL-2.0\"\n\n[lib]\n\n[features]\ndefault = []\ncross = [ \"gfx-backend-metal/cross\", \"gfx-backend-gl/cross\",]\ntrace = [ \"ron\", \"serde\", \"wgt/trace\", \"arrayvec/serde\",]\nreplay = [ \"serde\", \"wgt/replay\", \"arrayvec/serde\",]\nserial-pass = [ \"serde\", \"wgt/serde\", \"arrayvec/serde\",]\n\n[dependencies]\narrayvec = \"0.5\"\nbitflags = \"1.0\"\ncopyless = \"0.1\"\nfxhash = \"0.2\"\nlog = \"0.4\"\nparking_lot = \"0.11\"\nsmallvec = \"1\"\nthiserror = \"1\"\ngpu-alloc = \"0.4\"\ngpu-descriptor = \"0.1\"\n\n[dev-dependencies]\nloom = \"0.3\"\n\n[build-dependencies]\ncfg_aliases = \"0.1\"\n\n[dependencies.profiling]\nversion = \"1\"\ndefault-features = false\n\n[dependencies.raw-window-handle]\nversion = \"0.3\"\noptional = true\n\n[dependencies.ron]\nversion = \"0.6\"\noptional = true\n\n[dependencies.serde]\nversion = \"1.0\"\nfeatures = [ \"serde_derive\",]\noptional = true\n\n[dependencies.hal]\npackage = \"gfx-hal\"\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\n\n[dependencies.gfx-backend-empty]\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\n\n[dependencies.naga]\ngit = \"https://github.com/gfx-rs/naga\"\ntag = \"gfx-25\"\nfeatures = [ \"spv-in\", \"spv-out\", \"wgsl-in\",]\n\n[dependencies.wgt]\npath = \"../wgpu-types\"\npackage = \"wgpu-types\"\nversion = \"0.8\"\n\n[target.\"cfg(all(not(target_arch = \\\"wasm32\\\"), all(unix, not(target_os = \\\"ios\\\"), not(target_os = \\\"macos\\\"))))\".dependencies.gfx-backend-vulkan]\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\nfeatures = [ \"naga\",]\n\n[target.\"cfg(all(not(target_arch = \\\"wasm32\\\"), all(unix, not(target_os = \\\"ios\\\"), not(target_os = \\\"macos\\\"))))\".dependencies.gfx-backend-gl]\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\n\n[target.\"cfg(all(not(target_arch = \\\"wasm32\\\"), any(target_os = \\\"ios\\\", target_os = \\\"macos\\\")))\".dependencies.gfx-backend-metal]\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\n\n[target.\"cfg(all(not(target_arch = \\\"wasm32\\\"), windows))\".dependencies.gfx-backend-dx12]\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\n\n[target.\"cfg(all(not(target_arch = \\\"wasm32\\\"), windows))\".dependencies.gfx-backend-dx11]\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\n\n[target.\"cfg(all(not(target_arch = \\\"wasm32\\\"), windows))\".dependencies.gfx-backend-vulkan]\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\nfeatures = [ \"naga\",]\n\n[target.\"cfg(target_arch = \\\"wasm32\\\")\".dependencies.gfx-backend-gl]\ngit = \"https://github.com/gfx-rs/gfx\"\nrev = \"27a1dae3796d33d23812f2bb8c7e3b5aea18b521\"\n",
+        "dest": "cargo/vendor/wgpu-core",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
@@ -9376,6 +9592,12 @@
     },
     {
         "type": "inline",
+        "contents": "[package]\nname = \"wgpu-profiler\"\nversion = \"0.4.0\"\nauthors = [ \"Andreas Reich <r_andreas2@web.de>\",]\nedition = \"2018\"\ndescription = \"Simple profiler scopes for wgpu using timer queries\"\nhomepage = \"https://github.com/Wumpf/wgpu-profiler\"\nrepository = \"https://github.com/Wumpf/wgpu-profiler\"\nkeywords = [ \"graphics\",]\nlicense = \"MIT OR Apache-2.0\"\n\n[lib]\n\n[dependencies]\nwgpu = \"0.8\"\nfutures = \"0.3\"\n\n[dev-dependencies]\nwinit = \"0.24.0\"\n",
+        "dest": "cargo/vendor/wgpu-profiler",
+        "dest-filename": "Cargo.toml"
+    },
+    {
+        "type": "inline",
         "contents": "{\"package\": null, \"files\": {}}",
         "dest": "cargo/vendor/wgpu-profiler",
         "dest-filename": ".cargo-checksum.json"
@@ -9385,6 +9607,12 @@
         "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/wgpu-179ea20/wgpu-types\" \"cargo/vendor/wgpu-types\""
         ]
+    },
+    {
+        "type": "inline",
+        "contents": "[package]\nname = \"wgpu-types\"\nversion = \"0.8.0\"\nauthors = [ \"wgpu developers\",]\nedition = \"2018\"\ndescription = \"WebGPU types\"\nhomepage = \"https://github.com/gfx-rs/wgpu\"\nrepository = \"https://github.com/gfx-rs/wgpu\"\nkeywords = [ \"graphics\",]\nlicense = \"MPL-2.0\"\n\n[lib]\n\n[features]\ntrace = [ \"serde\",]\nreplay = [ \"serde\",]\n\n[dependencies]\nbitflags = \"1.0\"\n\n[dependencies.serde]\nversion = \"1.0\"\nfeatures = [ \"serde_derive\",]\noptional = true\n",
+        "dest": "cargo/vendor/wgpu-types",
+        "dest-filename": "Cargo.toml"
     },
     {
         "type": "inline",
