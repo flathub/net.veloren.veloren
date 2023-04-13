@@ -294,6 +294,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/anymap2/anymap2-0.13.0.crate",
+        "sha256": "d301b3b94cb4b2f23d7917810addbbaff90738e0ca2be692bd027e70d7e0330c",
+        "dest": "cargo/vendor/anymap2-0.13.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"d301b3b94cb4b2f23d7917810addbbaff90738e0ca2be692bd027e70d7e0330c\", \"files\": {}}",
+        "dest": "cargo/vendor/anymap2-0.13.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/app_dirs2/app_dirs2-2.5.4.crate",
         "sha256": "47a8d2d8dbda5fca0a522259fb88e4f55d2b10ad39f5f03adeebf85031eba501",
         "dest": "cargo/vendor/app_dirs2-2.5.4"
@@ -2490,6 +2503,32 @@
         "type": "inline",
         "contents": "{\"package\": \"828de45d0ca18782232dfb8f3ea9cc428e8ced380eb26a520baaacfc70de39ce\", \"files\": {}}",
         "dest": "cargo/vendor/enum-iterator-derive-1.1.0",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/enum-map/enum-map-2.4.1.crate",
+        "sha256": "f5a56d54c8dd9b3ad34752ed197a4eb2a6601bc010808eb097a04a58ae4c43e1",
+        "dest": "cargo/vendor/enum-map-2.4.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"f5a56d54c8dd9b3ad34752ed197a4eb2a6601bc010808eb097a04a58ae4c43e1\", \"files\": {}}",
+        "dest": "cargo/vendor/enum-map-2.4.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/enum-map-derive/enum-map-derive-0.10.0.crate",
+        "sha256": "a9045e2676cd5af83c3b167d917b0a5c90a4d8e266e2683d6631b235c457fc27",
+        "dest": "cargo/vendor/enum-map-derive-0.10.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"a9045e2676cd5af83c3b167d917b0a5c90a4d8e266e2683d6631b235c457fc27\", \"files\": {}}",
+        "dest": "cargo/vendor/enum-map-derive-0.10.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
@@ -5697,6 +5736,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/paste/paste-1.0.8.crate",
+        "sha256": "9423e2b32f7a043629287a536f21951e8c6a82482d0acb1eeebfc90bc2225b22",
+        "dest": "cargo/vendor/paste-1.0.8"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"9423e2b32f7a043629287a536f21951e8c6a82482d0acb1eeebfc90bc2225b22\", \"files\": {}}",
+        "dest": "cargo/vendor/paste-1.0.8",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/peeking_take_while/peeking_take_while-0.1.2.crate",
         "sha256": "19b17cddbe7ec3f8bc800887bab5e717348c95ea2ca0b1bf0837fb964dc67099",
         "dest": "cargo/vendor/peeking_take_while-0.1.2"
@@ -6731,6 +6783,32 @@
         "type": "inline",
         "contents": "{\"package\": \"6eaedadc88b53e36dd32d940ed21ae4d850d5916f2581526921f553a72ac34c4\", \"files\": {}}",
         "dest": "cargo/vendor/rkyv_derive-0.7.39",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/rmp/rmp-0.8.11.crate",
+        "sha256": "44519172358fd6d58656c86ab8e7fbc9e1490c3e8f14d35ed78ca0dd07403c9f",
+        "dest": "cargo/vendor/rmp-0.8.11"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"44519172358fd6d58656c86ab8e7fbc9e1490c3e8f14d35ed78ca0dd07403c9f\", \"files\": {}}",
+        "dest": "cargo/vendor/rmp-0.8.11",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/rmp-serde/rmp-serde-1.1.0.crate",
+        "sha256": "25786b0d276110195fa3d6f3f31299900cf71dfbd6c28450f3f58a0e7f7a347e",
+        "dest": "cargo/vendor/rmp-serde-1.1.0"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"25786b0d276110195fa3d6f3f31299900cf71dfbd6c28450f3f58a0e7f7a347e\", \"files\": {}}",
+        "dest": "cargo/vendor/rmp-serde-1.1.0",
         "dest-filename": ".cargo-checksum.json"
     },
     {
