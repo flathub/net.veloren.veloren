@@ -3590,6 +3590,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/hashbrown/hashbrown-0.13.2.crate",
+        "sha256": "43a3c133739dddd0d2990f9a4bdf8eb4b21ef50e4851ca85ab661199821d510e",
+        "dest": "cargo/vendor/hashbrown-0.13.2"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"43a3c133739dddd0d2990f9a4bdf8eb4b21ef50e4851ca85ab661199821d510e\", \"files\": {}}",
+        "dest": "cargo/vendor/hashbrown-0.13.2",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/hashlink/hashlink-0.6.0.crate",
         "sha256": "d99cf782f0dc4372d26846bec3de7804ceb5df083c2d4462c0b8d2330e894fa8",
         "dest": "cargo/vendor/hashlink-0.6.0"
