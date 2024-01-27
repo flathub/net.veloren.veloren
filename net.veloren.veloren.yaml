@@ -23,8 +23,8 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://static.rust-lang.org/dist/2023-04-20/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
-        sha256: 2fc97fc314b207e42ad2951a1a7a5c8740b981e253987ee2066d6c4bd30aa104
+        url: https://static.rust-lang.org/dist/2023-09-28/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
+        sha256: 368f8134a6e13d65883b3bc23b7f1f8633be0fb7300c08076b419db8dcbfde89
         x-checker-data:
           type: html
           parent-id: veloren-git-0
@@ -34,8 +34,8 @@ modules:
 
       - type: archive
         only-arches: [aarch64]
-        url: https://static.rust-lang.org/dist/2023-04-20/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
-        sha256: c82a0c4551513dd921d73b711166d0e999ad49e4b59ba090798855e724d75ae7
+        url: https://static.rust-lang.org/dist/2023-09-28/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
+        sha256: c77d6ae8024d8e05ffd9d07a6964fecca670d480a7b613cccfed5c87fc28bfe7
         x-checker-data:
           type: html
           parent-id: veloren-git-0
@@ -80,7 +80,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/veloren/veloren.git
-        commit: 59e242dfb84ead32871dddeb7b8ab1baf6792202
+        commit: d11c58b75b29adf0fa3b21844259be8cc43d2ee1
         tag: nightly
 
       # LLVM ERROR: out of memory on ARM
