@@ -28,13 +28,13 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://static.rust-lang.org/dist/2024-07-07/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
-        sha256: 6c84e08c0fd3002f98aeac169a4cd238345f7d533521fa502aac8562ce6d6dab
+        url: https://static.rust-lang.org/dist/2025-09-08/rust-nightly-x86_64-unknown-linux-gnu.tar.xz
+        sha256: 9aa21da7a176371cb344886f511e743e6355d0653381331c5d0767a9035b8d1f
 
       - type: archive
         only-arches: [aarch64]
-        url: https://static.rust-lang.org/dist/2024-07-07/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
-        sha256: 44dd79cdac49ae049052bf167856449f5a84877b870d22f6b077a00d005e2418
+        url: https://static.rust-lang.org/dist/2025-09-08/rust-nightly-aarch64-unknown-linux-gnu.tar.xz
+        sha256: f19b4221c0cb2e237780beef4b3cf89314b27d45ae0a77709a408ddc7aa2c12d
 
   - name: veloren
     build-options:
@@ -64,7 +64,7 @@ modules:
       # Automatically add build version and date into AppData
       - |
         set -e
-        VERSION=0.17.0-$(git describe --tags --always | sed 's/^[vV]//')
+        VERSION=0.18.0-$(git describe --tags --always | sed 's/^[vV]//')
         DATE=$(date -d @$(git show -s --format=%ct) +'%Y-%m-%d')
         sed \
           -e "s/@VERSION@/${VERSION}/g" \
@@ -73,10 +73,10 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/veloren/veloren.git
-        commit: a1be5a7bece7af43ebd76910eb0020c1cf3c0798
-        tag: v0.17.0
+        commit: 1d12f35edd6cdbfc1fb921c167cdd7beeeffe248
+        tag: v0.18.0
       - type: patch
-        path: metadata-fix-r0.17.patch
+        path: aarch64-fix-cargo-config.patch
 
       # LLVM ERROR: out of memory on ARM
       - type: shell
